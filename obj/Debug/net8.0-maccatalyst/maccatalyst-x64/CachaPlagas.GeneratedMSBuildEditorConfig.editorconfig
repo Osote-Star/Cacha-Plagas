@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CachaPlagas
+build_property.ProjectDir = C:\Users\dsono\source\repos\CachaPlagas\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/dsono/source/repos/CachaPlagas/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/InterfacesLogin/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\Login.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/InterfacesLogin/RecuperarContraseña.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.RecuperarContraseña.xaml
+build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\RecuperarContraseña.xaml
+build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\RecuperarContraseña.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/InterfacesLogin/Registrar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.Registrar.xaml
+build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\Registrar.xaml
+build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\Registrar.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/dsono/source/repos/CachaPlagas/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
