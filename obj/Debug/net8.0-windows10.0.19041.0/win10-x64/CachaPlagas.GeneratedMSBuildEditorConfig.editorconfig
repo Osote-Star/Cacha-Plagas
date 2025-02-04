@@ -8,53 +8,63 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CachaPlagas
-build_property.ProjectDir = C:\Users\dsono\source\repos\CachaPlagas\
+build_property.ProjectDir = C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/dsono/source/repos/CachaPlagas/App.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/AppShell.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/InterfacesLogin/Login.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/InterfacesLogin/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\Login.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/InterfacesLogin/RecuperarContraseña.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/InterfacesLogin/RecuperarContraseña.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.RecuperarContraseña.xaml
 build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\RecuperarContraseña.xaml
 build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\RecuperarContraseña.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/InterfacesLogin/Registrar.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/InterfacesLogin/Registrar.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.Registrar.xaml
 build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\Registrar.xaml
 build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\Registrar.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/MainPage.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/Resources/Styles/Colors.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/dsono/source/repos/CachaPlagas/Resources/Styles/Styles.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

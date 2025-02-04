@@ -2,11 +2,46 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.InterfacesLogin.RecuperarContraseña"
-             Title="RecuperarContraseña">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="RecuperarContraseña"
+             BackgroundColor="#87CEEB">
+    <Grid>
+        <VerticalStackLayout 
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Spacing="20"
+            Padding="30">
+
+            <!-- Label para instrucciones -->
+            <Label 
+                Text="Ingresa tu correo electrónico registrado"
+                TextColor="White"
+                FontSize="16"
+                HorizontalOptions="Center"/>
+
+            <!-- Caja de texto para el correo -->
+            <Entry 
+                Placeholder="ejemplo@correo.com"
+                PlaceholderColor="Gray"
+                BackgroundColor="White"
+                WidthRequest="300"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                Keyboard="Email"
+                Margin="0,0,0,20"
+                />
+
+            <!-- Botón de recuperación -->
+            <Button 
+                Text="Recuperar Contraseña"
+                Clicked="OnRecoverPasswordClicked"
+                BackgroundColor="Blue"
+                TextColor="White"
+                CornerRadius="20"
+                WidthRequest="250"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                FontSize="14"/>
+
+        </VerticalStackLayout>
+    </Grid>
 </ContentPage>
