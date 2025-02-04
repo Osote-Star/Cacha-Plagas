@@ -3,10 +3,44 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.InterfacesLogin.RecuperarContraseña"
              Title="RecuperarContraseña">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    
+    <VerticalStackLayout Padding="20" Spacing="18" VerticalOptions="Center">
+
+        <Label Text="Recuperar Contraseña"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,0,0,10"/>
+
+        <Label Text="Ingresa tu correo electrónico para restablecer tu contraseña."
+               FontSize="15"
+               HorizontalOptions="Center"
+               TextColor="Gray"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               VerticalOptions="Center"
+                Margin="0,0,0,10"/>
+
+        <Entry 
+               Placeholder="Correo electrónico"
+               Keyboard="Email"
+               TextColor="Black"
+               PlaceholderColor="Gray"
+               BackgroundColor="#F5F5F5"
+               HeightRequest="50"/>
+
+        <Button Text="Enviar enlace"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="16"          
+                HeightRequest="50"/>
+
+        <Button Text="Cancelar"
+                BackgroundColor="Transparent"
+                TextColor="#007AFF"
+                FontSize="14"
+                />
+
     </VerticalStackLayout>
+    
 </ContentPage>
