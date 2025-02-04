@@ -3,10 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.InterfacesLogin.Login"
              Title="Login">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout VerticalOptions="Center">
+        <Frame BackgroundColor="#C9F1FD" BorderColor="#C9F1FD" HeightRequest="800" WidthRequest="350">
+            <!--controla la parte del centro-->
+            <Grid HorizontalOptions="FillAndExpand" RowSpacing="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0">
+                    <Image Margin="0,0" HeightRequest="150" WidthRequest="150" Source="ratalogin.png"/>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="50,50,50,50"/>
+                    </Border.StrokeShape>
+                </Border>
+                <Label Grid.Row="1" Text="Cacha Plagas" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                <Label Grid.Row="2" Text="Bienvenido otra vez" HorizontalOptions="Center"  FontAttributes="Bold" TextColor="Black"/>
+                <Label Grid.Row="3" Text="Correo Electronico" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
+                <Entry x:Name="CorreoEntry" Grid.Row="4" Placeholder="Correo Electronico" TextColor="Black" BackgroundColor="White"/>
+                <Label Grid.Row="5" Text="Contrasena" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
+                <Entry x:Name="PasswordEntry" Grid.Row="6" Placeholder="Contrasena" IsPassword="True" TextColor="Black" BackgroundColor="White"/>
+                <Button Grid.Row="7" x:Name="BtnIniciar" Text="Iniciar sesion" Background="White"/>
+                <Button Grid.Row="8" x:Name="BtnRegistrarse" Text="Crear cuenta" Background="White"/>
+                <Label Grid.Row="9" Text="Olvidaste tu contraseña?" TextColor="Black" HorizontalOptions="Center"/>
+
+
+
+            </Grid>
+        </Frame>
     </VerticalStackLayout>
 </ContentPage>

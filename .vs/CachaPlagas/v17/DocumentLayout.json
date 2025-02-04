@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\Videos\\cachaplagas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\source\\repos\\cachaplagas\\interfaceslogin\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\videos\\cachaplagas\\interfaceslogin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\videos\\cachaplagas\\interfaceslogin\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\source\\repos\\cachaplagas\\interfaceslogin\\registrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\videos\\cachaplagas\\interfaceslogin\\registrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\registrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\source\\repos\\cachaplagas\\interfaceslogin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -31,10 +35,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1323641800:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -46,39 +46,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecuperarContrase\u00F1a.xaml",
-              "DocumentMoniker": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
-              "RelativeDocumentMoniker": "InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
-              "ToolTip": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
-              "RelativeToolTip": "InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-02T05:52:11.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Registrar.xaml",
-              "DocumentMoniker": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\InterfacesLogin\\Registrar.xaml",
-              "RelativeDocumentMoniker": "InterfacesLogin\\Registrar.xaml",
-              "ToolTip": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\InterfacesLogin\\Registrar.xaml",
-              "RelativeToolTip": "InterfacesLogin\\Registrar.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RecuperarContrase\u00F1a.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Videos\\cachaplagas\\InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
+              "RelativeDocumentMoniker": "InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
+              "ToolTip": "C:\\Users\\rodri\\Videos\\cachaplagas\\InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
+              "RelativeToolTip": "InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-02T05:51:46.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T05:52:11.469Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Registrar.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Videos\\cachaplagas\\InterfacesLogin\\Registrar.xaml",
+              "RelativeDocumentMoniker": "InterfacesLogin\\Registrar.xaml",
+              "ToolTip": "C:\\Users\\rodri\\Videos\\cachaplagas\\InterfacesLogin\\Registrar.xaml",
+              "RelativeToolTip": "InterfacesLogin\\Registrar.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-02T05:51:46.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\InterfacesLogin\\Login.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Videos\\cachaplagas\\InterfacesLogin\\Login.xaml",
               "RelativeDocumentMoniker": "InterfacesLogin\\Login.xaml",
-              "ToolTip": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\InterfacesLogin\\Login.xaml",
+              "ToolTip": "C:\\Users\\rodri\\Videos\\cachaplagas\\InterfacesLogin\\Login.xaml",
               "RelativeToolTip": "InterfacesLogin\\Login.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-02T05:51:25.836Z",
               "EditorCaption": ""
