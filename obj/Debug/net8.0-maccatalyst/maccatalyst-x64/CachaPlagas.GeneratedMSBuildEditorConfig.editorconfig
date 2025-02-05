@@ -36,17 +36,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogi
 build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\Login.xaml
 
+[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/InterfacesLogin/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\NewPage1.xaml
+
 [C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/InterfacesLogin/RecuperarContraseña.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.RecuperarContraseña.xaml
 build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\RecuperarContraseña.xaml
 build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\RecuperarContraseña.xaml
-
-[C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/InterfacesLogin/Registrar.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.InterfacesLogin.Registrar.xaml
-build_metadata.AdditionalFiles.TargetPath = InterfacesLogin\Registrar.xaml
-build_metadata.AdditionalFiles.RelativePath = InterfacesLogin\Registrar.xaml
 
 [C:/Users/Lenovo/OneDrive/Escritorio/5toCuatri/PracticaDMM/Cacha-Plagas/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

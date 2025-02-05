@@ -66,10 +66,10 @@
 	  <MauiXaml Update="InterfacesLogin\Login.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="InterfacesLogin\RecuperarContraseña.xaml">
+	  <MauiXaml Update="InterfacesLogin\NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="InterfacesLogin\Registrar.xaml">
+	  <MauiXaml Update="InterfacesLogin\RecuperarContraseña.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
