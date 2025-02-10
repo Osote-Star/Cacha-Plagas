@@ -6,8 +6,10 @@
     <VerticalStackLayout VerticalOptions="Center">
         <Frame BackgroundColor="#C9F1FD" BorderColor="#C9F1FD" HeightRequest="800" WidthRequest="350">
             <!--controla la parte del centro-->
-            <Grid HorizontalOptions="FillAndExpand" RowSpacing="30">
+            <Grid HorizontalOptions="FillAndExpand" RowSpacing="20">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -20,7 +22,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Border Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0">
-                    <Image Margin="0,0" HeightRequest="150" WidthRequest="150" Source="ratalogin.png"/>
+                    <Image Margin="0,0" HeightRequest="150" WidthRequest="150" Source="rata_pro.png"/>
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="50,50,50,50"/>
                     </Border.StrokeShape>
@@ -31,9 +33,9 @@
                 <Entry x:Name="CorreoEntry" Grid.Row="4" Placeholder="Correo Electronico" TextColor="Black" BackgroundColor="White"/>
                 <Label Grid.Row="5" Text="Contrasena" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
                 <Entry x:Name="PasswordEntry" Grid.Row="6" Placeholder="Contrasena" IsPassword="True" TextColor="Black" BackgroundColor="White"/>
-                <Button Grid.Row="7" x:Name="BtnIniciar" Text="Iniciar sesion" Background="White"/>
-                <Button Grid.Row="8" x:Name="BtnRegistrarse" Text="Crear cuenta" Background="White"/>
-                <Label Grid.Row="9" Text="Olvidaste tu contraseña?" TextColor="Black" HorizontalOptions="Center"/>
+                <Label Text="Haz olvidado tu contraseña, haz click aqui" Grid.Row="7" TextColor="Black"/>
+                <Button Grid.Row="8" x:Name="BtnIniciar" Text="Iniciar sesion" Background="White"/>
+                <Label Text="No tienes cuenta aun?, CLICK AQUI" Grid.Row="9" TextColor="Black"/>
 
 
 
