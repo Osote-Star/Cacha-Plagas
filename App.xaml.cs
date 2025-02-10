@@ -8,7 +8,7 @@ namespace CachaPlagas
         {
             InitializeComponent();
 
-            MainPage = new RecuperarContraseña();
+            MainPage = new AgregarTrampa();
             
         }
     }

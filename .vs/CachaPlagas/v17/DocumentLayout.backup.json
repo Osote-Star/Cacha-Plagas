@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\source\\repos\\cacha-plagas\\interfaceslogin\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\source\\repos\\cacha-plagas\\interfaceslogin\\registrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\registrar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\source\\repos\\cacha-plagas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\source\\repos\\cacha-plagas\\interfaceslogin\\agregartrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\agregartrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\source\\repos\\cacha-plagas\\interfaceslogin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\source\\repos\\cacha-plagas\\interfaceslogin\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaceslogin\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +58,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgregarTrampa.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\AgregarTrampa.xaml.cs",
+              "RelativeDocumentMoniker": "InterfacesLogin\\AgregarTrampa.xaml.cs",
+              "ToolTip": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\AgregarTrampa.xaml.cs",
+              "RelativeToolTip": "InterfacesLogin\\AgregarTrampa.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T06:47:07.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T06:46:33.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AgregarTrampa.xaml",
+              "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\AgregarTrampa.xaml",
+              "RelativeDocumentMoniker": "InterfacesLogin\\AgregarTrampa.xaml",
+              "ToolTip": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\AgregarTrampa.xaml",
+              "RelativeToolTip": "InterfacesLogin\\AgregarTrampa.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T06:42:27.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registrar.xaml",
+              "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\Registrar.xaml",
+              "RelativeDocumentMoniker": "InterfacesLogin\\Registrar.xaml",
+              "ToolTip": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\Registrar.xaml",
+              "RelativeToolTip": "InterfacesLogin\\Registrar.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T06:32:52.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\Login.xaml",
+              "RelativeDocumentMoniker": "InterfacesLogin\\Login.xaml",
+              "ToolTip": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\Login.xaml",
+              "RelativeToolTip": "InterfacesLogin\\Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T06:32:40.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RecuperarContrase\u00F1a.xaml",
               "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\Cacha-Plagas\\InterfacesLogin\\RecuperarContrase\u00F1a.xaml",
               "RelativeDocumentMoniker": "InterfacesLogin\\RecuperarContrase\u00F1a.xaml",

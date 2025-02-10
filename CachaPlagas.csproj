@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="InterfacesLogin\AgregarTrampa.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="InterfacesLogin\Login.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
