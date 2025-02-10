@@ -8,13 +8,16 @@
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="InterfacesLogin\Login.xaml">
+    <MauiXaml Update="Interfaces\Login.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="InterfacesLogin\NewPage1.xaml">
+    <MauiXaml Update="Interfaces\CrearCuenta.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="InterfacesLogin\RecuperarContraseña.xaml">
+    <MauiXaml Update="Interfaces\RecuperarContraseña.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\VerTrampa.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

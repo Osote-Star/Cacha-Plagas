@@ -316,3 +316,11 @@ C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\CachaPlagas.pdb
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\CachaPlagas.genruntimeconfig.cache
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\ref\CachaPlagas.dll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.MediaElement.dll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\bin\Debug\net8.0-ios\iossimulator-x64\Plugin.LocalNotification.dll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Maui.Toolkit.dll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Maui.Toolkit.resources.dll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\offsensor.png
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\opendoor.png
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\onsensor.png
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\PracticaDMM\Cacha-Plagas\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\closeddoor.png

@@ -1,4 +1,5 @@
-﻿using CachaPlagas.InterfacesLogin;
+﻿using CachaPlagas.Interfaces;
+using CachaPlagas.InterfacesLogin;
 
 namespace CachaPlagas
 {
@@ -8,7 +9,7 @@ namespace CachaPlagas
         {
             InitializeComponent();
 
-            MainPage = new NewPage1();
+            MainPage = new CrearCuenta();
         }
     }
 }
