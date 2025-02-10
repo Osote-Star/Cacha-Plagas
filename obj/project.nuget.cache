@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yc1RcAdGhMTL3M7FFeyGSkpDW6/hZ5Wb1H2WPDZSxoN/meeDZhMlS/t+vyTcaXCrok3r/bemz9qUmCmHKggFeA==",
+  "dgSpecHash": "mXC23tR75SHg098VFh95DQ/97WExGc7KnNgqXAf0MRfC8n/pRTCNb8ykysQeMRHP7Ey0ipajwJyvV+cuzL7YuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\CachaPlagas.csproj",
+  "projectFilePath": "C:\\Users\\dsono\\OneDrive\\Documentos\\Cacha-Plagas\\CachaPlagas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dsono\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\dsono\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

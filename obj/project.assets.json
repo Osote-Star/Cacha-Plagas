@@ -32936,11 +32936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\CachaPlagas.csproj",
+      "projectUniqueName": "C:\\Users\\dsono\\OneDrive\\Documentos\\Cacha-Plagas\\CachaPlagas.csproj",
       "projectName": "CachaPlagas",
-      "projectPath": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\CachaPlagas.csproj",
+      "projectPath": "C:\\Users\\dsono\\OneDrive\\Documentos\\Cacha-Plagas\\CachaPlagas.csproj",
       "packagesPath": "C:\\Users\\dsono\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsono\\source\\repos\\CachaPlagas\\obj\\",
+      "outputPath": "C:\\Users\\dsono\\OneDrive\\Documentos\\Cacha-Plagas\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

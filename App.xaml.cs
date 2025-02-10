@@ -1,4 +1,7 @@
-﻿namespace CachaPlagas
+﻿using CachaPlagas.Interfaces;
+using CachaPlagas.InterfacesLogin;
+
+namespace CachaPlagas
 {
     public partial class App : Application
     {
@@ -6,7 +9,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new ListadoTrampas();
         }
     }
 }

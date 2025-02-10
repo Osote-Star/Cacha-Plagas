@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CachaPlagas.Interfaces.ListadoTrampas"
+             Title="ListadoTrampas">
+
+    <Grid RowDefinitions="Auto, Auto, *" Padding="10">
+
+        <!-- Header -->
+        <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
+            <Image Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="30"/>
+            <Button WidthRequest="150" BackgroundColor="CornflowerBlue"  Grid.Column="1" Text="Agregar"/>
+            <Image Grid.Column="2" Source="https://i.ibb.co/wrBhkgYk/usuario.png" HeightRequest="30"/>
+        </Grid>
+
+        
+
+        <!-- Contenedor de trampas -->
+        <Grid Grid.Row="2" ColumnDefinitions="*, *" RowDefinitions="Auto, Auto" Padding="10">
+
+            <!-- Trampa 1 -->
+            <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
+                    <Label Grid.Column="0" Text="Trampa 1" FontSize="16" HorizontalOptions="Center"/>
+                    <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
+                </Grid>
+                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+            <!-- Trampa 2 -->
+            <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
+                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
+                    <Label Grid.Column="0" Text="Trampa 2" FontSize="16" HorizontalOptions="Center"/>
+                    <Image Grid.Column="1" Source="https://i.ibb.co/YFJNpFDJ/eliminar.png" HeightRequest="15"/>
+                </Grid>
+                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            <!-- Trampa 3 -->
+            <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
+                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
+                    <Label Grid.Column="0" Text="Trampa 3" FontSize="16" HorizontalOptions="Center"/>
+                    <Image Grid.Column="1" Source="https://i.ibb.co/YFJNpFDJ/eliminar.png" HeightRequest="15"/>
+                </Grid>
+                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+            <!-- Trampa 4 -->
+            <VerticalStackLayout Grid.Row="1" Grid.Column="1" HorizontalOptions="Center">
+                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
+                    <Label Grid.Column="0" Text="Trampa 4" FontSize="16" HorizontalOptions="Center"/>
+                    <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
+                </Grid>
+                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+        </Grid>
+
+    </Grid>
+</ContentPage>
