@@ -3,65 +3,112 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.InterfacesLogin.AgregarTrampa"
              Title="AgregarTrampa">
-    <VerticalStackLayout Padding="20" Spacing="30">
+
+   <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout Padding="30" Spacing="25">
 
         <!-- Botón de regreso -->
         <ImageButton Source="back_icon.png"
-                     WidthRequest="30"
-                     HeightRequest="30"
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="Transparent"
+                     Aspect="AspectFit"
+                     HorizontalOptions="Start"
                      Clicked="OnBackClicked"/>
+
+        <!-- Título -->
+        <Label Text="Agregar Nueva Trampa"
+               FontSize="26"
+               FontAttributes="Bold"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
 
         <!-- Label para ingresar el código -->
         <Label Text="Ingrese el código de la trampa"
-               FontSize="23"
+               FontSize="18"
+               TextColor="Black"
                HorizontalOptions="Center"
-               TextColor="White"
-               />
+               FontAttributes="Bold"/>
 
-        <Entry x:Name="codigoEntry"
-               Placeholder="Código"
-               WidthRequest="200"
+        <!-- Entry con mejor estilo -->
+        <Frame CornerRadius="15"
+               BackgroundColor="White"
+               Padding="5"
+               WidthRequest="250"
                HorizontalOptions="Center"
-               Margin="0,20,130,28"/>
+               HasShadow="True">
+            <Entry x:Name="codigoEntry"
+                   Placeholder="Código"
+                   FontSize="16"
+                   PlaceholderColor="Gray"
+                   TextColor="Black"
+                   HorizontalOptions="Fill"/>
+        </Frame>
 
         <!-- Botón para validar el código -->
         <Button Text="Validar"
-                BackgroundColor="Green"
+                BackgroundColor="#007AFF"
                 TextColor="White"
-                Clicked="OnValidarClicked"/>
-
-        <!-- Contenedor para mostrar la información de la trampa y el botón de agregar -->
+                FontAttributes="Bold"
+                HeightRequest="50"
+                CornerRadius="10"
+                WidthRequest="180"
+                HorizontalOptions="Center"
+                Clicked="OnValidarClicked"
+                Margin="0,5,0,0"/>
+        
+        <!-- Contenedor para mostrar la información de la trampa -->
         <Frame x:Name="popupFrame"
                IsVisible="False"
-               BorderColor="Gray"
+               BorderColor="Transparent"
                Padding="20"
-               CornerRadius="10"
+               CornerRadius="15"
                BackgroundColor="White"
-               HorizontalOptions="Center">
-            <VerticalStackLayout Spacing="45" Padding="50,0">
+               HasShadow="True"
+               WidthRequest="300"
+               HorizontalOptions="Center"
+               Margin="0,30,0,0">
+          
+            <VerticalStackLayout Spacing="20" Padding="10">
+
+                <!-- Imagen de la trampa -->
                 <Image x:Name="imagenTrampa"
-                       WidthRequest="150"
-                       HeightRequest="150"
-                       HorizontalOptions="Center"/>
+                       WidthRequest="120"
+                       HeightRequest="120"
+                       HorizontalOptions="Center"
+                       Aspect="AspectFit"/>
 
                 <Label x:Name="modeloLabel"
                        Text="ID: "
                        FontSize="16"
-                       HorizontalOptions="Fill"
-                       TextColor="Black"
-                       Margin="0,0,0,0"/>
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
 
                 <Label x:Name="estadoLabel"
-                       Text="MODELO: "
+                       Text="Modelo: "
                        FontSize="16"
+                       FontAttributes="Bold"
                        HorizontalOptions="Center"
                        TextColor="Black"/>
 
                 <!-- Botón para agregar la trampa -->
                 <Button Text="Agregar"
-                        BackgroundColor="LightGreen"
-                        TextColor="Black"
-                        Clicked="OnAgregarClicked"/>
+                        BackgroundColor="#00C853"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HeightRequest="50"
+                        CornerRadius="10"
+                        WidthRequest="180"
+                        HorizontalOptions="Center"
+                        Clicked="OnAgregarClicked"
+                        Margin="0,15,0,0"/>
             </VerticalStackLayout>
         </Frame>
 
