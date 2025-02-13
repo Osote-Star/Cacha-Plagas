@@ -3,43 +3,85 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.InterfacesLogin.Login"
              Title="Login">
-    <VerticalStackLayout VerticalOptions="Center">
-        <Frame BackgroundColor="#C9F1FD" BorderColor="#C9F1FD" HeightRequest="800" WidthRequest="350">
-            <!--controla la parte del centro-->
-            <Grid HorizontalOptions="FillAndExpand" RowSpacing="20">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Border Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0">
-                    <Image Margin="0,0" HeightRequest="150" WidthRequest="150" Source="rata_pro.png"/>
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="50,50,50,50"/>
-                    </Border.StrokeShape>
-                </Border>
-                <Label Grid.Row="1" Text="Cacha Plagas" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
-                <Label Grid.Row="2" Text="Bienvenido otra vez" HorizontalOptions="Center"  FontAttributes="Bold" TextColor="Black"/>
-                <Label Grid.Row="3" Text="Correo Electronico" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
-                <Entry x:Name="CorreoEntry" Grid.Row="4" Placeholder="Correo Electronico" TextColor="Black" BackgroundColor="White"/>
-                <Label Grid.Row="5" Text="Contrasena" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
-                <Entry x:Name="PasswordEntry" Grid.Row="6" Placeholder="Contrasena" IsPassword="True" TextColor="Black" BackgroundColor="White"/>
-                <Label Text="Haz olvidado tu contraseña, haz click aqui" Grid.Row="7" TextColor="Black"/>
-                <Button Grid.Row="8" x:Name="BtnIniciar" Text="Iniciar sesion" Background="White"/>
-                <Label Text="No tienes cuenta aun?, CLICK AQUI" Grid.Row="9" TextColor="Black"/>
 
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
 
+    <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="12" Padding="0,39,0,0">
+        <Image Source="rata_pro.png" />
 
-            </Grid>
-        </Frame>
-    </VerticalStackLayout>
+        <Label Text="Cacha Plagas" 
+        TextColor="Black"
+        FontSize="30"
+        HorizontalTextAlignment="Center"
+        FontAttributes="Bold"
+        Padding="0,0,0,5"/>
+
+        <Label Text="Bienvenido otra vez"
+        TextColor="Black"
+        FontSize="20"
+        HorizontalTextAlignment="Center"
+        Padding="0,0,0,3"/>
+
+        <Label Text="Correo electrónico" FontSize="17" TextColor="Black" FontAttributes="Bold"/>
+        <Grid>
+            <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
+            <Entry Placeholder="Colocar Correo"
+            BackgroundColor="Transparent"
+            Margin="10,0"
+            VerticalOptions="Center"
+            TextColor="Black"
+            Keyboard="Email"/>
+        </Grid>
+
+        <Label Text="Contraseña" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Grid>
+            <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
+            <Entry Placeholder="Contraseña"
+            IsPassword="True"
+            BackgroundColor="Transparent"
+            Margin="10,0"
+            VerticalOptions="Center"
+            TextColor="Black"/>
+        </Grid>
+
+        <Label TextColor="Black" Padding="0,8,0,11">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="¿Has olvidado tu contraseña?, "  TextColor="Black"/>
+                    <Span Text="haz click aquí" TextDecorations="Underline" TextColor="Blue">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Button Text="Iniciar Sesión"
+         HorizontalOptions="Center"
+         BackgroundColor="#61b0ff"
+         FontAttributes="Bold"
+         TextColor="White"
+         BorderColor="Black"
+         BorderWidth="1"/>
+
+        <Label TextColor="Black" Padding="0,9,0,0" HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="¿No tienes cuenta aun?, "  TextColor="Black"/>
+                    <Span Text="haz click aquí" TextDecorations="Underline" TextColor="Blue">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+    </StackLayout>
 </ContentPage>
