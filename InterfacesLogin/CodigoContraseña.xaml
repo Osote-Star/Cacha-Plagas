@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CachaPlagas.InterfacesLogin.CodigoContraseña"
+             Title="CodigoContraseña">
+    
+    <!-- Fondo con gradiente -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+
+        <!-- Título -->
+        <Label Text="¿Olvidaste tu contraseña?"
+               FontSize="26"
+               FontAttributes="Bold"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+        <!-- Instrucción -->
+        <Label Text="Ingresa el código que te enviamos a través de tu correo electrónico."
+               FontSize="16"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Margin="0,5,0,10"/>
+
+        <!-- Código con línea negra personalizada -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+            <VerticalStackLayout>
+                
+                <Entry x:Name="Code1" MaxLength="1" Keyboard="Numeric" 
+                       Style="{StaticResource NoBorderEntry}" 
+                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"/>
+
+                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Entry x:Name="Code2" MaxLength="1" Keyboard="Numeric" 
+                       Style="{StaticResource NoBorderEntry}" 
+                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"/>
+                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Entry x:Name="Code3" MaxLength="1" Keyboard="Numeric" 
+                       Style="{StaticResource NoBorderEntry}" 
+                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"/>
+                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Entry x:Name="Code4" MaxLength="1" Keyboard="Numeric" 
+                       Style="{StaticResource NoBorderEntry}" 
+                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"/>
+                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Entry x:Name="Code5" MaxLength="1" Keyboard="Numeric" 
+                       Style="{StaticResource NoBorderEntry}" 
+                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"/>
+                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Entry x:Name="Code6" MaxLength="1" Keyboard="Numeric" 
+                       Style="{StaticResource NoBorderEntry}" 
+                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"/>
+                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+
+        <!-- Botón de enviar -->
+        <Button Text="Enviar"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="16"
+                HeightRequest="50"
+                CornerRadius="10"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                />
+
+        <!-- Botón para reenviar código -->
+        <Button Text="Enviar código de nuevo"
+                BackgroundColor="Transparent"
+                TextColor="Black"
+                FontSize="14"
+                HorizontalOptions="Center"
+                />
+
+    </VerticalStackLayout>
+
+</ContentPage>

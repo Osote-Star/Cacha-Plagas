@@ -33055,11 +33055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\Source\\Repos\\Cacha-Plagas\\CachaPlagas.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Cacha-Plagas\\Cacha-Plagas\\CachaPlagas.csproj",
       "projectName": "CachaPlagas",
-      "projectPath": "C:\\Users\\marti\\Source\\Repos\\Cacha-Plagas\\CachaPlagas.csproj",
+      "projectPath": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Cacha-Plagas\\Cacha-Plagas\\CachaPlagas.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marti\\Source\\Repos\\Cacha-Plagas\\obj\\",
+      "outputPath": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Cacha-Plagas\\Cacha-Plagas\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -33351,5 +33351,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

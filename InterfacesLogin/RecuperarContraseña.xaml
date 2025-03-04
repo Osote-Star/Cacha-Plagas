@@ -4,7 +4,7 @@
              x:Class="CachaPlagas.InterfacesLogin.RecuperarContraseña"
              Title="RecuperarContraseña">
 
-    <!-- Fondo con gradiente -->
+    
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#569dc7" Offset="0.0"/>
@@ -14,7 +14,7 @@
 
     <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
 
-        <!-- Botón de regreso -->
+        
         <ImageButton Source="back_icon.png"
                      WidthRequest="40"
                      HeightRequest="40"
@@ -23,14 +23,14 @@
                      HorizontalOptions="Start"
                      />
 
-        <!-- Título -->
+        
         <Label Text="Recuperar Contraseña"
                FontSize="26"
                FontAttributes="Bold"
                TextColor="Black"
                HorizontalOptions="Center"/>
 
-        <!-- Instrucción -->
+        
         <Label Text="Ingresa tu correo electrónico para restablecer tu contraseña."
                FontSize="16"
                TextColor="Black"
@@ -38,7 +38,7 @@
                HorizontalTextAlignment="Center"
                Margin="0,5,0,10"/>
 
-        <!-- Entry para Correo Electrónico -->
+     
         <Frame CornerRadius="15"
                BackgroundColor="White"
                Padding="5"
@@ -54,7 +54,7 @@
                    HorizontalOptions="Fill"/>
         </Frame>
 
-        <!-- Botón para enviar enlace -->
+        
         <Button Text="Enviar enlace"
                 BackgroundColor="#007AFF"
                 TextColor="White"
@@ -65,7 +65,7 @@
                 HorizontalOptions="Center"
                />
 
-        <!-- Botón para cancelar -->
+        
         <Button Text="Cancelar"
                 BackgroundColor="Transparent"
                 TextColor="#007AFF"

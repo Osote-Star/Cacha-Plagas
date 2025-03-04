@@ -13,7 +13,7 @@
 
     <VerticalStackLayout Padding="30" Spacing="25">
 
-        <!-- Botón de regreso -->
+     
         <ImageButton Source="back_icon.png"
                      WidthRequest="40"
                      HeightRequest="40"
@@ -22,21 +22,21 @@
                      HorizontalOptions="Start"
                      Clicked="OnBackClicked"/>
 
-        <!-- Título -->
+     
         <Label Text="Agregar Nueva Trampa"
                FontSize="26"
                FontAttributes="Bold"
                TextColor="Black"
                HorizontalOptions="Center"/>
 
-        <!-- Label para ingresar el código -->
+        
         <Label Text="Ingrese el código de la trampa"
                FontSize="18"
                TextColor="Black"
                HorizontalOptions="Center"
                FontAttributes="Bold"/>
 
-        <!-- Entry con mejor estilo -->
+        
         <Frame CornerRadius="15"
                BackgroundColor="White"
                Padding="5"
@@ -51,7 +51,7 @@
                    HorizontalOptions="Fill"/>
         </Frame>
 
-        <!-- Botón para validar el código -->
+       
         <Button Text="Validar"
                 BackgroundColor="#007AFF"
                 TextColor="White"
@@ -63,7 +63,7 @@
                 Clicked="OnValidarClicked"
                 Margin="0,5,0,0"/>
         
-        <!-- Contenedor para mostrar la información de la trampa -->
+        
         <Frame x:Name="popupFrame"
                IsVisible="False"
                BorderColor="Transparent"
@@ -77,7 +77,7 @@
           
             <VerticalStackLayout Spacing="20" Padding="10">
 
-                <!-- Imagen de la trampa -->
+                
                 <Image x:Name="imagenTrampa"
                        WidthRequest="120"
                        HeightRequest="120"
@@ -98,7 +98,7 @@
                        HorizontalOptions="Center"
                        TextColor="Black"/>
 
-                <!-- Botón para agregar la trampa -->
+              
                 <Button Text="Agregar"
                         BackgroundColor="#00C853"
                         TextColor="White"
