@@ -1,4 +1,5 @@
 using CachaPlagas.Modelos;
+using CachaPlagas.View_model;
 
 namespace CachaPlagas.View;
 
@@ -9,18 +10,7 @@ public partial class VerTrampa : ContentPage
     public VerTrampa()
     {
         InitializeComponent();
-
-        Data = new List<CapturaModelo>()
-        {
-            new CapturaModelo { hora = "David", cantidad = 170 },
-            new CapturaModelo { hora = "Michael", cantidad = 96 },
-            new CapturaModelo { hora = "Steve", cantidad = 65 },
-            new CapturaModelo { hora = "Joel", cantidad = 182 },
-            new CapturaModelo { hora = "Bob", cantidad = 134 }
-        };
-
-        datitos.ItemsSource = Data;
-
+        BindingContext = new VerTrampaVM(Navigation);
     }
 
 

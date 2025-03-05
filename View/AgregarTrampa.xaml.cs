@@ -19,7 +19,7 @@ public partial class AgregarTrampa : ContentPage
         // Simulación de base de datos con códigos válidos
         var trampas = new Dictionary<string, (string Modelo, string Estado, string Imagen)>
             {
-                { "1234", ("3316", "Trampita UTS", "https://i.postimg.cc/K816Cnkt/Adobe-Express-file.png") },
+                { "1234", ("3316", "Trampita UTS", "https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png") },
                 { "5678", ("Trampa Y2", "Inactiva", "trampa_y2.png") }
             };
 

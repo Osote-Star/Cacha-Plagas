@@ -2,21 +2,32 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.View.ListadoTrampas"
+             xmlns:local="clr-namespace:CachaPlagas.View_model"
+             NavigationPage.HasNavigationBar="False"
              Title="ListadoTrampas">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
 
     <Grid RowDefinitions="Auto, Auto, *" Padding="10">
 
         <!-- Header -->
-        <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
-            <Image Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="30"/>
-            <Button WidthRequest="150" BackgroundColor="CornflowerBlue"  Grid.Column="1" Text="Agregar"/>
-            <Image Grid.Column="2" Source="https://i.ibb.co/wrBhkgYk/usuario.png" HeightRequest="30"/>
+        <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="15">
+            <ImageButton Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="45" Command="{Binding Logout}" />
+
+            <ImageButton Grid.Column="2" Source="https://i.ibb.co/wrBhkgYk/usuario.png" HeightRequest="45"/>
+
+
         </Grid>
 
 
 
         <!-- Contenedor de trampas -->
-        <Grid Grid.Row="2" ColumnDefinitions="*, *" RowDefinitions="Auto, Auto" Padding="10">
+        <Grid Grid.Row="2" ColumnDefinitions="*, *" RowDefinitions="Auto, Auto" Padding="15">
 
             <!-- Trampa 1 -->
             <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
@@ -24,7 +35,11 @@
                     <Label Grid.Column="0" Text="Trampa 1" FontSize="16" HorizontalOptions="Center"/>
                     <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
                 </Grid>
-                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Trampa}" />
+                    </Image.GestureRecognizers>
+                </Image>
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
                 </HorizontalStackLayout>
@@ -66,6 +81,8 @@
             </VerticalStackLayout>
 
         </Grid>
+
+        <Button Grid.Row="3" Text="Agregar" BackgroundColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="50" Command="{Binding Agregar}"/>
 
     </Grid>
 </ContentPage>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RckmT2kFnrA=",
+  "dgSpecHash": "B+Xu6LTfNAw=",
   "success": true,
   "projectFilePath": "D:\\Alvaro\\Documents\\Cacha-Plagas\\CachaPlagas.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,9 @@
     "C:\\Users\\Alvaro\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
     "C:\\Users\\Alvaro\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Alvaro\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\microsoft.windowsappsdk.1.5.240627000.nupkg.sha512",
+    "C:\\Users\\Alvaro\\.nuget\\packages\\syncfusion.licensing\\28.2.9\\syncfusion.licensing.28.2.9.nupkg.sha512",
+    "C:\\Users\\Alvaro\\.nuget\\packages\\syncfusion.maui.charts\\28.2.9\\syncfusion.maui.charts.28.2.9.nupkg.sha512",
+    "C:\\Users\\Alvaro\\.nuget\\packages\\syncfusion.maui.core\\28.2.9\\syncfusion.maui.core.28.2.9.nupkg.sha512",
     "C:\\Users\\Alvaro\\.nuget\\packages\\syncfusion.maui.toolkit\\1.0.3\\syncfusion.maui.toolkit.1.0.3.nupkg.sha512",
     "C:\\Users\\Alvaro\\.nuget\\packages\\xam.plugins.android.exoplayer\\2.19.1\\xam.plugins.android.exoplayer.2.19.1.nupkg.sha512",
     "C:\\Users\\Alvaro\\.nuget\\packages\\xam.plugins.android.exoplayer.common\\2.19.1\\xam.plugins.android.exoplayer.common.2.19.1.nupkg.sha512",

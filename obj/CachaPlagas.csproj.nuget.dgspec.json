@@ -88,6 +88,10 @@
               "version": "[8.0.8, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[28.2.9, )"
+            },
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
               "version": "[1.0.3, )"
@@ -138,6 +142,10 @@
               "target": "Package",
               "version": "[8.0.8, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[28.2.9, )"
             },
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
@@ -190,6 +198,10 @@
               "version": "[8.0.8, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[28.2.9, )"
+            },
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
               "version": "[1.0.3, )"
@@ -235,6 +247,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.82, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[28.2.9, )"
             },
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
