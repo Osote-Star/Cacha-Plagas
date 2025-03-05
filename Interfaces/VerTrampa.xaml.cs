@@ -9,18 +9,6 @@ public partial class VerTrampa : ContentPage
     public VerTrampa()
     {
         InitializeComponent();
-
-        Data = new List<CapturaModel>()
-        {
-            new CapturaModel { hora = "David", cantidad = 170 },
-            new CapturaModel { hora = "Michael", cantidad = 96 },
-            new CapturaModel { hora = "Steve", cantidad = 65 },
-            new CapturaModel { hora = "Joel", cantidad = 182 },
-            new CapturaModel { hora = "Bob", cantidad = 134 }
-        };
-
-        datitos.ItemsSource = Data;
-
     }
 
 

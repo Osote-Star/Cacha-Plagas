@@ -9,7 +9,7 @@ namespace CachaPlagas
         {
             InitializeComponent();
 
-            MainPage = new CrearCuenta();
+            MainPage = new HistorialCaptura();
         }
     }
 }

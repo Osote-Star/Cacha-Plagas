@@ -8,7 +8,10 @@ namespace CachaPlagas.Modelos
 {
     public class CapturaModel
     {
-        public string hora {  get; set; }
-        public int cantidad { get; set; }
+        public DateTime fechahora {  get; set; }
+        public string localizacion { get; set; }
+        public string Animal { get; set; }
+        public string Modelo { get; set; }
+
     }
 }

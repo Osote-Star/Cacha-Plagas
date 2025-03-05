@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CachaPlagas.Interfaces.HistorialCaptura">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+            <!-- Contenedor horizontal para la flecha y el label -->
+        <Grid HorizontalOptions="FillAndExpand" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="25"/>
+            </Grid.ColumnDefinitions>
+            <!-- Flecha de regreso -->
+            <ImageButton Source="back.png"
+                         WidthRequest="20"
+                         HeightRequest="20"
+                         HorizontalOptions="Start"
+                         VerticalOptions="Center"
+                         Grid.Column="0"/>
+            <!-- Label centrado -->
+            <Label Text="Historial de capturas"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   TextColor="Black"
+                   FontSize="16"
+                   Grid.Column="1"/>
+            <!-- Placeholder para equilibrar la distribución -->
+            <BoxView WidthRequest="20" IsVisible="False" Grid.Column="2"/>
+        </Grid>
+
+        <!-- Contenedor blanco -->
+            <Frame BackgroundColor="White" CornerRadius="20" Padding="0" Margin="0, 40, 0, 0">
+                <ScrollView>
+                    <VerticalStackLayout>
+                        <CollectionView x:Name="coleccioncita">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Stroke="LightGray" StrokeThickness="0.1">
+                                        <Grid Padding="10">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="2*" />
+                                                <ColumnDefinition Width="1*" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Text="{Binding localizacion}" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" TextColor="Black"/>
+                                            <Label Text="{Binding Animal}" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" TextColor="Black"/>
+                                            <Label Text="{Binding fechahora}" Grid.Row="1" Grid.Column="0" TextColor="Black"/>
+                                            <Label Text="{Binding Modelo}" Grid.Row="1" Grid.Column="1" TextColor="Black"/>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </VerticalStackLayout>
+                </ScrollView>
+            </Frame>
+        </VerticalStackLayout>
+</ContentPage>

@@ -1,56 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\historialcaptura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\historialcaptura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\historialcaptura.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\historialcaptura.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\modelos\\capturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\modelos\\capturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:modelos\\capturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\crearcuenta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\crearcuenta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\vertrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\vertrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\vertrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\recuperarcontrase\u00F1a.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\recuperarcontrase\u00F1a.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\crearcuenta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\crearcuenta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\interfaces\\recuperarcontrase\u00F1a.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\recuperarcontrase\u00F1a.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\.nuget\\packages\\communitytoolkit.maui.mediaelement\\4.1.2\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\interfaces\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:interfaces\\recuperarcontrase\u00F1a.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\practicadmm\\cacha-plagas\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -61,115 +73,168 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CrearCuenta.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml",
-              "RelativeDocumentMoniker": "Interfaces\\CrearCuenta.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml",
-              "RelativeToolTip": "Interfaces\\CrearCuenta.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-10T10:02:25.929Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "HistorialCaptura.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\HistorialCaptura.xaml.cs",
+              "RelativeDocumentMoniker": "Interfaces\\HistorialCaptura.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\HistorialCaptura.xaml.cs",
+              "RelativeToolTip": "Interfaces\\HistorialCaptura.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:13:09.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CapturaModel.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Modelos\\CapturaModel.cs",
-              "RelativeDocumentMoniker": "Modelos\\CapturaModel.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Modelos\\CapturaModel.cs",
-              "RelativeToolTip": "Modelos\\CapturaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:10:52.775Z",
+              "DocumentIndex": 0,
+              "Title": "HistorialCaptura.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\HistorialCaptura.xaml",
+              "RelativeDocumentMoniker": "Interfaces\\HistorialCaptura.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\HistorialCaptura.xaml",
+              "RelativeToolTip": "Interfaces\\HistorialCaptura.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAADwvxIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-13T16:40:43.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "VerTrampa.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml.cs",
-              "RelativeDocumentMoniker": "Interfaces\\VerTrampa.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml.cs",
-              "RelativeToolTip": "Interfaces\\VerTrampa.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Title": "CapturaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Modelos\\CapturaModel.cs",
+              "RelativeDocumentMoniker": "Modelos\\CapturaModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Modelos\\CapturaModel.cs",
+              "RelativeToolTip": "Modelos\\CapturaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:12:03.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VerTrampa.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml",
-              "RelativeDocumentMoniker": "Interfaces\\VerTrampa.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml",
-              "RelativeToolTip": "Interfaces\\VerTrampa.xaml",
-              "ViewState": "AgIAADkAAAAAAAAAAIBJwE4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-10T05:30:58.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:10:23.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T17:19:02.868Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CrearCuenta.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml.cs",
-              "RelativeDocumentMoniker": "Interfaces\\CrearCuenta.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml.cs",
-              "RelativeToolTip": "Interfaces\\CrearCuenta.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:02:42.813Z",
-              "EditorCaption": ""
+              "Title": "RecuperarContrase\u00F1a.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml",
+              "RelativeDocumentMoniker": "Interfaces\\RecuperarContrase\u00F1a.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml",
+              "RelativeToolTip": "Interfaces\\RecuperarContrase\u00F1a.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-04T07:10:57.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\Login.xaml.cs",
-              "RelativeToolTip": "Interfaces\\Login.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CrearCuenta.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml",
+              "RelativeDocumentMoniker": "Interfaces\\CrearCuenta.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml",
+              "RelativeToolTip": "Interfaces\\CrearCuenta.xaml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T10:02:25.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerTrampa.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml.cs",
+              "RelativeDocumentMoniker": "Interfaces\\VerTrampa.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml.cs",
+              "RelativeToolTip": "Interfaces\\VerTrampa.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:13:58.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T06:22:55.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RecuperarContrase\u00F1a.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
-              "RelativeDocumentMoniker": "Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
-              "RelativeToolTip": "Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:21:18.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:10:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerTrampa.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml",
+              "RelativeDocumentMoniker": "Interfaces\\VerTrampa.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\VerTrampa.xaml",
+              "RelativeToolTip": "Interfaces\\VerTrampa.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T05:30:58.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CrearCuenta.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml.cs",
+              "RelativeDocumentMoniker": "Interfaces\\CrearCuenta.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\CrearCuenta.xaml.cs",
+              "RelativeToolTip": "Interfaces\\CrearCuenta.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:02:42.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\Login.xaml",
+              "RelativeDocumentMoniker": "Interfaces\\Login.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\Login.xaml",
+              "RelativeToolTip": "Interfaces\\Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-04T20:38:06.352Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T19:19:48.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\Login.xaml.cs",
+              "RelativeToolTip": "Interfaces\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:13:58.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecuperarContrase\u00F1a.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
+              "RelativeDocumentMoniker": "Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
+              "RelativeToolTip": "Interfaces\\RecuperarContrase\u00F1a.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T07:21:18.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Lenovo\\.nuget\\packages\\communitytoolkit.maui.mediaelement\\4.1.2\\ReadMe.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui.mediaelement\\4.1.2\\ReadMe.txt",
@@ -177,60 +242,31 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui.mediaelement\\4.1.2\\ReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-10T05:47:12.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T05:47:12.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\Login.xaml",
-              "RelativeDocumentMoniker": "Interfaces\\Login.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\Login.xaml",
-              "RelativeToolTip": "Interfaces\\Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T20:38:06.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:10:14.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:10:14.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RecuperarContrase\u00F1a.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml",
-              "RelativeDocumentMoniker": "Interfaces\\RecuperarContrase\u00F1a.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\Interfaces\\RecuperarContrase\u00F1a.xaml",
-              "RelativeToolTip": "Interfaces\\RecuperarContrase\u00F1a.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T07:10:57.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\PracticaDMM\\Cacha-Plagas\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T07:22:45.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:22:45.85Z"
             }
           ]
         }

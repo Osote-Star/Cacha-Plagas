@@ -71,6 +71,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Interfaces\HistorialCaptura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Interfaces\Login.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -2,13 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.Interfaces.CrearCuenta"
-             Title="CrearCuenta"             
-             BackgroundColor="LightBlue">
+             Title="CrearCuenta">
 
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    
     <VerticalStackLayout Padding="20" Spacing="15">
 
         <!-- Logo -->
-        <Image Source="rat_logo.png" HeightRequest="80" HorizontalOptions="Center" />
+        <Image Source="rata_pro.png" HeightRequest="200"/>
 
         <!-- Título -->
         <Label Text="Cacha Plagas"
