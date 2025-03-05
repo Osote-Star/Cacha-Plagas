@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CachaPlagas.View.VerTrampa"
+             Title="VerTrampa"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Toolkit.Charts;assembly=Syncfusion.Maui.Toolkit">
+
+    <Grid RowDefinitions="50, Auto, *, Auto" ColumnDefinitions="*">
+
+        <!-- Encabezado -->
+        <Grid BackgroundColor="#E0E0E0" Grid.Row="0" Padding="10" ColumnDefinitions="*, Auto">
+            <Label Text="Atrapados hoy: 2" TextColor="black" FontSize="18" FontAttributes="Bold" 
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+            <ImageButton Source="settings_icon.png" WidthRequest="30" HeightRequest="30" Grid.Column="1" />
+        </Grid>
+
+        <!-- Imagen de captura -->
+        <Grid Grid.Row="1" Padding="0" BackgroundColor="#F5F5F5" HeightRequest="200">
+            <toolkit:MediaElement Source="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                                  ShouldShowPlaybackControls="True"
+                                  Aspect="Fill"/>
+        </Grid>
+
+        <!-- Gráfico y Hora de captura -->
+        <Grid Grid.Row="2" Padding="10" ColumnDefinitions="*, *" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <chart:SfCartesianChart Grid.ColumnSpan="2" Margin="0,0,48,0">
+
+                <chart:SfCartesianChart.Legend>
+                    <chart:ChartLegend/>
+                </chart:SfCartesianChart.Legend>
+
+                <chart:SfCartesianChart.XAxes>
+                    <chart:CategoryAxis>
+                        <chart:CategoryAxis.Title>
+                            <chart:ChartAxisTitle Text="Hora de captura"/>
+                        </chart:CategoryAxis.Title>
+                    </chart:CategoryAxis>
+                </chart:SfCartesianChart.XAxes>
+
+                <chart:SfCartesianChart.YAxes>
+                    <chart:NumericalAxis>
+                        <chart:NumericalAxis.Title>
+                            <chart:ChartAxisTitle Text="Alimanas atrapadas"/>
+                        </chart:NumericalAxis.Title>
+                    </chart:NumericalAxis>
+                </chart:SfCartesianChart.YAxes>
+
+                <!--Initialize the series for chart-->
+                <chart:ColumnSeries  
+                        x:Name="datitos"
+                        EnableTooltip="True"
+                        ShowDataLabels="True"
+                        ItemsSource="{Binding Data}"
+                        XBindingPath="hora" 
+                        YBindingPath="cantidad">
+                    <chart:ColumnSeries.DataLabelSettings>
+                        <chart:CartesianDataLabelSettings LabelPlacement="Inner"/>
+                    </chart:ColumnSeries.DataLabelSettings>
+                </chart:ColumnSeries>
+
+            </chart:SfCartesianChart>
+        </Grid>
+
+        <!-- Botones de acción -->
+        <HorizontalStackLayout Grid.Row="3" Padding="20" Spacing="20" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Margin="0,0,0,40">
+            <Button BackgroundColor="#FF5252" WidthRequest="110" 
+                    HeightRequest="110"  ImageSource="closeddoor.png"
+                    Clicked="accionarpuerta"
+                    x:Name="botonpuerta"/>
+
+            <!-- Botón de abajo: muestra la imagen "offsensor" -->
+            <Button BackgroundColor="#FF5252" WidthRequest="110" HeightRequest="110" ImageSource="offsensor.png"   
+                 Clicked="accionarsensor"
+                 x:Name="botonsensor"/>
+        </HorizontalStackLayout>
+
+    </Grid>
+</ContentPage>

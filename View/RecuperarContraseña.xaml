@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CachaPlagas.View.RecuperarContraseña"
+             Title="RecuperarContraseña">
+
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#569dc7" Offset="0.0"/>
+            <GradientStop Color="#e9edf0" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+
+
+        <ImageButton Source="back_icon.png"
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="Transparent"
+                     Aspect="AspectFit"
+                     HorizontalOptions="Start"
+                     />
+
+
+        <Label Text="Recuperar Contraseña"
+               FontSize="26"
+               FontAttributes="Bold"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+
+        <Label Text="Ingresa tu correo electrónico para restablecer tu contraseña."
+               FontSize="16"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Margin="0,5,0,10"/>
+
+
+        <Frame CornerRadius="15"
+               BackgroundColor="White"
+               Padding="5"
+               WidthRequest="280"
+               HorizontalOptions="Center"
+               HasShadow="True">
+            <Entry x:Name="emailEntry"
+                   Placeholder="Correo electrónico"
+                   Keyboard="Email"
+                   FontSize="16"
+                   PlaceholderColor="Gray"
+                   TextColor="Black"
+                   HorizontalOptions="Fill"/>
+        </Frame>
+
+
+        <Button Text="Enviar enlace"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="16"
+                HeightRequest="50"
+                CornerRadius="10"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+               />
+
+
+        <Button Text="Cancelar"
+                BackgroundColor="Transparent"
+                TextColor="#007AFF"
+                FontSize="17"
+                HorizontalOptions="Center"
+                />
+
+    </VerticalStackLayout>
+</ContentPage>

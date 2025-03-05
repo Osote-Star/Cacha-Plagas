@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 
 namespace CachaPlagas
 {
@@ -9,15 +10,16 @@ namespace CachaPlagas
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                // Initialize the .NET MAUI Community Toolkit MediaElement by adding the below line of code
+                .UseMauiCommunityToolkitMediaElement()
+                // After initializing the .NET MAUI Community Toolkit, optionally add additional fonts
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            // Continue initializing your .NET MAUI App here
 
             return builder.Build();
         }

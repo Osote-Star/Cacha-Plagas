@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CachaPlagas.View.Registrar"
+             Title="CrearCuenta"             
+             BackgroundColor="LightBlue">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Logo -->
+        <Image Source="rat_logo.png" HeightRequest="80" HorizontalOptions="Center" />
+
+        <!-- Título -->
+        <Label Text="Cacha Plagas"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
+
+        <!-- Subtítulo -->
+        <Label Text="Crea una cuenta con nosotros"
+               FontSize="14"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+        <!-- Correo Electrónico -->
+        <Label Text="Correo electrónico" FontSize="16" TextColor="Black"/>
+        <Grid>
+            <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
+            <Entry Placeholder="Colocar Correo"
+                   BackgroundColor="Transparent"
+                   Margin="10,0"
+                   VerticalOptions="Center"/>
+        </Grid>
+
+        <!-- Contraseña -->
+        <Label Text="Contraseña" FontSize="16" TextColor="Black"/>
+        <Grid>
+            <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
+            <Entry Placeholder="Contraseña"
+                   IsPassword="True"
+                   BackgroundColor="Transparent"
+                   Margin="10,0"
+                   VerticalOptions="Center"/>
+        </Grid>
+
+        <!-- Repetir Contraseña -->
+        <Label Text="Repetir contraseña" FontSize="16" TextColor="Black"/>
+        <Grid>
+            <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
+            <Entry Placeholder="Repetir contraseña"
+                   IsPassword="True"
+                   BackgroundColor="Transparent"
+                   Margin="10,0"
+                   VerticalOptions="Center"/>
+        </Grid>
+
+        <!-- Botón de Crear -->
+        <Button Text="Crear"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
+                CornerRadius="10"
+                HeightRequest="40"
+                FontAttributes="Bold"
+                />
+
+    </VerticalStackLayout>
+</ContentPage>

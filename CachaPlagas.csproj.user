@@ -6,13 +6,22 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="InterfacesLogin\Login.xaml">
+    <MauiXaml Update="View\AgregarTrampa.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="InterfacesLogin\RecuperarContraseña.xaml">
+    <MauiXaml Update="View\ListadoTrampas.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="InterfacesLogin\Registrar.xaml">
+    <MauiXaml Update="View\Login.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\RecuperarContraseña.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\Registrar.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\VerTrampa.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
