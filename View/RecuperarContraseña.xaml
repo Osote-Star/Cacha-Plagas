@@ -56,7 +56,7 @@
         </Frame>
 
 
-        <Button Text="Enviar enlace"
+        <Button Text="Enviar verificacion"
                 BackgroundColor="#007AFF"
                 TextColor="White"
                 FontSize="16"
@@ -64,6 +64,7 @@
                 CornerRadius="10"
                 WidthRequest="200"
                 HorizontalOptions="Center"
+                Command="{Binding EnviarCorreo}"
                />
 
 
@@ -72,7 +73,7 @@
                 TextColor="#007AFF"
                 FontSize="17"
                 HorizontalOptions="Center"
-                />
+                Command="{Binding Volver}"/>
 
     </VerticalStackLayout>
 </ContentPage>
