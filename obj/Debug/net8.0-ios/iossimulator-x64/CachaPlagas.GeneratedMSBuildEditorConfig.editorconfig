@@ -12,71 +12,71 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CachaPlagas
-build_property.ProjectDir = D:\Alvaro\Documents\Cacha-Plagas\
+build_property.ProjectDir = C:\Users\jaime\OneDrive\Escritorio\PROYECTO INTEGRADOR 5to\Cacha-Plagas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[D:/Alvaro/Documents/Cacha-Plagas/App.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/AppShell.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/MainPage.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/Resources/Styles/Colors.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/Resources/Styles/Styles.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/View/AgregarTrampa.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/View/AgregarTrampa.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.View.AgregarTrampa.xaml
 build_metadata.AdditionalFiles.TargetPath = View\AgregarTrampa.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AgregarTrampa.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/View/ListadoTrampas.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/View/ListadoTrampas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.View.ListadoTrampas.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ListadoTrampas.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ListadoTrampas.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/View/Login.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/View/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.View.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Login.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/View/RecuperarContraseña.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/View/RecuperarContraseña.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.View.RecuperarContraseña.xaml
 build_metadata.AdditionalFiles.TargetPath = View\RecuperarContraseña.xaml
 build_metadata.AdditionalFiles.RelativePath = View\RecuperarContraseña.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/View/Registrar.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/View/Registrar.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.View.Registrar.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Registrar.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Registrar.xaml
 
-[D:/Alvaro/Documents/Cacha-Plagas/View/VerTrampa.xaml]
+[C:/Users/jaime/OneDrive/Escritorio/PROYECTO INTEGRADOR 5to/Cacha-Plagas/View/VerTrampa.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CachaPlagas.View.VerTrampa.xaml
 build_metadata.AdditionalFiles.TargetPath = View\VerTrampa.xaml

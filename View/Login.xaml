@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.View.Login"
+             xmlns:local="clr-namespace:CachaPlagas.View_model"   
+             NavigationPage.HasNavigationBar="False"
              Title="Login">
 
     <ContentPage.Background>
@@ -31,22 +33,24 @@
         <Grid>
             <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
             <Entry Placeholder="Colocar Correo"
-            BackgroundColor="Transparent"
-            Margin="10,0"
-            VerticalOptions="Center"
-            TextColor="Black"
-            Keyboard="Email"/>
+             BackgroundColor="Transparent"
+             Margin="10,0"
+             VerticalOptions="Center"
+             TextColor="Black"
+             Keyboard="Email"
+             Text="{Binding Email}"/>
         </Grid>
 
         <Label Text="Contraseña" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
         <Grid>
             <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
             <Entry Placeholder="Contraseña"
-            IsPassword="True"
-            BackgroundColor="Transparent"
-            Margin="10,0"
-            VerticalOptions="Center"
-            TextColor="Black"/>
+             IsPassword="True"
+             BackgroundColor="Transparent"
+             Margin="10,0"
+             VerticalOptions="Center"
+             TextColor="Black"
+             Text="{Binding Contrasena}"/>
         </Grid>
 
         <Label TextColor="Black" Padding="0,8,0,11">
@@ -55,7 +59,7 @@
                     <Span Text="¿Has olvidado tu contraseña?, "  TextColor="Black"/>
                     <Span Text="haz click aquí" TextDecorations="Underline" TextColor="Blue">
                         <Span.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                            <TapGestureRecognizer Command="{Binding IraRecuperarContrasena}"/>
                         </Span.GestureRecognizers>
                     </Span>
                 </FormattedString>
@@ -68,7 +72,8 @@
          FontAttributes="Bold"
          TextColor="White"
          BorderColor="Black"
-         BorderWidth="1"/>
+         BorderWidth="1"
+         Command="{Binding IniciarSesion}"/>
 
         <Label TextColor="Black" Padding="0,9,0,0" HorizontalOptions="Center">
             <Label.FormattedText>
@@ -76,7 +81,7 @@
                     <Span Text="¿No tienes cuenta aun?, "  TextColor="Black"/>
                     <Span Text="haz click aquí" TextDecorations="Underline" TextColor="Blue">
                         <Span.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                            <TapGestureRecognizer Command="{Binding IraRegistrarse}"/>
                         </Span.GestureRecognizers>
                     </Span>
                 </FormattedString>

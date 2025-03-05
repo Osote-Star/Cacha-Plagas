@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.View.Registrar"
              Title="CrearCuenta"             
+             NavigationPage.HasNavigationBar="False"
              BackgroundColor="LightBlue">
 
     <VerticalStackLayout Padding="20" Spacing="15">
-
+        <!-- Botón de Volver -->
+        <ImageButton Source="back.png"
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="Transparent"
+                     Aspect="AspectFit"
+                     HorizontalOptions="Start"
+                     Command="{Binding Volver}"/>
         <!-- Logo -->
         <Image Source="rat_logo.png" HeightRequest="80" HorizontalOptions="Center" />
 
@@ -30,7 +38,9 @@
             <Entry Placeholder="Colocar Correo"
                    BackgroundColor="Transparent"
                    Margin="10,0"
-                   VerticalOptions="Center"/>
+                   VerticalOptions="Center"
+                   Text="{Binding Email}"
+                   TextColor="Black"/>
         </Grid>
 
         <!-- Contraseña -->
@@ -41,7 +51,9 @@
                    IsPassword="True"
                    BackgroundColor="Transparent"
                    Margin="10,0"
-                   VerticalOptions="Center"/>
+                   VerticalOptions="Center"
+                   Text="{Binding Contrasena}"
+                   TextColor="Black"/>
         </Grid>
 
         <!-- Repetir Contraseña -->
@@ -52,7 +64,9 @@
                    IsPassword="True"
                    BackgroundColor="Transparent"
                    Margin="10,0"
-                   VerticalOptions="Center"/>
+                   VerticalOptions="Center"
+                   Text="{Binding ContrasenaRepetida}"
+                   TextColor="Black"/>
         </Grid>
 
         <!-- Botón de Crear -->
@@ -62,7 +76,7 @@
                 CornerRadius="10"
                 HeightRequest="40"
                 FontAttributes="Bold"
-                />
+                Command="{Binding Registrarse}"/>
 
     </VerticalStackLayout>
 </ContentPage>

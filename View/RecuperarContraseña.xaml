@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CachaPlagas.View.RecuperarContraseña"
+             x:Class="CachaPlagas.View.RecuperarContraseña"    
+             NavigationPage.HasNavigationBar="False"
              Title="RecuperarContraseña">
 
 
@@ -12,17 +13,16 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
-    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
-
-
-        <ImageButton Source="back_icon.png"
+    <Grid RowDefinitions="60, *, 35">
+        <ImageButton Source="back.png"
                      WidthRequest="40"
                      HeightRequest="40"
                      BackgroundColor="Transparent"
-                     Aspect="AspectFit"
                      HorizontalOptions="Start"
-                     />
+                     Command="{Binding Volver}"
+                     Margin="15, 20,0,0"/>
 
+        <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center" Grid.Row="1">
 
         <Label Text="Recuperar Contraseña"
                FontSize="26"
@@ -45,17 +45,18 @@
                WidthRequest="280"
                HorizontalOptions="Center"
                HasShadow="True">
-            <Entry x:Name="emailEntry"
-                   Placeholder="Correo electrónico"
-                   Keyboard="Email"
-                   FontSize="16"
-                   PlaceholderColor="Gray"
-                   TextColor="Black"
-                   HorizontalOptions="Fill"/>
+            <Entry 
+                Placeholder="Correo electrónico"
+                Keyboard="Email"
+                FontSize="16"
+                PlaceholderColor="Gray"
+                TextColor="Black"
+                HorizontalOptions="Fill"
+                Text="{Binding Email}"/>
         </Frame>
 
 
-        <Button Text="Enviar enlace"
+        <Button Text="Enviar correo"
                 BackgroundColor="#007AFF"
                 TextColor="White"
                 FontSize="16"
@@ -63,15 +64,10 @@
                 CornerRadius="10"
                 WidthRequest="200"
                 HorizontalOptions="Center"
-               />
+                Command="{Binding EnviarCorreo}"/>
 
+        </VerticalStackLayout>
+    </Grid>
 
-        <Button Text="Cancelar"
-                BackgroundColor="Transparent"
-                TextColor="#007AFF"
-                FontSize="17"
-                HorizontalOptions="Center"
-                />
-
-    </VerticalStackLayout>
+        
 </ContentPage>
