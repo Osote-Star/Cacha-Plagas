@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace CachaPlagas.View_model
 {
-    class ListadoTrampasVM : BaseViewModel
+    public class ListadoTrampasVM : BaseViewModel
     {
         #region VARIABLES
         string _Email;

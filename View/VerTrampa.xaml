@@ -40,10 +40,10 @@
                        HorizontalOptions="Center" 
                        VerticalOptions="Center" 
                        Margin="0">
-            <Button BackgroundColor="#FF5252" 
+            <Button BackgroundColor="{Binding ButtonColor}" 
             WidthRequest="150" 
             HeightRequest="250" 
-            ImageSource="closeddoor.png"
+            ImageSource="{Binding ButtonImage}"
             Clicked="accionarpuerta" 
             x:Name="botonpuerta"/>
             <Button BackgroundColor="#FF5252" 

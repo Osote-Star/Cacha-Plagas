@@ -5,7 +5,7 @@ namespace CachaPlagas.View;
 
 public partial class VerTrampa : ContentPage
 {
-    public List<CapturaModelo> Data { get; set; }
+    public List<CapturaModel> Data { get; set; }
 
     public VerTrampa()
     {

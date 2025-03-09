@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CachaPlagas.View_model
 {
-    class EsquemaVM
+    public class EsquemaVM
     {
     }
 }

@@ -12,7 +12,8 @@ namespace CachaPlagas.View_model
     class VerTrampaVM : BaseViewModel
     {
         #region VARIABLES
-        string _Email;
+        private ImageSource _buttonImage;
+        private Color _buttonColor;
         string _Contrasena;
         #endregion
 
@@ -24,10 +25,15 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region OBJETOS
-        public string algo
+        public ImageSource ButtonImage
         {
-            get { return _Email; }
-            set { SetValue(ref _Email, value); }
+            get { return _buttonImage; }
+            set { SetValue(ref _buttonImage, value); }
+        }
+        public Color ButtonColor
+        {
+            get { return _buttonColor; }
+            set { SetValue(ref _buttonColor, value); }
         }
         public string Contrasena
         {
@@ -41,9 +47,31 @@ namespace CachaPlagas.View_model
         {
             await Navigation.PushAsync(new ListadoTrampas());
         }
-        
+        public async Task AlterarPuerta() 
+        {
+            if (ButtonColor.Equals(Color.FromArgb("#FF5252")))
+            {
+                ButtonImage = ImageSource.FromFile("opendoor.png");
+                ButtonColor = Color.FromArgb("#4CAF50");
+            }
+            else
+            {
+                ButtonImage = ImageSource.FromFile("closeddoor.png");
+                ButtonColor = Color.FromArgb("#FF5252");
+            }
+        }
         public void ProcesoSimple()
         {
+            if (botonpuerta.ImageSource is FileImageSource fileSource && fileSource.File == "closeddoor.png")
+            {
+                botonpuerta.ImageSource = ImageSource.FromFile("opendoor.png");
+                botonpuerta.BackgroundColor = Color.FromArgb("#4CAF50");
+            }
+            else
+            {
+                botonpuerta.ImageSource = ImageSource.FromFile("closeddoor.png");
+                botonpuerta.BackgroundColor = Color.FromArgb("#FF5252");
+            }
         }
         #endregion
 
