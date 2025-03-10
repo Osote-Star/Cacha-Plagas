@@ -40,18 +40,18 @@
                        HorizontalOptions="Center" 
                        VerticalOptions="Center" 
                        Margin="0">
-            <Button BackgroundColor="{Binding ButtonColor}" 
+            
+            <Button BackgroundColor="{Binding ButtonColorDoor}" 
             WidthRequest="150" 
             HeightRequest="250" 
-            ImageSource="{Binding ButtonImage}"
-            Clicked="accionarpuerta" 
-            x:Name="botonpuerta"/>
-            <Button BackgroundColor="#FF5252" 
+            ImageSource="{Binding ButtonImageDoor}"
+            Command="{Binding EstadoPuerta}"/>
+            
+            <Button BackgroundColor="{Binding ButtonColorSensor}" 
             WidthRequest="150" 
             HeightRequest="250" 
-            ImageSource="offsensor.png"   
-            Clicked="accionarsensor" 
-            x:Name="botonsensor"/>
+            ImageSource="{Binding ButtonImageSensor}"
+            Command="{Binding EstadoSensor}"/>
         </HorizontalStackLayout>
 
     </Grid>

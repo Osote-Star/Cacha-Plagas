@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\vertrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\vertrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view_model\\historialcapturavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\historialcapturavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\listadotrampas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\listadotrampas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\historialcaptura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\historialcaptura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\agregartrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\agregartrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view_model\\listadotrampasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\listadotrampasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\listadotrampas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\listadotrampas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\5tocuatri\\integrador\\cacha-plagas\\view\\historialcaptura.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\historialcaptura.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -32,35 +56,113 @@
               "RelativeDocumentMoniker": "View\\VerTrampa.xaml",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\VerTrampa.xaml",
               "RelativeToolTip": "View\\VerTrampa.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-09T06:15:49.177Z",
+              "WhenOpened": "2025-03-10T08:11:32.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VerTrampa.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\VerTrampa.xaml.cs",
-              "RelativeDocumentMoniker": "View\\VerTrampa.xaml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\VerTrampa.xaml.cs",
-              "RelativeToolTip": "View\\VerTrampa.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AgregarTrampa.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\AgregarTrampa.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AgregarTrampa.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\AgregarTrampa.xaml.cs",
+              "RelativeToolTip": "View\\AgregarTrampa.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:15:28.984Z",
+              "WhenOpened": "2025-03-10T08:11:17.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListadoTrampas.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\ListadoTrampas.xaml",
+              "RelativeDocumentMoniker": "View\\ListadoTrampas.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\ListadoTrampas.xaml",
+              "RelativeToolTip": "View\\ListadoTrampas.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T08:09:04.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "HistorialCapturaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View_model\\HistorialCapturaVM.cs",
+              "RelativeDocumentMoniker": "View_model\\HistorialCapturaVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View_model\\HistorialCapturaVM.cs",
+              "RelativeToolTip": "View_model\\HistorialCapturaVM.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAE8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:55:08.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistorialCaptura.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\HistorialCaptura.xaml",
+              "RelativeDocumentMoniker": "View\\HistorialCaptura.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\HistorialCaptura.xaml",
+              "RelativeToolTip": "View\\HistorialCaptura.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T07:54:49.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HistorialCaptura.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\HistorialCaptura.xaml.cs",
+              "RelativeDocumentMoniker": "View\\HistorialCaptura.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\HistorialCaptura.xaml.cs",
+              "RelativeToolTip": "View\\HistorialCaptura.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:54:51.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListadoTrampasVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View_model\\ListadoTrampasVM.cs",
+              "RelativeDocumentMoniker": "View_model\\ListadoTrampasVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View_model\\ListadoTrampasVM.cs",
+              "RelativeToolTip": "View_model\\ListadoTrampasVM.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvz4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:49:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListadoTrampas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\ListadoTrampas.xaml.cs",
+              "RelativeDocumentMoniker": "View\\ListadoTrampas.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View\\ListadoTrampas.xaml.cs",
+              "RelativeToolTip": "View\\ListadoTrampas.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:49:14.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "VerTrampaVM.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View_model\\VerTrampaVM.cs",
               "RelativeDocumentMoniker": "View_model\\VerTrampaVM.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\5toCuatri\\INTEGRADOR\\Cacha-Plagas\\View_model\\VerTrampaVM.cs",
               "RelativeToolTip": "View_model\\VerTrampaVM.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:15:22.443Z",
+              "WhenOpened": "2025-03-10T07:42:08.268Z",
               "EditorCaption": ""
             }
           ]

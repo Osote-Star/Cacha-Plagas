@@ -42,11 +42,15 @@ namespace CachaPlagas.View_model
         }
         public async Task logout()
         {
-            await Navigation.PushAsync(new Login());
+            await Navigation.PopAsync();
         }
         public async Task trampa()
         {
             await Navigation.PushAsync(new VerTrampa());
+        }
+        public async Task Ir_A_HistorialCapturas()
+        {
+            await Navigation.PushAsync(new HistorialCaptura());
         }
         public void ProcesoSimple()
         {
@@ -58,6 +62,8 @@ namespace CachaPlagas.View_model
         public ICommand Agregar => new Command(async () => await agregar());
         public ICommand Logout => new Command(async () => await logout());
         public ICommand Trampa => new Command(async () => await trampa());
+        public ICommand IrAHistorialCapturas => new Command(async () => await Ir_A_HistorialCapturas());
+
 
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion

@@ -4,7 +4,7 @@
              x:Class="CachaPlagas.View.Login"
              xmlns:local="clr-namespace:CachaPlagas.View_model"   
              NavigationPage.HasNavigationBar="False"
-             Title="CambiarContrasena">
+             Title="Login">
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -14,26 +14,34 @@
     </ContentPage.Background>
 
     <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="12" Padding="0,39,0,0">
+        <Image Source="rata_pro.png" />
 
-        <Label Text="Recuperar Contraseña" 
+        <Label Text="Cacha Plagas" 
         TextColor="Black"
         FontSize="30"
         HorizontalTextAlignment="Center"
         FontAttributes="Bold"
         Padding="0,0,0,5"/>
 
-        <Label Text="Ingrese la nueva contraseña" FontSize="17" TextColor="Black" FontAttributes="Bold"/>
+        <Label Text="Bienvenido otra vez"
+        TextColor="Black"
+        FontSize="20"
+        HorizontalTextAlignment="Center"
+        Padding="0,0,0,3"/>
+
+        <Label Text="Correo electrónico" FontSize="17" TextColor="Black" FontAttributes="Bold"/>
         <Grid>
             <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
-            <Entry Placeholder="Contraseña"
+            <Entry Placeholder="Colocar Correo"
              BackgroundColor="Transparent"
              Margin="10,0"
              VerticalOptions="Center"
              TextColor="Black"
-             Text="{Binding Contrasena}"/>
+             Keyboard="Email"
+             Text="{Binding Email}"/>
         </Grid>
 
-        <Label Text="Confirme su Contraseña" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Label Text="Contraseña" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
         <Grid>
             <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
             <Entry Placeholder="Contraseña"
@@ -42,24 +50,38 @@
              Margin="10,0"
              VerticalOptions="Center"
              TextColor="Black"
-             Text="{Binding ContrasenaRepetida}"/>
+             Text="{Binding Contrasena}"/>
         </Grid>
 
-        <Button Text="Cambiar Contraseña"
+        <Label TextColor="Black" Padding="0,8,0,11">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="¿Has olvidado tu contraseña?, "  TextColor="Black"/>
+                    <Span Text="haz click aquí" TextDecorations="Underline" TextColor="Blue">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding IraRecuperarContrasena}"/>
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Button Text="Iniciar Sesión"
          HorizontalOptions="Center"
          BackgroundColor="#61b0ff"
          FontAttributes="Bold"
          TextColor="White"
          BorderColor="Black"
          BorderWidth="1"
-         Command="{Binding CambiarContrasena}"/>
+         Command="{Binding IniciarSesion}"/>
 
-        <Label Padding="0,8,0,11" HorizontalOptions="Center">
+        <Label TextColor="Black" Padding="0,9,0,0" HorizontalOptions="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="Volver al login" TextDecorations="Underline" TextColor="Blue">
+                    <Span Text="¿No tienes cuenta aun?, "  TextColor="Black"/>
+                    <Span Text="haz click aquí" TextDecorations="Underline" TextColor="Blue">
                         <Span.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding VolverALogin}"/>
+                            <TapGestureRecognizer Command="{Binding IraRegistrarse}"/>
                         </Span.GestureRecognizers>
                     </Span>
                 </FormattedString>

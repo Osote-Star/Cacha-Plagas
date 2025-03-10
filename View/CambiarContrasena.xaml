@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CachaPlagas.View.Login"
-             xmlns:local="clr-namespace:CachaPlagas.View_model"   
-             NavigationPage.HasNavigationBar="False"
+             x:Class="CachaPlagas.View.CambiarContrasena"
              Title="CambiarContrasena">
-
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#569dc7" Offset="0.0"/>
@@ -52,7 +49,7 @@
          TextColor="White"
          BorderColor="Black"
          BorderWidth="1"
-         Command="{Binding CambiarContrasena}"/>
+         Command="{Binding ActualizarContrasena}"/>
 
         <Label Padding="0,8,0,11" HorizontalOptions="Center">
             <Label.FormattedText>

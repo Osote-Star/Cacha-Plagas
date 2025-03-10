@@ -24,7 +24,8 @@
                          HeightRequest="20"
                          HorizontalOptions="Start"
                          VerticalOptions="Center"
-                         Grid.Column="0"/>
+                         Grid.Column="0"
+                         Command="{Binding Volver}"/>
             <!-- Label centrado -->
             <Label Text="Historial de capturas"
                    HorizontalTextAlignment="Center"
@@ -40,7 +41,7 @@
         <Frame BackgroundColor="White" CornerRadius="20" Padding="0" Margin="0, 40, 0, 0">
             <ScrollView>
                 <VerticalStackLayout>
-                    <CollectionView x:Name="coleccioncita">
+                    <CollectionView x:Name="coleccioncita" ItemsSource="{Binding Capturas}">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <Border Stroke="LightGray" StrokeThickness="0.1">

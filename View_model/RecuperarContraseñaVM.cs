@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CachaPlagas.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +37,7 @@ namespace CachaPlagas.View_model
         }
         public async Task Enviar_Correo()
         {
-            await this.DisplayAlert("Excelente", "Se ha enviado un codigo a su correo", "Aceptar");
+            await Navigation.PushAsync(new CodigoContrasena());
         }
         #endregion
 

@@ -19,7 +19,7 @@
         <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="15">
             <ImageButton Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="45" Command="{Binding Logout}" />
 
-            <ImageButton Grid.Column="2" Source="https://i.ibb.co/wrBhkgYk/usuario.png" HeightRequest="45"/>
+            <ImageButton Grid.Column="2" Source="https://i.ibb.co/wrBhkgYk/usuario.png" HeightRequest="45" Command="{Binding IrAHistorialCapturas}"/>
 
 
         </Grid>

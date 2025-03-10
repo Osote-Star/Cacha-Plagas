@@ -12,8 +12,10 @@ namespace CachaPlagas.View_model
     class VerTrampaVM : BaseViewModel
     {
         #region VARIABLES
-        private ImageSource _buttonImage;
-        private Color _buttonColor;
+        private ImageSource _buttonImageDoor;
+        private Color _buttonColorDoor;
+        private ImageSource _buttonImageSensor;
+        private Color _buttonColorSensor;
         string _Contrasena;
         #endregion
 
@@ -21,19 +23,34 @@ namespace CachaPlagas.View_model
         public VerTrampaVM(INavigation navegacion)
         {
             Navigation = navegacion;
+            ButtonImageDoor = ImageSource.FromFile("opendoor.png");
+            ButtonColorDoor = Color.FromArgb("#4CAF50");
+            ButtonImageSensor = ImageSource.FromFile("onsensor.png");
+            ButtonColorSensor = Color.FromArgb("#4CAF50");
+
         }
         #endregion
 
         #region OBJETOS
-        public ImageSource ButtonImage
+        public ImageSource ButtonImageDoor
         {
-            get { return _buttonImage; }
-            set { SetValue(ref _buttonImage, value); }
+            get { return _buttonImageDoor; }
+            set { SetValue(ref _buttonImageDoor, value); }
         }
-        public Color ButtonColor
+        public Color ButtonColorDoor
         {
-            get { return _buttonColor; }
-            set { SetValue(ref _buttonColor, value); }
+            get { return _buttonColorDoor; }
+            set { SetValue(ref _buttonColorDoor, value); }
+        }
+        public ImageSource ButtonImageSensor
+        {
+            get { return _buttonImageSensor; }
+            set { SetValue(ref _buttonImageSensor, value); }
+        }
+        public Color ButtonColorSensor
+        {
+            get { return _buttonColorSensor; }
+            set { SetValue(ref _buttonColorSensor, value); }
         }
         public string Contrasena
         {
@@ -45,38 +62,45 @@ namespace CachaPlagas.View_model
         #region PROCESOS
         public async Task listado()
         {
-            await Navigation.PushAsync(new ListadoTrampas());
+            await Navigation.PopAsync();
         }
         public async Task AlterarPuerta() 
         {
-            if (ButtonColor.Equals(Color.FromArgb("#FF5252")))
+            if (ButtonColorDoor.Equals(Color.FromArgb("#FF5252")))
             {
-                ButtonImage = ImageSource.FromFile("opendoor.png");
-                ButtonColor = Color.FromArgb("#4CAF50");
+                ButtonImageDoor = ImageSource.FromFile("opendoor.png");
+                ButtonColorDoor = Color.FromArgb("#4CAF50");
             }
             else
             {
-                ButtonImage = ImageSource.FromFile("closeddoor.png");
-                ButtonColor = Color.FromArgb("#FF5252");
+                ButtonImageDoor = ImageSource.FromFile("closeddoor.png");
+                ButtonColorDoor = Color.FromArgb("#FF5252");
+            }
+        }
+
+        public async Task AlterarSensor()
+        {
+            if (ButtonColorSensor.Equals(Color.FromArgb("#FF5252")))
+            {
+                ButtonImageSensor = ImageSource.FromFile("onsensor.png");
+                ButtonColorSensor = Color.FromArgb("#4CAF50");
+            }
+            else
+            {
+                ButtonImageSensor = ImageSource.FromFile("offsensor.png");
+                ButtonColorSensor = Color.FromArgb("#FF5252");
             }
         }
         public void ProcesoSimple()
         {
-            if (botonpuerta.ImageSource is FileImageSource fileSource && fileSource.File == "closeddoor.png")
-            {
-                botonpuerta.ImageSource = ImageSource.FromFile("opendoor.png");
-                botonpuerta.BackgroundColor = Color.FromArgb("#4CAF50");
-            }
-            else
-            {
-                botonpuerta.ImageSource = ImageSource.FromFile("closeddoor.png");
-                botonpuerta.BackgroundColor = Color.FromArgb("#FF5252");
-            }
+
         }
         #endregion
 
         #region COMANDOS
 
+        public ICommand EstadoPuerta => new Command(async () => await AlterarPuerta());
+        public ICommand EstadoSensor => new Command(async () => await AlterarSensor());
         public ICommand Listado => new Command(async () => await listado());
         
 

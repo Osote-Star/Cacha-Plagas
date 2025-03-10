@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CachaPlagas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+de0b1bb0bf70ddf65450efd634d855c2070b42be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ee45205546ab7fb26d4b257500928db3948037d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CachaPlagas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CachaPlagas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

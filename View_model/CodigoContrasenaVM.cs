@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CachaPlagas.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,7 @@ namespace CachaPlagas.View_model
     public class CodigoContrasenaVM : BaseViewModel
     {
         #region VARIABLES
-        string _Email;
-        string _Contrasena;
+        private string[] _codigo = new string[6];
         #endregion
 
         #region CONSTRUCTOR
@@ -22,21 +22,28 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region OBJETOS
-        public string algo
+        public string[] Codigo
         {
-            get { return _Email; }
-            set { SetValue(ref _Email, value); }
+            get { return _codigo; }
+            set { SetValue(ref _codigo, value);
+                OnPropertyChanged();
+            }
         }
-        public string Contrasena
-        {
-            get { return _Contrasena; }
-            set { SetValue(ref _Contrasena, value); }
-        }
+       
         #endregion
 
         #region PROCESOS
-        public async Task ProcesoAsync()
+        public async Task Ir_A_CambiarContrasena()
         {
+            string codigoConcatenado = string.Join("", Codigo);
+
+            if (codigoConcatenado == "123456")
+            {
+                await this.DisplayAlert("Todo bien", "Ahora podra cambiar su contrasena", "Aceptar");
+                await Navigation.PushAsync(new CambiarContrasena());
+            }
+            else
+                await this.DisplayAlert("Error", "Codigo Inexistente", "Aceptar");
         }
 
         public void ProcesoSimple()
@@ -46,7 +53,7 @@ namespace CachaPlagas.View_model
 
         #region COMANDOS
 
-        public ICommand Agregar => new Command(async () => await ProcesoAsync());
+        public ICommand IrACambiarContrasena => new Command(async () => await Ir_A_CambiarContrasena());
 
 
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
