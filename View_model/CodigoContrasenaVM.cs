@@ -24,12 +24,13 @@ namespace CachaPlagas.View_model
         #region OBJETOS
         public string[] Codigo
         {
-            get { return _codigo; }
-            set { SetValue(ref _codigo, value);
-                OnPropertyChanged();
+            get => _codigo;
+            set
+            {
+                SetValue(ref _codigo, value);
+                OnPropertyChanged(nameof(Codigo));
             }
         }
-       
         #endregion
 
         #region PROCESOS
@@ -37,24 +38,31 @@ namespace CachaPlagas.View_model
         {
             string codigoConcatenado = string.Join("", Codigo);
 
+            if (string.IsNullOrEmpty(codigoConcatenado) || codigoConcatenado.Length != 6)
+            {
+                await DisplayAlert("Error", "Ingresa un código completo de 6 dígitos", "Aceptar");
+                return;
+            }
+
             if (codigoConcatenado == "123456")
             {
-                await this.DisplayAlert("Todo bien", "Ahora podra cambiar su contrasena", "Aceptar");
+                await DisplayAlert("Todo bien", "Ahora podrá cambiar su contraseña", "Aceptar");
                 await Navigation.PushAsync(new CambiarContrasena());
             }
             else
-                await this.DisplayAlert("Error", "Codigo Inexistente", "Aceptar");
+            {
+                await DisplayAlert("Error", "Código inexistente", "Aceptar");
+            }
         }
 
         public void ProcesoSimple()
         {
+            // Método opcional, mantenido por si lo necesitas
         }
         #endregion
 
         #region COMANDOS
-
         public ICommand IrACambiarContrasena => new Command(async () => await Ir_A_CambiarContrasena());
-
 
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion

@@ -3,9 +3,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.View.CodigoContrasena"
+              NavigationPage.HasNavigationBar="False"
              Title="CodigoContrasena">
 
-    <!-- Fondo con gradiente -->
+    <!-- Fondo con gradiente como estaba antes -->
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#569dc7" Offset="0.0"/>
@@ -13,90 +14,113 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
-    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+    <VerticalStackLayout Padding="20" Spacing="30" VerticalOptions="CenterAndExpand">
 
-        <!-- Título -->
-        <Label Text="¿Olvidaste tu contraseña?"
-               FontSize="26"
-               FontAttributes="Bold"
-               TextColor="Black"
-               HorizontalOptions="Center"/>
+        <!-- Título e instrucción en un marco -->
+        <Frame BackgroundColor="White" 
+               CornerRadius="15" 
+               Padding="20" 
+               Margin="10"
+               VerticalOptions="Start">
+            <VerticalStackLayout Spacing="15">
+                <Label Text="¿Olvidaste tu contraseña?"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"/>
+                <Label Text="Ingresa el código enviado a tu correo electrónico"
+                       FontSize="14"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+        </Frame>
 
-        <!-- Instrucción -->
-        <Label Text="Ingresa el código que te enviamos a través de tu correo electrónico."
-                 FontSize="16"
-               TextColor="Black"
-               HorizontalOptions="Center"
-               HorizontalTextAlignment="Center"
-               Margin="0,5,0,10"/>
-
-        <!-- Código con línea negra personalizada -->
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
-            <VerticalStackLayout>
-
-                <Entry x:Name="Code1" MaxLength="1" Keyboard="Numeric" 
-                       Style="{StaticResource NoBorderEntry}" 
-                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"
-                       Text="{Binding Codigo[0]}"/>
-
-                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
-            </VerticalStackLayout>
-            <VerticalStackLayout>
-                <Entry x:Name="Code2" MaxLength="1" Keyboard="Numeric" 
-                       Style="{StaticResource NoBorderEntry}" 
-                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"
-                       Text="{Binding Codigo[1]}"/>
-                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
-            </VerticalStackLayout>
-            <VerticalStackLayout>
-                <Entry x:Name="Code3" MaxLength="1" Keyboard="Numeric" 
-                       Style="{StaticResource NoBorderEntry}" 
-                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"
-                       Text="{Binding Codigo[2]}"/>
-                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
-            </VerticalStackLayout>
-            <VerticalStackLayout>
-                <Entry x:Name="Code4" MaxLength="1" Keyboard="Numeric" 
-                       Style="{StaticResource NoBorderEntry}" 
-                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"
-                       Text="{Binding Codigo[3]}"/>
-                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
-            </VerticalStackLayout>
-            <VerticalStackLayout>
-                <Entry x:Name="Code5" MaxLength="1" Keyboard="Numeric" 
-                       Style="{StaticResource NoBorderEntry}" 
-                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"
-                       Text="{Binding Codigo[4]}"/>
-                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
-            </VerticalStackLayout>
-            <VerticalStackLayout>
-                <Entry x:Name="Code6" MaxLength="1" Keyboard="Numeric" 
-                       Style="{StaticResource NoBorderEntry}" 
-                       FontSize="20" WidthRequest="40" HorizontalTextAlignment="Center"
-                       Text="{Binding Codigo[5]}"/>
-                <BoxView HeightRequest="2" WidthRequest="40" BackgroundColor="Black"/>
-            </VerticalStackLayout>
+        <!-- Cuadros para ingresar el código, centrados -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10" Margin="0,0,0,0">
+            <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="Code1" MaxLength="1" Keyboard="Numeric"
+                       FontSize="28" TextColor="Black"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding Codigo[0], Mode=TwoWay}"
+                       TextChanged="OnCodeTextChanged"/>
+            </Border>
+            <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="Code2" MaxLength="1" Keyboard="Numeric"
+                       FontSize="28" TextColor="Black"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding Codigo[1], Mode=TwoWay}"
+                       TextChanged="OnCodeTextChanged"/>
+            </Border>
+            <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="Code3" MaxLength="1" Keyboard="Numeric"
+                       FontSize="28" TextColor="Black"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding Codigo[2], Mode=TwoWay}"
+                       TextChanged="OnCodeTextChanged"/>
+            </Border>
+            <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="Code4" MaxLength="1" Keyboard="Numeric"
+                       FontSize="28" TextColor="Black"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding Codigo[3], Mode=TwoWay}"
+                       TextChanged="OnCodeTextChanged"/>
+            </Border>
+            <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="Code5" MaxLength="1" Keyboard="Numeric"
+                       FontSize="28" TextColor="Black"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding Codigo[4], Mode=TwoWay}"
+                       TextChanged="OnCodeTextChanged"/>
+            </Border>
+            <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="Code6" MaxLength="1" Keyboard="Numeric"
+                       FontSize="28" TextColor="Black"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding Codigo[5], Mode=TwoWay}"
+                       TextChanged="OnCodeTextChanged"/>
+            </Border>
         </HorizontalStackLayout>
 
         <!-- Botón de enviar -->
-        <Button Text="Enviar"
+        <Button Text="Verificar Código"
                 BackgroundColor="#007AFF"
                 TextColor="White"
                 FontSize="16"
-                HeightRequest="50"
-                CornerRadius="10"
-                WidthRequest="200"
+                FontAttributes="Bold"
+                HeightRequest="55"
+                CornerRadius="12"
+                WidthRequest="250"
                 HorizontalOptions="Center"
+                Margin="0,20,0,10"
                 Command="{Binding IrACambiarContrasena}"/>
 
         <!-- Botón para reenviar código -->
-        <Button Text="Enviar código de nuevo"
+        <Button Text="Reenviar código"
                 BackgroundColor="Transparent"
                 TextColor="Black"
                 FontSize="14"
                 HorizontalOptions="Center"
-                />
-
+                Margin="0,5,0,0"
+                Command="{Binding ProcesoSimpcommand}"/>
     </VerticalStackLayout>
 
 </ContentPage>
