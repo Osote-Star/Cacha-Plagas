@@ -59,7 +59,7 @@ namespace CachaPlagas.View_model
         {
             Dictionary<string, TrampaModel> trampas = new Dictionary<string, TrampaModel>()    
             {
-                { "1234", new TrampaModel { Modelo = "3316", Estado = "Trampita UTS", Imagen = "https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" } }
+                { "1234", new TrampaModel { Modelo = "3316", Localizacion = "Trampita UTS", Imagen = "https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" } }
             };
 
             if (trampas.ContainsKey(Codigo))
@@ -68,7 +68,7 @@ namespace CachaPlagas.View_model
 
                 // Actualizar las etiquetas e imagen con la información de la trampa
                 Id = $"ID: {trampa.Modelo}";
-                Modelo = $"MODELO: {trampa.Estado}";
+                Modelo = $"MODELO: {trampa.Localizacion}";
                 Imagen = trampa.Imagen;
 
                 // Mostrar el popup con la información de la trampa

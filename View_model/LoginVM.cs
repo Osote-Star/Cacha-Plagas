@@ -1,8 +1,7 @@
 ﻿using CachaPlagas.View;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Net.Http;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -11,14 +10,23 @@ namespace CachaPlagas.View_model
     public class LoginVM : BaseViewModel
     {
         #region VARIABLES
-        string _Email;
-        string _Contrasena;
+        private string _Email;
+        private string _Contrasena;
+        private readonly AuthService _authService;
+        private readonly INavigation _navigation;
         #endregion
 
         #region CONSTRUCTOR
-        public LoginVM(INavigation navegacion)
+        public LoginVM(INavigation navigation, AuthService authService)
         {
-            Navigation = navegacion;
+            _navigation = navigation;
+            _authService = authService;
+
+            var httpClient = new HttpClient
+            {
+                BaseAddress = new Uri("https://szd264mf-5086.usw3.devtunnels.ms/")
+            };
+            _authService = new AuthService(httpClient);
         }
         #endregion
 
@@ -28,6 +36,7 @@ namespace CachaPlagas.View_model
             get { return _Email; }
             set { SetValue(ref _Email, value); }
         }
+
         public string Contrasena
         {
             get { return _Contrasena; }
@@ -40,39 +49,63 @@ namespace CachaPlagas.View_model
         {
             if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Contrasena))
             {
-                await this.DisplayAlert("Error", "Faltan datos", "Aceptar");
+                await Application.Current.MainPage.DisplayAlert("Error", "Faltan datos", "Aceptar");
                 return;
             }
-            else if ((Email == "angeledastorga08@gmail.com" && Contrasena == "1234") || (Email == "1" && Contrasena == "1"))
+
+            try
             {
-                //holamaestro
-                await Navigation.PushAsync(new ListadoTrampas());
+                string token = await _authService.Login(Email, Contrasena);
+                if (!string.IsNullOrEmpty(token))
+                {
+                    // Guardar token (puedes almacenarlo en Preferences o SecureStorage para persistencia)
+                    Preferences.Set("AuthToken", token);
+
+                    // Navegar a la siguiente página
+                    await _navigation.PushAsync(new ListadoTrampas());
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Error", "Usuario o contraseña incorrectos", "Aceptar");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                await this.DisplayAlert("Error", "Usuario o contraseña incorrectos", "Aceptar");
+                await Application.Current.MainPage.DisplayAlert("Error", $"No se pudo iniciar sesión: {ex.Message}", "Aceptar");
             }
         }
+
         public async Task Ir_a_Registrarse()
         {
-            await Navigation.PushAsync(new CachaPlagas.View.Registrar());
+            await _navigation.PushAsync(new CachaPlagas.View.Registrar());
         }
+
         public async Task Ir_a_RecuperarContrasena()
         {
-            await Navigation.PushAsync(new RecuperarContraseña());
+            await _navigation.PushAsync(new RecuperarContraseña());
         }
+
         public void ProcesoSimple()
         {
         }
         #endregion
 
         #region COMANDOS
-
         public ICommand IniciarSesion => new Command(async () => await Iniciar_Sesion());
         public ICommand IraRegistrarse => new Command(async () => await Ir_a_Registrarse());
         public ICommand IraRecuperarContrasena => new Command(async () => await Ir_a_RecuperarContrasena());
 
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion
+
+        // Método para obtener el token si lo necesitas en otras partes
+        public string GetToken()
+        {
+            return _authService.GetToken();
+        }
     }
 }
+
+
+//var token = _authService.GetToken(); // Obtener el token
+//_authService.AddAuthorizationHeader(); // Agregar al encabezado de HttpClient para otras solicitudes

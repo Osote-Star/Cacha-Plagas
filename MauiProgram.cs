@@ -20,6 +20,9 @@ namespace CachaPlagas
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            // Registro de servicios
+            builder.Services.AddScoped(sp => new HttpClient());
+            builder.Services.AddScoped<AuthService>(); // Registra AuthService
             // Continue initializing your .NET MAUI App here
 
             return builder.Build();

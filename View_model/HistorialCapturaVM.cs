@@ -12,6 +12,7 @@ namespace CachaPlagas.View_model
 {
     public class HistorialCapturaVM : BaseViewModel
     {
+        private string endpoint = "https://cachaplagas.azurewebsites.net";
         #region VARIABLES
         ObservableCollection<CapturaModel> _capturas;
         //string _localizacion;
@@ -66,14 +67,9 @@ namespace CachaPlagas.View_model
         #region PROCESOS
         public async Task MostrarHistorial()
         {
-            List<CapturaModel> Data = new List<CapturaModel>()
-            {
-                new CapturaModel { localizacion = "Ubicación 1", fechahora = DateTime.Parse("2024-02-13 10:00"), Animal = "Perro", Modelo = "Modelo A" },
-                new CapturaModel { localizacion = "Ubicación 2", fechahora = DateTime.Parse("2024-02-13 11:00"), Animal = "Gato", Modelo = "Modelo B" },
-                new CapturaModel { localizacion = "Ubicación 3", fechahora = DateTime.Parse("2024-02-13 12:00"), Animal = "Ave", Modelo = "Modelo C" },
-            };
+         _capturas = new ObservableCollection<CapturaModel>();
 
-            Capturas = new ObservableCollection<CapturaModel>(Data);
+            
         }
         public async Task VolverAtras()
         {
