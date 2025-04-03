@@ -1,14 +1,17 @@
+using CachaPlagas.Data.Services;
 using CachaPlagas.Model;
 using CachaPlagas.View_model;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CachaPlagas.View;
 
 public partial class AgregarTrampa : ContentPage
 {
-    public AgregarTrampa()
+    public AgregarTrampa(AgregrarTrampaVM viewModel)
     {
         InitializeComponent();
-        BindingContext = new AgregarTrampaVM(Navigation);
+        BindingContext = viewModel;
+
     }
 
     ////private void OnBackClicked(object sender, EventArgs e)

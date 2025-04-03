@@ -18,5 +18,11 @@ namespace CachaPlagas.Model
         public bool EstatusSensor { get; set; }
         public bool EstatusPuerta { get; set; }
         public List<object> Capturas { get; set; } // Matches "capturas" field
+
+
+        public override string ToString()
+        {
+            return $"Id: {IdTrampa}, Modelo: {Modelo}, Localizacion: {Localizacion}";
+        }
     }
 }

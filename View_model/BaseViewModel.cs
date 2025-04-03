@@ -13,6 +13,11 @@ namespace CachaPlagas.View_model
         public INavigation Navigation;
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public virtual Task OnNavigatingTo(IDictionary<string, object>? parameters) => Task.CompletedTask;
+        public virtual Task OnNavigatedTo() => Task.CompletedTask;
+        public virtual Task OnNavigatedFrom() => Task.CompletedTask;
+
         public void OnpropertyChanged([CallerMemberName] string nombre = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nombre));

@@ -1,4 +1,5 @@
 ﻿//using PassKit;
+using CachaPlagas.Data.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,13 +14,13 @@ namespace CachaPlagas.View_model
         #region VARIABLES
         string _contrasena;
         string _contrasenaRepetida;
-
+        private readonly INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public CambiarContrasenaVM(INavigation navegacion)
+        public CambiarContrasenaVM(INavigationService navService)
         {
-            Navigation = navegacion;
+            _navService = navService;
         }
         #endregion
 
@@ -48,8 +49,7 @@ namespace CachaPlagas.View_model
             else
             {
                 await this.DisplayAlert("Exito", "Contraseña actualizada", "Aceptar");
-                await Navigation.PopAsync();
-                await Navigation.PopAsync();
+                await _navService.PopToRootAsync();
 
             }
         }

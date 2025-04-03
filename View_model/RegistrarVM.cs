@@ -1,4 +1,5 @@
-﻿using CachaPlagas.View;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,18 +9,19 @@ using System.Windows.Input;
 
 namespace CachaPlagas.View_model
 {
-    class RegistrarVM : BaseViewModel
+    public class RegistrarVM : BaseViewModel
     {
         #region VARIABLES
         string _Email;
         string _Contrasena;
         string _ContrasenaRepetida;
+        private readonly INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public RegistrarVM(INavigation navegacion)
+        public RegistrarVM(INavigationService navService)
         {
-            Navigation = navegacion;
+            _navService = navService;
         }
         #endregion
 
@@ -61,7 +63,7 @@ namespace CachaPlagas.View_model
         }
         public async Task VolverPagina()
         {
-            await Navigation.PopAsync();
+            await _navService.PopAsync();
         }
         public void ProcesoSimple()
         {

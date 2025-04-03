@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\",
+  "WorkspaceRootPath": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\proyectos\\cacha-plagas\\view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\jaime\\onedrive\\escritorio\\proyecto integrador 5to\\cacha-plagas\\data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\proyectos\\cacha-plagas\\model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\jaime\\onedrive\\escritorio\\proyecto integrador 5to\\cacha-plagas\\data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\proyectos\\cacha-plagas\\view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\jaime\\onedrive\\escritorio\\proyecto integrador 5to\\cacha-plagas\\data\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\proyectos\\cacha-plagas\\view\\agregartrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\agregartrampa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\jaime\\onedrive\\escritorio\\proyecto integrador 5to\\cacha-plagas\\view_model\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,80 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AgregarTrampa.xaml",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\View\\AgregarTrampa.xaml",
-              "RelativeDocumentMoniker": "View\\AgregarTrampa.xaml",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\View\\AgregarTrampa.xaml",
-              "RelativeToolTip": "View\\AgregarTrampa.xaml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAcwFwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T07:28:44.81Z",
-              "IsPinned": true,
+              "DocumentIndex": 3,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\View_model\\LoginVM.cs",
+              "RelativeDocumentMoniker": "View_model\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\View_model\\LoginVM.cs",
+              "RelativeToolTip": "View_model\\LoginVM.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:53:10.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrampaServices.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\Data\\Services\\TrampaServices.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\TrampaServices.cs",
+              "ToolTip": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\Data\\Services\\TrampaServices.cs",
+              "RelativeToolTip": "Data\\Services\\TrampaServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:50:10.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AgregarTrampaVM.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\View_model\\AgregarTrampaVM.cs",
-              "RelativeDocumentMoniker": "View_model\\AgregarTrampaVM.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\View_model\\AgregarTrampaVM.cs",
-              "RelativeToolTip": "View_model\\AgregarTrampaVM.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAuwFAAAAAAAAAAAAAAAA==",
+              "Title": "API_Connection.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\Data\\API_Connection.cs",
+              "RelativeDocumentMoniker": "Data\\API_Connection.cs",
+              "ToolTip": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\Data\\API_Connection.cs",
+              "RelativeToolTip": "Data\\API_Connection.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:32:10.416Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1323641800:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrampaModel.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\Model\\TrampaModel.cs",
-              "RelativeDocumentMoniker": "Model\\TrampaModel.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\Model\\TrampaModel.cs",
-              "RelativeToolTip": "Model\\TrampaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:12:23.053Z",
+              "WhenOpened": "2025-04-03T03:32:08.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgregarTrampa.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\View\\AgregarTrampa.xaml.cs",
-              "RelativeDocumentMoniker": "View\\AgregarTrampa.xaml.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos\\Cacha-Plagas\\View\\AgregarTrampa.xaml.cs",
-              "RelativeToolTip": "View\\AgregarTrampa.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\Data\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\jaime\\OneDrive\\Escritorio\\PROYECTO INTEGRADOR 5to\\Cacha-Plagas\\Data\\Services\\AuthServices.cs",
+              "RelativeToolTip": "Data\\Services\\AuthServices.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAnwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:11:17.337Z"
+              "WhenOpened": "2025-04-03T03:32:07.336Z",
+              "EditorCaption": ""
             }
           ]
         }

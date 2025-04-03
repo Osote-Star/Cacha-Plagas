@@ -4,10 +4,10 @@ namespace CachaPlagas.View;
 
 public partial class CodigoContrasena : ContentPage
 {
-	public CodigoContrasena()
+	public CodigoContrasena(CodigoContrasenaVM viewModel)
 	{
 		InitializeComponent();
-        BindingContext = new CodigoContrasenaVM(Navigation);
+        BindingContext = viewModel;
     }
 
     public void OnCodeTextChanged(object sender, TextChangedEventArgs e)

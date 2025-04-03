@@ -7,10 +7,10 @@ public partial class HistorialCaptura : ContentPage
 {
     //public List<CapturaModel> Data { get; set; }
 
-    public HistorialCaptura()
+    public HistorialCaptura(HistorialCapturaVM viewModel)
 	{
 		InitializeComponent();
-		BindingContext = new HistorialCapturaVM(Navigation);
+		BindingContext = viewModel;
         //      Data = new List<CapturaModel>()
         //          {
         //              new CapturaModel { localizacion = "Ubicación 1", fechahora = DateTime.Parse("2024-02-13 10:00"), Animal = "Perro", Modelo = "Modelo A" },

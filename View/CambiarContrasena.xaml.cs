@@ -4,9 +4,9 @@ namespace CachaPlagas.View;
 
 public partial class CambiarContrasena : ContentPage
 {
-	public CambiarContrasena()
+	public CambiarContrasena(CambiarContrasenaVM viewModel)
 	{
 		InitializeComponent();
-		BindingContext = new CambiarContrasenaVM(Navigation);	
+		BindingContext = viewModel;	
     }
 }

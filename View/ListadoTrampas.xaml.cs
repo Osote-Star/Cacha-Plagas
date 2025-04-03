@@ -4,10 +4,10 @@ namespace CachaPlagas.View;
 
 public partial class ListadoTrampas : ContentPage
 {
-	public ListadoTrampas()
+	public ListadoTrampas(ListadoTrampasVM viewModel)
 	{
 		InitializeComponent();
 
-        BindingContext = new ListadoTrampasVM(Navigation);
+        BindingContext = viewModel;
     }
 }

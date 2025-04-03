@@ -1,4 +1,5 @@
-﻿using CachaPlagas.View;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,13 +12,14 @@ namespace CachaPlagas.View_model
     public class CodigoContrasenaVM : BaseViewModel
     {
         #region VARIABLES
+        private readonly INavigationService _navService;
         private string[] _codigo = new string[6];
         #endregion
 
         #region CONSTRUCTOR
-        public CodigoContrasenaVM(INavigation navegacion)
+        public CodigoContrasenaVM(INavigationService navService)
         {
-            Navigation = navegacion;
+            _navService = navService;
         }
         #endregion
 
@@ -47,7 +49,7 @@ namespace CachaPlagas.View_model
             if (codigoConcatenado == "123456")
             {
                 await DisplayAlert("Todo bien", "Ahora podrá cambiar su contraseña", "Aceptar");
-                await Navigation.PushAsync(new CambiarContrasena());
+                await _navService.PushAsync<CambiarContrasenaVM>();
             }
             else
             {

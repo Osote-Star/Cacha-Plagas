@@ -4,11 +4,15 @@ namespace CachaPlagas
 {
     public partial class App : Application
     {
-        public App()
+        public App(IServiceProvider serviceProvider)
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Login());
+            // Obtiene la página desde el contenedor DI
+            var loginPage = serviceProvider.GetRequiredService<Login>();
+
+            // Configura la MainPage con NavigationPage
+            MainPage = new NavigationPage(loginPage);
         }
     }
 }

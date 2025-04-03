@@ -1,4 +1,6 @@
-﻿using CachaPlagas.View;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.Data.Services;
+using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,16 +10,19 @@ using System.Windows.Input;
 
 namespace CachaPlagas.View_model
 {
-    class RecuperarContraseñaVM : BaseViewModel
+    public class RecuperarContraseñaVM : BaseViewModel
     {
         #region VARIABLES
         string _Email;
+        private AuthServices _services;
+        private INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public RecuperarContraseñaVM(INavigation navegacion)
+        public RecuperarContraseñaVM(INavigationService navigationService, AuthServices services)
         {
-            Navigation = navegacion;
+            _services = services;
+            _navService = navigationService;
         }
         #endregion
 
@@ -33,11 +38,11 @@ namespace CachaPlagas.View_model
 
         public async Task VolverAtras()
         {
-            await Navigation.PopAsync();
+            await _navService.PopAsync();
         }
         public async Task Enviar_Correo()
         {
-            await Navigation.PushAsync(new CodigoContrasena());
+            await _navService.PushAsync<CodigoContrasenaVM>();
         }
         #endregion
 

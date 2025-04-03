@@ -1,4 +1,6 @@
-﻿using CachaPlagas.Model;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.Data.Services;
+using CachaPlagas.Model;
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -16,19 +18,15 @@ namespace CachaPlagas.View_model
         private ImageSource _imagen;
         private string _codigo;
         private bool _frameVisible;
-        private readonly HttpClient _httpClient;
+        private AgregrarTrampaVM _services;
+        private readonly INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public AgregarTrampaVM(INavigation navegacion)
+        public AgregarTrampaVM(INavigationService navService, AgregrarTrampaVM services)
         {
-            Navigation = navegacion;
-            _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("https://6tcsdl1g-5086.usw3.devtunnels.ms/");
-
-            // Add authentication token
-            string authToken = "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJwcnVlYmEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJ1c3VhcmlvIiwiZXhwIjoxNzQzNzAwMDQ0fQ.7NlM_cE6fLdan95l2Zne_3hGNk2uUohpStddMnBtRBA";
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authToken);
+            _navService = navService;
+            _services = services;
         }
         #endregion
 
@@ -82,64 +80,42 @@ namespace CachaPlagas.View_model
             try
             {
                 // Call your API endpoint with the parsed integer ID
-                var response = await _httpClient.GetAsync($"api/Trampa/Buscar-trampa/{trampaId}");
+                TrampaModel? trampa = await _services.GetOneTrampa(trampaId);
 
-                if (response.IsSuccessStatusCode)
+                if (trampa is not null)
                 {
-                    var jsonString = await response.Content.ReadAsStringAsync();
                     // Log the raw JSON for debugging
-                    await DisplayAlert("Respuesta del servidor", jsonString, "OK");
+                    await DisplayAlert("Respuesta del servidor", trampa.ToString(), "OK");
 
-                    var trampa = JsonSerializer.Deserialize<TrampaModel>(jsonString, new JsonSerializerOptions
+                   
+                    // Debug the deserialized object
+                    await DisplayAlert("Debug", $"ID: {trampa.IdTrampa}, Modelo: {trampa.Modelo}, Imagen: {trampa.Imagen}", "OK");
+
+                    // Update UI with trap data
+                    Id = $"ID: {trampa.IdTrampa}";
+                    Modelo = $"MODELO: {trampa.Modelo}";
+                    // Construct the full image URL (adjust the base URL as needed)
+                    string imageBaseUrl = "https://6tcsdl1g-5086.usw3.devtunnels.ms/images/";
+                    string imageUrl = $"{imageBaseUrl}{trampa.Imagen}";
+                    try
                     {
-                        PropertyNameCaseInsensitive = true // Handle case differences if needed
-                    });
-
-                    if (trampa != null)
-                    {
-                        // Debug the deserialized object
-                        await DisplayAlert("Debug", $"ID: {trampa.IdTrampa}, Modelo: {trampa.Modelo}, Imagen: {trampa.Imagen}", "OK");
-
-                        // Update UI with trap data
-                        Id = $"ID: {trampa.IdTrampa}";
-                        Modelo = $"MODELO: {trampa.Modelo}";
-                        // Construct the full image URL (adjust the base URL as needed)
-                        string imageBaseUrl = "https://6tcsdl1g-5086.usw3.devtunnels.ms/images/";
-                        string imageUrl = $"{imageBaseUrl}{trampa.Imagen}";
-                        try
-                        {
-                            Imagen = ImageSource.FromUri(new Uri(imageUrl));
-                        }
-                        catch (Exception ex)
-                        {
-                            await DisplayAlert("Error", $"No se pudo cargar la imagen: {ex.Message}", "OK");
-                            Imagen = null; // Fallback to no image
-                        }
-
-                        FrameVisible = true; // Show the popup with trap info
+                        Imagen = ImageSource.FromUri(new Uri(imageUrl));
                     }
-                    else
+                    catch (Exception ex)
                     {
-                        await DisplayAlert("Error", "No se encontró la trampa.", "OK");
-                        FrameVisible = false;
+                        await DisplayAlert("Error", $"No se pudo cargar la imagen: {ex.Message}", "OK");
+                        Imagen = null; // Fallback to no image
                     }
+
+                    FrameVisible = true; // Show the popup with trap info
+                    
                 }
-                else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                else if (trampa is null)
                 {
-                    await DisplayAlert("Error", "No se encontró la trampa con ese ID.", "OK");
+                    await DisplayAlert("Error", "No se encontró la trampa.", "OK");
                     FrameVisible = false;
                 }
-                else if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
-                {
-                    await DisplayAlert("Error", "No autorizado. Verifique su token.", "OK");
-                    FrameVisible = false;
-                }
-                else
-                {
-                    var errorContent = await response.Content.ReadAsStringAsync();
-                    await DisplayAlert("Error del servidor", $"Código: {response.StatusCode}\nContenido: {errorContent}", "OK");
-                    FrameVisible = false;
-                }
+
             }
             catch (Exception ex)
             {
@@ -150,7 +126,7 @@ namespace CachaPlagas.View_model
 
         public async Task VolverAtras()
         {
-            await Navigation.PopAsync();
+            await _navService.PopAsync();
         }
         #endregion
 

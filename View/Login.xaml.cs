@@ -1,12 +1,13 @@
+using CachaPlagas.Data.Services;
 using CachaPlagas.View_model;
 namespace CachaPlagas.View;
 
 public partial class Login : ContentPage
-{
-    public Login()
-    {
-        InitializeComponent();
-        BindingContext = new LoginVM(Navigation);
-
-    }
+{ 
+        public Login(LoginVM viewModel)
+        {
+            InitializeComponent();
+            BindingContext = viewModel;
+        }
+   
 }

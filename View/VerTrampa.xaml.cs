@@ -5,10 +5,10 @@ namespace CachaPlagas.View;
 
 public partial class VerTrampa : ContentPage
 {
-    public VerTrampa()
+    public VerTrampa(VerTrampaVM viewModel)
     {
         InitializeComponent();
-        BindingContext = new VerTrampaVM(Navigation);
+        BindingContext = viewModel;
     }
 
 
