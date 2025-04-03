@@ -21,7 +21,7 @@
                      HorizontalOptions="Start"
                      Command="{Binding Volver}"/>
 
-        <Label Text="Buscar Trampa"
+        <Label Text="Agregar Trampa"
                FontSize="26"
                FontAttributes="Bold"
                TextColor="Black"
@@ -40,7 +40,8 @@
                HorizontalOptions="Center"
                HasShadow="True">
             <Entry x:Name="codigoEntry"
-                   Placeholder="ID de la trampa"
+                   Keyboard="Numeric" 
+                   Placeholder="ID"
                    FontSize="16"
                    PlaceholderColor="Gray"
                    TextColor="Black"
@@ -89,6 +90,17 @@
                FontAttributes="Bold"
                HorizontalOptions="Center"
                TextColor="Black"/>
+
+                <Button Text="Agregar" 
+                        BackgroundColor="#00C853" 
+                        TextColor="White" 
+                        FontAttributes="Bold" 
+                        HeightRequest="50" 
+                        CornerRadius="10" 
+                        WidthRequest="180" 
+                        HorizontalOptions="Center"
+                        Margin="0,15,0,0" 
+                        Command="{Binding AgregarCommand}"/>
             </VerticalStackLayout>
         </Frame>
 

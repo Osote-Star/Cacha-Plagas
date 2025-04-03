@@ -2,9 +2,6 @@
 using CachaPlagas.Data.Services;
 using CachaPlagas.Model;
 using System;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -18,12 +15,12 @@ namespace CachaPlagas.View_model
         private ImageSource _imagen;
         private string _codigo;
         private bool _frameVisible;
-        private AgregrarTrampaVM _services;
+        private readonly TrampaService _services;
         private readonly INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public AgregarTrampaVM(INavigationService navService, AgregrarTrampaVM services)
+        public AgregarTrampaVM(INavigationService navService, TrampaService services)
         {
             _navService = navService;
             _services = services;
@@ -79,49 +76,44 @@ namespace CachaPlagas.View_model
 
             try
             {
-                // Call your API endpoint with the parsed integer ID
                 TrampaModel? trampa = await _services.GetOneTrampa(trampaId);
 
-                if (trampa is not null)
+                if (trampa != null)
                 {
-                    // Log the raw JSON for debugging
-                    await DisplayAlert("Respuesta del servidor", trampa.ToString(), "OK");
-
-                   
-                    // Debug the deserialized object
-                    await DisplayAlert("Debug", $"ID: {trampa.IdTrampa}, Modelo: {trampa.Modelo}, Imagen: {trampa.Imagen}", "OK");
-
-                    // Update UI with trap data
                     Id = $"ID: {trampa.IdTrampa}";
                     Modelo = $"MODELO: {trampa.Modelo}";
-                    // Construct the full image URL (adjust the base URL as needed)
-                    string imageBaseUrl = "https://6tcsdl1g-5086.usw3.devtunnels.ms/images/";
-                    string imageUrl = $"{imageBaseUrl}{trampa.Imagen}";
+                    string imageBaseUrl = "https://szd264mf-5086.usw3.devtunnels.ms/images/";
+                    string imageFileName = trampa.Imagen; // Should be "trampa.png"
                     try
                     {
-                        Imagen = ImageSource.FromUri(new Uri(imageUrl));
+                        Imagen = ImageSource.FromFile(imageFileName); // Load the local image
                     }
                     catch (Exception ex)
                     {
                         await DisplayAlert("Error", $"No se pudo cargar la imagen: {ex.Message}", "OK");
-                        Imagen = null; // Fallback to no image
+                        Imagen = null;
                     }
 
-                    FrameVisible = true; // Show the popup with trap info
-                    
+                    FrameVisible = true; // Mostrar el popup con la información
                 }
-                else if (trampa is null)
+                else
                 {
-                    await DisplayAlert("Error", "No se encontró la trampa.", "OK");
+                    await DisplayAlert("Error", "No se encontró la trampa con ese ID.", "OK");
                     FrameVisible = false;
                 }
-
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Error", $"Ocurrió un error: {ex.Message}", "OK");
+                await DisplayAlert("Error", $"Ocurrió un error al buscar la trampa: {ex.Message}", "OK");
                 FrameVisible = false;
             }
+        }
+
+        public async Task AgregarTrampa()
+        {
+            // Por ahora, no hace nada
+            // Puedes dejarlo vacío o agregar un mensaje temporal si quieres
+            await Task.CompletedTask; // Para cumplir con la firma async
         }
 
         public async Task VolverAtras()
@@ -132,6 +124,7 @@ namespace CachaPlagas.View_model
 
         #region COMANDOS
         public ICommand Validar => new Command(async () => await ValidarTrampa());
+        public ICommand AgregarCommand => new Command(async () => await AgregarTrampa());
         public ICommand Volver => new Command(async () => await VolverAtras());
         #endregion
     }

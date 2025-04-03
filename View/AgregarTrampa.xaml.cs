@@ -7,7 +7,7 @@ namespace CachaPlagas.View;
 
 public partial class AgregarTrampa : ContentPage
 {
-    public AgregarTrampa(AgregrarTrampaVM viewModel)
+    public AgregarTrampa(AgregarTrampaVM viewModel)
     {
         InitializeComponent();
         BindingContext = viewModel;

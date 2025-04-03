@@ -12006,6 +12006,7 @@ public final class R {
     public static final int test_level_drawable=0x7f08013b;
     public static final int tooltip_frame_dark=0x7f08013c;
     public static final int tooltip_frame_light=0x7f08013d;
+    public static final int trampa=0x7f08013e;
   }
   public static final class font {
     public static final int roboto_medium_numbers=0x7f090000;

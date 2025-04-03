@@ -37,7 +37,7 @@ namespace CachaPlagas.Data.Services
                 var safetyMargin = TimeSpan.FromMinutes(1);
                 return jwt.ValidTo < (DateTime.UtcNow - safetyMargin);
             }
-            catch
+            catch(Exception ex)
             {
                 return true; // Token inválido o corrupto
             }

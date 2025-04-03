@@ -3254,6 +3254,7 @@ int drawable splash 0x7f08013a
 int drawable test_level_drawable 0x7f08013b
 int drawable tooltip_frame_dark 0x7f08013c
 int drawable tooltip_frame_light 0x7f08013d
+int drawable trampa 0x7f08013e
 int font roboto_medium_numbers 0x7f090000
 int id ALT 0x7f0a0000
 int id BOTTOM_END 0x7f0a0001

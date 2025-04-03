@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
+using System.Text.Json;
 
 namespace CachaPlagas.Data.Services
 {
@@ -19,7 +20,8 @@ namespace CachaPlagas.Data.Services
                 var response = await _connection.Post("api/Auth/Login", loginDto, false);
                 if (response.IsSuccessStatusCode)
                 {
-                    var token = await response.Content.ReadAsStringAsync();
+                    var json = await response.Content.ReadAsStringAsync();
+                    var token = JsonSerializer.Deserialize<string>(json);
                     await SecureStorage.SetAsync("jwt_token", token);
                     return true;
                 }

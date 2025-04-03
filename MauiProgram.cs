@@ -28,13 +28,13 @@ namespace CachaPlagas
 
             builder.Services.AddHttpClient<API_Connection>(client =>
             {      
-                client.BaseAddress = new Uri("https://szd264mf-5086.usw3.devtunnels.ms/");
+                client.BaseAddress = new Uri("https://6tcsdl1g-5086.usw3.devtunnels.ms/");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             });
 
             builder.Services.AddSingleton<INavigationService, NavigationService>();
             builder.Services.AddSingleton<JwtServices>(); 
-            builder.Services.AddScoped<AgregrarTrampaVM>();
+            builder.Services.AddScoped<TrampaService>();
             builder.Services.AddScoped<AuthServices>();
             builder.Services.AddScoped<UsuarioServices>();
             builder.Services.AddScoped<CapturaServices>();
