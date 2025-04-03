@@ -1,4 +1,5 @@
-﻿using CachaPlagas.View;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,14 @@ namespace CachaPlagas.View_model
         #region VARIABLES
         string _Email;
         string _Contrasena;
+        private readonly INavigationService _navService;
+
         #endregion
 
         #region CONSTRUCTOR
-        public ListadoTrampasVM(INavigation navegacion)
+        public ListadoTrampasVM(INavigationService navService)
         {
-            Navigation = navegacion;
+            _navService = navService;
         }
         #endregion
 
@@ -38,19 +41,19 @@ namespace CachaPlagas.View_model
         #region PROCESOS
         public async Task agregar()
         {
-            await Navigation.PushAsync(new AgregarTrampa());
+            await _navService.PushAsync<AgregarTrampaVM>();
         }
         public async Task logout()
         {
-            await Navigation.PopAsync();
+            await _navService.PopAsync();
         }
         public async Task trampa()
         {
-            await Navigation.PushAsync(new VerTrampa());
+            await _navService.PushAsync<VerTrampaVM>();
         }
         public async Task Ir_A_HistorialCapturas()
         {
-            await Navigation.PushAsync(new HistorialCaptura());
+            await _navService.PushAsync<HistorialCapturaVM>();
         }
         public void ProcesoSimple()
         {

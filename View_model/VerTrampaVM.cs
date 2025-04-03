@@ -1,4 +1,6 @@
-﻿using CachaPlagas.View;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.Data.Services;
+using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,7 @@ using System.Windows.Input;
 
 namespace CachaPlagas.View_model
 {
-    class VerTrampaVM : BaseViewModel
+    public class VerTrampaVM : BaseViewModel
     {
         #region VARIABLES
         private ImageSource _buttonImageDoor;
@@ -17,12 +19,15 @@ namespace CachaPlagas.View_model
         private ImageSource _buttonImageSensor;
         private Color _buttonColorSensor;
         string _Contrasena;
+        private AuthServices _services;
+        private INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public VerTrampaVM(INavigation navegacion)
+        public VerTrampaVM(INavigationService navigationService)
         {
-            Navigation = navegacion;
+            _services = null;
+            _navService = navigationService;       
             ButtonImageDoor = ImageSource.FromFile("opendoor.png");
             ButtonColorDoor = Color.FromArgb("#4CAF50");
             ButtonImageSensor = ImageSource.FromFile("onsensor.png");
@@ -60,9 +65,21 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region PROCESOS
+        public override async Task OnNavigatingTo(IDictionary<string, object> parameters)
+        {
+            await base.OnNavigatingTo(parameters);
+
+            if (parameters != null && parameters.TryGetValue("Email", out var email))
+            {
+                //Email = email?.ToString() ?? string.Empty;
+
+                // Opcional: Mostrar en consola para debug
+              //  Console.WriteLine($"Email recibido: {Email}");
+            }
+        }
         public async Task listado()
         {
-            await Navigation.PopAsync();
+            await _navService.PopAsync();
         }
         public async Task AlterarPuerta() 
         {

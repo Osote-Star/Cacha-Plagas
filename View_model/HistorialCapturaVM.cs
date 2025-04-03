@@ -1,4 +1,5 @@
-﻿using CachaPlagas.Modelos;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.Modelos;
 using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace CachaPlagas.View_model
     public class HistorialCapturaVM : BaseViewModel
     {
         #region VARIABLES
+        private readonly INavigationService _navService;
         ObservableCollection<CapturaModel> _capturas;
         //string _localizacion;
         //string _animal;
@@ -21,9 +23,9 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region CONSTRUCTOR
-        public HistorialCapturaVM(INavigation navegacion)
+        public HistorialCapturaVM(INavigationService navService)
         {
-            Navigation = navegacion;
+            _navService = navService;
             MostrarHistorial();
         }
         #endregion
@@ -77,7 +79,7 @@ namespace CachaPlagas.View_model
         }
         public async Task VolverAtras()
         {
-            await Navigation.PopAsync();
+            await _navService.PopAsync();
         }
         public void ProcesoSimple()
         {

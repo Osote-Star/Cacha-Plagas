@@ -1,4 +1,7 @@
-﻿using CachaPlagas.View;
+﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.Data.Services;
+using CachaPlagas.DTOs;
+using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +16,15 @@ namespace CachaPlagas.View_model
         #region VARIABLES
         string _Email;
         string _Contrasena;
+        AuthServices _services;
+        private readonly INavigationService _navService;
         #endregion
 
         #region CONSTRUCTOR
-        public LoginVM(INavigation navegacion)
+        public LoginVM(INavigationService navigationService, AuthServices services)
         {
-            Navigation = navegacion;
+            _services = services;
+            _navService = navigationService;
         }
         #endregion
 
@@ -40,26 +46,42 @@ namespace CachaPlagas.View_model
         {
             if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Contrasena))
             {
-                await this.DisplayAlert("Error", "Faltan datos", "Aceptar");
+                await Application.Current.MainPage.DisplayAlert("Error", "Faltan datos", "Aceptar");
                 return;
             }
-            else if ((Email == "angeledastorga08@gmail.com" && Contrasena == "1234") || (Email == "1" && Contrasena == "1"))
+
+            try
             {
-                //holamaestro
-                await Navigation.PushAsync(new ListadoTrampas());
+                var loginDto = new LoginDto
+                {
+                    Email = Email,
+                    Password = Contrasena
+                };  
+                bool tokenCorrecto = await _services.Login(loginDto);
+                if (tokenCorrecto)
+                {
+                    // Navegar a la siguiente página
+                    await _navService.PushAsync<ListadoTrampasVM>();
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Error", "Usuario o contraseña incorrectos", "Aceptar");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                await this.DisplayAlert("Error", "Usuario o contraseña incorrectos", "Aceptar");
+                await Application.Current.MainPage.DisplayAlert("Error", $"No se pudo iniciar sesión: {ex.Message}", "Aceptar");
             }
         }
+
         public async Task Ir_a_Registrarse()
         {
-            await Navigation.PushAsync(new CachaPlagas.View.Registrar());
+            await _navService.PushAsync<RegistrarVM>();
         }
+
         public async Task Ir_a_RecuperarContrasena()
         {
-            await Navigation.PushAsync(new RecuperarContraseña());
+            await _navService.PushAsync<RecuperarContraseñaVM>();
         }
         public void ProcesoSimple()
         {

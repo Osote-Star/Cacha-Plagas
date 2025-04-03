@@ -13,8 +13,6 @@
     </ContentPage.Background>
 
     <VerticalStackLayout Padding="30" Spacing="25">
-
-
         <ImageButton Source="back.png"
                      WidthRequest="40"
                      HeightRequest="40"
@@ -23,20 +21,17 @@
                      HorizontalOptions="Start"
                      Command="{Binding Volver}"/>
 
-
-        <Label Text="Agregar Nueva Trampa"
+        <Label Text="Buscar Trampa"
                FontSize="26"
                FontAttributes="Bold"
                TextColor="Black"
                HorizontalOptions="Center"/>
 
-
-        <Label Text="Ingrese el código de la trampa"
+        <Label Text="Ingrese el ID de la trampa"
                FontSize="18"
                TextColor="Black"
                HorizontalOptions="Center"
                FontAttributes="Bold"/>
-
 
         <Frame CornerRadius="15"
                BackgroundColor="White"
@@ -45,7 +40,7 @@
                HorizontalOptions="Center"
                HasShadow="True">
             <Entry x:Name="codigoEntry"
-                   Placeholder="Código"
+                   Placeholder="ID de la trampa"
                    FontSize="16"
                    PlaceholderColor="Gray"
                    TextColor="Black"
@@ -53,8 +48,7 @@
                    Text="{Binding Codigo}"/>
         </Frame>
 
-
-        <Button Text="Validar"
+        <Button Text="Buscar"
                 BackgroundColor="#007AFF"
                 TextColor="White"
                 FontAttributes="Bold"
@@ -65,52 +59,36 @@
                 Margin="0,5,0,0"
                 Command="{Binding Validar}"/>
 
-
         <Frame x:Name="popupFrame"
-               IsVisible="{Binding FrameVisible}"
-               BorderColor="Transparent"
-               Padding="20"
-               CornerRadius="15"
-               BackgroundColor="White"
-               HasShadow="True"
-               WidthRequest="300"
-               HorizontalOptions="Center"
-               Margin="0,30,0,0">
-
+       IsVisible="{Binding FrameVisible}"
+       BorderColor="Transparent"
+       Padding="20"
+       CornerRadius="15"
+       BackgroundColor="White"
+       HasShadow="True"
+       WidthRequest="300"
+       HorizontalOptions="Center"
+       Margin="0,30,0,0">
             <VerticalStackLayout Spacing="20" Padding="10">
-
-
                 <Image Source="{Binding Imagen}"
-                       WidthRequest="120"
-                       HeightRequest="120"
-                       HorizontalOptions="Center"
-                       Aspect="AspectFit"/>
+               WidthRequest="120"
+               HeightRequest="120"
+               HorizontalOptions="Center"
+               Aspect="AspectFit"/>
+
+                <Label x:Name="idLabel"
+               Text="{Binding Id}"
+               FontSize="16"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
 
                 <Label x:Name="modeloLabel"
-                       Text="{Binding ID}"
-                       FontSize="16"
-                       FontAttributes="Bold"
-                       HorizontalOptions="Center"
-                       TextColor="Black"/>
-
-                <Label x:Name="estadoLabel"
-                       Text="{Binding Modelo}"
-                       FontSize="16"
-                       FontAttributes="Bold"
-                       HorizontalOptions="Center"
-                       TextColor="Black"/>
-
-
-                <Button Text="Agregar"
-                        BackgroundColor="#00C853"
-                        TextColor="White"
-                        FontAttributes="Bold"
-                        HeightRequest="50"
-                        CornerRadius="10"
-                        WidthRequest="180"
-                        HorizontalOptions="Center"
-                        Margin="0,15,0,0"
-                        Command="{Binding Agregar}"/>
+               Text="{Binding Modelo}"
+               FontSize="16"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
             </VerticalStackLayout>
         </Frame>
 

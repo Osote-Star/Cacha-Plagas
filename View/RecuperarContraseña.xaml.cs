@@ -4,9 +4,9 @@ namespace CachaPlagas.View;
 
 public partial class RecuperarContraseña : ContentPage
 {
-    public RecuperarContraseña()
+    public RecuperarContraseña(RecuperarContraseñaVM viewModel)
     {
         InitializeComponent();
-        BindingContext = new RecuperarContraseñaVM(Navigation);
+        BindingContext = viewModel;
     }
 }

@@ -4,9 +4,9 @@ namespace CachaPlagas.View;
 
 public partial class Registrar : ContentPage
 {
-	public Registrar()
+	public Registrar(RegistrarVM viewModel)
 	{
 		InitializeComponent();
-        BindingContext = new RegistrarVM(Navigation);
+        BindingContext = viewModel;
     }
 }

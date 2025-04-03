@@ -4,5 +4,15 @@
         <name>CachaPlagas</name>
     </assembly>
     <members>
+        <member name="M:CachaPlagas.Data.API_Connection.Post(System.String,System.Object,System.Boolean)">
+            <summary>
+            Este metodo es para mandar datos con el endpoint y los datos a enviar, si el metodo que se va a usar requiere autenticacion
+            entonces el parametro RequiresAuthentication se pone en true, si no se pone en false
+            </summary>
+            <param name="endpoint"></param>
+            <param name="data"></param>
+            <param name="RequiresAuthentication"></param>
+            <returns>La respuesta http</returns>
+        </member>
     </members>
 </doc>
