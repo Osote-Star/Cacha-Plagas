@@ -1,4 +1,6 @@
 ﻿using CachaPlagas.Data.Interfaces;
+using CachaPlagas.Data.Services;
+using CachaPlagas.DTOs;
 using CachaPlagas.View;
 using System;
 using System.Collections.Generic;
@@ -16,12 +18,14 @@ namespace CachaPlagas.View_model
         string _Contrasena;
         string _ContrasenaRepetida;
         private readonly INavigationService _navService;
+        UsuarioServices _UsuarioServices;
         #endregion
 
         #region CONSTRUCTOR
-        public RegistrarVM(INavigationService navService)
+        public RegistrarVM(INavigationService navService, UsuarioServices usuarioServices)
         {
             _navService = navService;
+            _UsuarioServices = usuarioServices;
         }
         #endregion
 
@@ -56,9 +60,28 @@ namespace CachaPlagas.View_model
                 await this.DisplayAlert("Error", "Las contraseñas no coinciden", "Aceptar");
                 return;
             }
-            else
+
+            try
             {
-                await this.DisplayAlert("Excelente", "Su cuenta ha sido creada", "Aceptar");
+                var usuarioDto = new CrearUsuarioDto
+                {
+                    email = Email,
+                    contrasena = Contrasena
+                };
+                bool resultado = await _UsuarioServices.AgregarUsuario(usuarioDto);
+                if(resultado)
+                {
+                    // Navegar a la siguiente página
+                    await _navService.PushAsync<LoginVM>();
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Error", "No se pudo crear la cuenta", "Aceptar");
+                }
+            }
+            catch
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "No se pudo crear la cuenta", "Aceptar");
             }
         }
         public async Task VolverPagina()

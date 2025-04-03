@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CachaPlagas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1465a9d70e4d4d4cefd900f9b539327806dc5d5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1fffe65671c1afe37da78fc8c08e83897c77892f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CachaPlagas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CachaPlagas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS17.5")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS11.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

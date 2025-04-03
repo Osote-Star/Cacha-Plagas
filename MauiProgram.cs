@@ -6,6 +6,7 @@ using CachaPlagas.View_model;
 using CommunityToolkit.Maui;
 
 using Microsoft.Extensions.Logging;
+using System.Net.Http.Headers;
 
 namespace CachaPlagas
 {
@@ -26,14 +27,18 @@ namespace CachaPlagas
                 });
 
             builder.Services.AddHttpClient<API_Connection>(client =>
-            {
-                client.BaseAddress = new Uri("https://6tcsdl1g-5086.usw3.devtunnels.ms/");
+            {      
+                client.BaseAddress = new Uri("https://szd264mf-5086.usw3.devtunnels.ms/");
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             });
 
             builder.Services.AddSingleton<INavigationService, NavigationService>();
             builder.Services.AddSingleton<JwtServices>(); 
             builder.Services.AddScoped<AgregrarTrampaVM>();
             builder.Services.AddScoped<AuthServices>();
+            builder.Services.AddScoped<UsuarioServices>();
+            builder.Services.AddScoped<CapturaServices>();
+
             // Registrar todas las Vistas (Pages)
             builder.Services.AddTransient<AgregarTrampa>();
             builder.Services.AddTransient<CambiarContrasena>();

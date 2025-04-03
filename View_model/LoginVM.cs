@@ -55,7 +55,7 @@ namespace CachaPlagas.View_model
                 var loginDto = new LoginDto
                 {
                     Email = Email,
-                    Password = Contrasena
+                    Contrasena = Contrasena
                 };  
                 bool tokenCorrecto = await _services.Login(loginDto);
                 if (tokenCorrecto)

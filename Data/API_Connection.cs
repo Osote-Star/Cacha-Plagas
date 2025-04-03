@@ -44,11 +44,19 @@ namespace CachaPlagas.Data
         /// <returns>La respuesta http</returns>
         public async Task<HttpResponseMessage> Post(string endpoint, object data, bool RequiresAuthentication)
         {
-            if(RequiresAuthentication)
+            try
             {
-                await SetAuthorizationHeader();
+                if(RequiresAuthentication)
+                {
+                    await SetAuthorizationHeader();
+                }
+                return await _httpClient.PostAsJsonAsync(endpoint, data);
+
             }
-            return await _httpClient.PostAsJsonAsync(endpoint, data);
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
         public async Task<HttpResponseMessage> Put(string endpoint, object data)
