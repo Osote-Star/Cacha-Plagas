@@ -38,6 +38,7 @@ namespace CachaPlagas
             builder.Services.AddScoped<AuthServices>();
             builder.Services.AddScoped<UsuarioServices>();
             builder.Services.AddScoped<CapturaServices>();
+            builder.Services.AddScoped<EmailService>();
 
             // Registrar todas las Vistas (Pages)
             builder.Services.AddTransient<AgregarTrampa>();

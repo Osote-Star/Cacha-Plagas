@@ -3,10 +3,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.View.CodigoContrasena"
-              NavigationPage.HasNavigationBar="False"
-             Title="CodigoContrasena">
+             NavigationPage.HasNavigationBar="False"
+             Title="Validar Código">
 
-    <!-- Fondo con gradiente como estaba antes -->
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#569dc7" Offset="0.0"/>
@@ -45,7 +44,6 @@
                 <Entry x:Name="Code1" MaxLength="1" Keyboard="Numeric"
                        FontSize="28" TextColor="Black"
                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                       Text="{Binding Codigo[0], Mode=TwoWay}"
                        TextChanged="OnCodeTextChanged"/>
             </Border>
             <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
@@ -55,7 +53,6 @@
                 <Entry x:Name="Code2" MaxLength="1" Keyboard="Numeric"
                        FontSize="28" TextColor="Black"
                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                       Text="{Binding Codigo[1], Mode=TwoWay}"
                        TextChanged="OnCodeTextChanged"/>
             </Border>
             <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
@@ -65,7 +62,6 @@
                 <Entry x:Name="Code3" MaxLength="1" Keyboard="Numeric"
                        FontSize="28" TextColor="Black"
                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                       Text="{Binding Codigo[2], Mode=TwoWay}"
                        TextChanged="OnCodeTextChanged"/>
             </Border>
             <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
@@ -75,7 +71,6 @@
                 <Entry x:Name="Code4" MaxLength="1" Keyboard="Numeric"
                        FontSize="28" TextColor="Black"
                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                       Text="{Binding Codigo[3], Mode=TwoWay}"
                        TextChanged="OnCodeTextChanged"/>
             </Border>
             <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
@@ -85,7 +80,6 @@
                 <Entry x:Name="Code5" MaxLength="1" Keyboard="Numeric"
                        FontSize="28" TextColor="Black"
                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                       Text="{Binding Codigo[4], Mode=TwoWay}"
                        TextChanged="OnCodeTextChanged"/>
             </Border>
             <Border StrokeThickness="0" BackgroundColor="White" WidthRequest="50" HeightRequest="60">
@@ -95,7 +89,6 @@
                 <Entry x:Name="Code6" MaxLength="1" Keyboard="Numeric"
                        FontSize="28" TextColor="Black"
                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                       Text="{Binding Codigo[5], Mode=TwoWay}"
                        TextChanged="OnCodeTextChanged"/>
             </Border>
         </HorizontalStackLayout>
@@ -111,7 +104,7 @@
                 WidthRequest="250"
                 HorizontalOptions="Center"
                 Margin="0,20,0,10"
-                Command="{Binding IrACambiarContrasena}"/>
+                Command="{Binding Validar}"/>
 
         <!-- Botón para reenviar código -->
         <Button Text="Reenviar código"
@@ -120,7 +113,8 @@
                 FontSize="14"
                 HorizontalOptions="Center"
                 Margin="0,5,0,0"
-                Command="{Binding ProcesoSimpcommand}"/>
+                Command="{Binding ReenviarCodigo}"/>
+
     </VerticalStackLayout>
 
 </ContentPage>

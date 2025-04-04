@@ -20,5 +20,7 @@ namespace CachaPlagas.Data.Interfaces
         Task PushModalAsync(Page page);
         Task PushModalAsync<TViewModel>() where TViewModel : BaseViewModel;
         Task PopModalAsync();
+
+        Task PushAsyncWithParameter<TViewModel>(string parameterName, object parameterValue) where TViewModel : BaseViewModel;
     }
 }

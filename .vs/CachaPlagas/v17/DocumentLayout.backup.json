@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,6 +66,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\mauinuevo\\cacha-plagas\\view_model\\recuperarcontrase\u00F1avm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\recuperarcontrase\u00F1avm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\mauinuevo\\cacha-plagas\\data\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\mauinuevo\\cacha-plagas\\view\\codigocontrasena.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\codigocontrasena.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\mauinuevo\\cacha-plagas\\view\\codigocontrasena.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\codigocontrasena.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\mauinuevo\\cacha-plagas\\view_model\\codigocontrasenavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\codigocontrasenavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\mauinuevo\\cacha-plagas\\data\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -124,6 +149,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "API_Connection.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Data\\API_Connection.cs",
@@ -297,8 +323,79 @@
               "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\DTOs\\LoginDto.cs",
               "RelativeToolTip": "DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+=======
+              "DocumentIndex": 2,
+              "Title": "CodigoContrasena.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View\\CodigoContrasena.xaml.cs",
+              "RelativeDocumentMoniker": "View\\CodigoContrasena.xaml.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View\\CodigoContrasena.xaml.cs",
+              "RelativeToolTip": "View\\CodigoContrasena.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:31:47.135Z"
+              "WhenOpened": "2025-04-04T03:38:09.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CodigoContrasena.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View\\CodigoContrasena.xaml",
+              "RelativeDocumentMoniker": "View\\CodigoContrasena.xaml",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View\\CodigoContrasena.xaml",
+              "RelativeToolTip": "View\\CodigoContrasena.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T03:36:59.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CodigoContrasenaVM.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View_model\\CodigoContrasenaVM.cs",
+              "RelativeDocumentMoniker": "View_model\\CodigoContrasenaVM.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View_model\\CodigoContrasenaVM.cs",
+              "RelativeToolTip": "View_model\\CodigoContrasenaVM.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAwGAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:30:29.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecuperarContrase\u00F1aVM.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View_model\\RecuperarContrase\u00F1aVM.cs",
+              "RelativeDocumentMoniker": "View_model\\RecuperarContrase\u00F1aVM.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\View_model\\RecuperarContrase\u00F1aVM.cs",
+              "RelativeToolTip": "View_model\\RecuperarContrase\u00F1aVM.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:24:44.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\Data\\Interfaces\\INavigationService.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\INavigationService.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\Data\\Interfaces\\INavigationService.cs",
+              "RelativeToolTip": "Data\\Interfaces\\INavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+>>>>>>> Stashed changes
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:24:09.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\Data\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\mauiNuevo\\Cacha-Plagas\\Data\\Services\\NavigationService.cs",
+              "RelativeToolTip": "Data\\Services\\NavigationService.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAiwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:23:46.671Z",
+              "EditorCaption": ""
             }
           ]
         }
