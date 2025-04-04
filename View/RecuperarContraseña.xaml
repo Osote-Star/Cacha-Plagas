@@ -47,6 +47,7 @@
                HorizontalOptions="Center"
                HasShadow="True">
             <Entry x:Name="emailEntry"
+                   Text="{Binding Email}"
                    Placeholder="Correo electrónico"
                    Keyboard="Email"
                    FontSize="16"

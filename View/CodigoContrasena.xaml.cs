@@ -4,41 +4,33 @@ namespace CachaPlagas.View;
 
 public partial class CodigoContrasena : ContentPage
 {
-	public CodigoContrasena(CodigoContrasenaVM viewModel)
-	{
-		InitializeComponent();
+    private CodigoContrasenaVM ViewModel => (CodigoContrasenaVM)BindingContext;
+
+    public CodigoContrasena(CodigoContrasenaVM viewModel)
+    {
+        InitializeComponent();
         BindingContext = viewModel;
     }
 
-    public void OnCodeTextChanged(object sender, TextChangedEventArgs e)
+    private void OnCodeTextChanged(object sender, TextChangedEventArgs e)
     {
-        var entry = sender as Entry;
-        if (entry != null && !string.IsNullOrEmpty(entry.Text) && entry.Text.Length == 1)
+        if (sender is Entry entry)
         {
-            switch (entry)
+            string newText = e.NewTextValue;
+            if (!string.IsNullOrEmpty(newText) && newText.Length == 1)
             {
-                case var _ when entry == Code1:
-                    Code2.Focus();
-                    break;
-                case var _ when entry == Code2:
-                    Code3.Focus();
-                    break;
-                case var _ when entry == Code3:
-                    Code4.Focus();
-                    break;
-                case var _ when entry == Code4:
-                    Code5.Focus();
-                    break;
-                case var _ when entry == Code5:
-                    Code6.Focus();
-                    break;
-                case var _ when entry == Code6:
-                    // Opcional: Ejecutar verificación al completar el último cuadro
-                    if (BindingContext is CachaPlagas.View_model.CodigoContrasenaVM vm)
-                    {
-                        vm.IrACambiarContrasena.Execute(null);
-                    }
-                    break;
+                // Encuentra el siguiente Entry
+                var entries = new[] { Code1, Code2, Code3, Code4, Code5, Code6 };
+                int currentIndex = Array.IndexOf(entries, entry);
+
+                if (currentIndex < entries.Length - 1)
+                {
+                    entries[currentIndex + 1].Focus();
+                }
+
+                // Construye el código completo
+                string code = string.Concat(entries.Select(e => e.Text));
+                ViewModel.Codigo = code;
             }
         }
     }

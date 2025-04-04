@@ -17,6 +17,7 @@ namespace CachaPlagas.Data.Services
             _services = services;
         }
 
+
         protected INavigation Navigation
         {
             get
@@ -147,6 +148,31 @@ namespace CachaPlagas.Data.Services
                               .FirstOrDefault(t => t != null);
 
             return viewType;
+        }
+        // Nuevo método para pasar el parámetro email explícitamente
+        public async Task PushAsyncWithParameter<TViewModel>(string parameterName, object parameterValue) where TViewModel : BaseViewModel
+        {
+            var page = ResolvePage(typeof(TViewModel));
+            var viewModel = _services.GetService<TViewModel>() as TViewModel; // Casteo explícito
+
+            if (viewModel != null)
+            {
+                // Pasar el parámetro al ViewModel
+                var parameters = new Dictionary<string, object> { { parameterName, parameterValue } };
+                await viewModel.OnNavigatingTo(parameters); // Llamada explícita
+                page.BindingContext = viewModel; // Asignar después de inicializar
+            }
+            else
+            {
+                throw new Exception($"Unable to resolve view model {typeof(TViewModel).Name}");
+            }
+
+            await Navigation.PushAsync(page);
+
+            if (page.BindingContext is BaseViewModel viewModelAfterNavigation)
+            {
+                await viewModelAfterNavigation.OnNavigatedTo();
+            }
         }
     }
 }

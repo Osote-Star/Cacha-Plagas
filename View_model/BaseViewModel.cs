@@ -94,5 +94,6 @@ namespace CachaPlagas.View_model
 
             OnPropertyChanged(propertyName);
         }
+
     }
 }
