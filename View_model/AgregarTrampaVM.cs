@@ -4,6 +4,8 @@ using CachaPlagas.Model;
 using System;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using System.IdentityModel.Tokens.Jwt; // Para JwtSecurityTokenHandler
+using Microsoft.Maui.Storage; // Para SecureStorage
 
 namespace CachaPlagas.View_model
 {
@@ -15,6 +17,7 @@ namespace CachaPlagas.View_model
         private ImageSource _imagen;
         private string _codigo;
         private bool _frameVisible;
+        private int _trampaId; // ID de la trampa encontrada
         private readonly TrampaService _services;
         private readonly INavigationService _navService;
         #endregion
@@ -60,17 +63,17 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region PROCESOS
-        public async Task ValidarTrampa()
+        public async Task BuscarTrampa()
         {
             if (string.IsNullOrWhiteSpace(Codigo))
             {
-                await DisplayAlert("Error", "Por favor, ingrese un ID válido.", "OK");
+                await DisplayAlert("Error", "Por favor, ingrese un codigo válido.", "OK");
                 return;
             }
 
             if (!int.TryParse(Codigo, out int trampaId))
             {
-                await DisplayAlert("Error", "El ID debe ser un número válido.", "OK");
+                await DisplayAlert("Error", "El codigo debe ser un número válido.", "OK");
                 return;
             }
 
@@ -80,6 +83,7 @@ namespace CachaPlagas.View_model
 
                 if (trampa != null)
                 {
+                    _trampaId = trampaId; // Guardar el ID de la trampa encontrada
                     Id = $"ID: {trampa.IdTrampa}";
                     Modelo = $"MODELO: {trampa.Modelo}";
                     string imageBaseUrl = "https://szd264mf-5086.usw3.devtunnels.ms/images/";
@@ -98,7 +102,7 @@ namespace CachaPlagas.View_model
                 }
                 else
                 {
-                    await DisplayAlert("Error", "No se encontró la trampa con ese ID.", "OK");
+                    await DisplayAlert("Error", "No se encontró la trampa con ese codigo o ya está vinculada.", "OK");
                     FrameVisible = false;
                 }
             }
@@ -111,19 +115,70 @@ namespace CachaPlagas.View_model
 
         public async Task AgregarTrampa()
         {
-            // Por ahora, no hace nada
-            // Puedes dejarlo vacío o agregar un mensaje temporal si quieres
-            await Task.CompletedTask; // Para cumplir con la firma async
+            if (_trampaId == 0) // Verificar que haya una trampa válida seleccionada
+            {
+                await DisplayAlert("Error", "Primero debe buscar una trampa válida.", "OK");
+                return;
+            }
+
+            try
+            {
+                int usuarioId = await ObtenerUsuarioID(); // Obtener el ID del usuario autenticado
+                if (usuarioId == 0)
+                {
+                    await DisplayAlert("Error", "No se pudo obtener el ID del usuario. Por favor, inicie sesión nuevamente.", "OK");
+                    return;
+                }
+
+                // Vincular la trampa al usuario
+                TrampaModel? trampaVinculada = await _services.VincularTrampa(_trampaId, usuarioId);
+
+                if (trampaVinculada != null)
+                {
+                    await DisplayAlert("Éxito", $"Trampa agregada con exito", "OK");
+                    FrameVisible = false; // Ocultar el popup
+                    Codigo = string.Empty; // Limpiar el campo de entrada
+                }
+                else
+                {
+                    await DisplayAlert("Error", "No se pudo vincular la trampa.", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", $"Ocurrió un error al vincular la trampa: {ex.Message}", "OK");
+            }
         }
 
         public async Task VolverAtras()
         {
             await _navService.PopAsync();
         }
+
+        private async Task<int> ObtenerUsuarioID()
+        {
+            try
+            {
+                var jwtToken = await SecureStorage.GetAsync("jwt_token");
+                if (string.IsNullOrEmpty(jwtToken)) return 0;
+
+                var handler = new JwtSecurityTokenHandler();
+                var token = handler.ReadJwtToken(jwtToken);
+
+                var claimUsuarioID = token.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
+
+                return claimUsuarioID != null ? int.Parse(claimUsuarioID.Value) : 0;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al obtener el ID del usuario: {ex.Message}");
+                return 0;
+            }
+        }
         #endregion
 
         #region COMANDOS
-        public ICommand Validar => new Command(async () => await ValidarTrampa());
+        public ICommand Validar => new Command(async () => await BuscarTrampa());
         public ICommand AgregarCommand => new Command(async () => await AgregarTrampa());
         public ICommand Volver => new Command(async () => await VolverAtras());
         #endregion

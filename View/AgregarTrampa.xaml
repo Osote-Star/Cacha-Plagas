@@ -27,7 +27,7 @@
                TextColor="Black"
                HorizontalOptions="Center"/>
 
-        <Label Text="Ingrese el ID de la trampa"
+        <Label Text="Ingrese el codigo de la trampa"
                FontSize="18"
                TextColor="Black"
                HorizontalOptions="Center"
@@ -41,7 +41,7 @@
                HasShadow="True">
             <Entry x:Name="codigoEntry"
                    Keyboard="Numeric" 
-                   Placeholder="ID"
+                   Placeholder="Codigo"
                    FontSize="16"
                    PlaceholderColor="Gray"
                    TextColor="Black"

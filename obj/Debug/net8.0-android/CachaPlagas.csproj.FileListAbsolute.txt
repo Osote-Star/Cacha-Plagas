@@ -7303,3 +7303,4 @@ C:\Users\marti\Desktop\asdsa\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_Genera
 C:\Users\marti\Desktop\asdsa\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\marti\Desktop\asdsa\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\marti\Desktop\asdsa\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\r\drawable\trampa.png
+C:\Users\marti\Desktop\asdsa\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\r\drawable\trampa2.png
