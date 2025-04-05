@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CachaPlagas.View.CambiarContrasena"
-             Title="CambiarContrasena">
+             Title="Cambiar Contraseña">
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#569dc7" Offset="0.0"/>
@@ -13,43 +13,55 @@
     <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="12" Padding="0,39,0,0">
 
         <Label Text="Recuperar Contraseña" 
-        TextColor="Black"
-        FontSize="30"
-        HorizontalTextAlignment="Center"
-        FontAttributes="Bold"
-        Padding="0,0,0,5"/>
+               TextColor="Black"
+               FontSize="30"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"
+               Padding="0,0,0,5"/>
+
+        <Label Text="Ingrese su correo electrónico" FontSize="17" TextColor="Black" FontAttributes="Bold"/>
+        <Grid>
+            <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
+            <Entry Placeholder="Correo Electrónico"
+                   BackgroundColor="Transparent"
+                   Margin="10,0"
+                   VerticalOptions="Center"
+                   TextColor="Black"
+                   Text="{Binding Email}"/>
+        </Grid>
 
         <Label Text="Ingrese la nueva contraseña" FontSize="17" TextColor="Black" FontAttributes="Bold"/>
         <Grid>
             <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
             <Entry Placeholder="Contraseña"
-             BackgroundColor="Transparent"
-             Margin="10,0"
-             VerticalOptions="Center"
-             TextColor="Black"
-             Text="{Binding Contrasena}"/>
+                   BackgroundColor="Transparent"
+                   Margin="10,0"
+                   VerticalOptions="Center"
+                   TextColor="Black"
+                   IsPassword="True"
+                   Text="{Binding Contrasena}"/>
         </Grid>
 
         <Label Text="Confirme su Contraseña" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
         <Grid>
             <BoxView BackgroundColor="LightCyan" CornerRadius="10" HeightRequest="40"/>
-            <Entry Placeholder="Contraseña"
-             IsPassword="True"
-             BackgroundColor="Transparent"
-             Margin="10,0"
-             VerticalOptions="Center"
-             TextColor="Black"
-             Text="{Binding ContrasenaRepetida}"/>
+            <Entry Placeholder="Confirmar Contraseña"
+                   IsPassword="True"
+                   BackgroundColor="Transparent"
+                   Margin="10,0"
+                   VerticalOptions="Center"
+                   TextColor="Black"
+                   Text="{Binding ContrasenaRepetida}"/>
         </Grid>
 
         <Button Text="Cambiar Contraseña"
-         HorizontalOptions="Center"
-         BackgroundColor="#61b0ff"
-         FontAttributes="Bold"
-         TextColor="White"
-         BorderColor="Black"
-         BorderWidth="1"
-         Command="{Binding ActualizarContrasena}"/>
+                HorizontalOptions="Center"
+                BackgroundColor="#61b0ff"
+                FontAttributes="Bold"
+                TextColor="White"
+                BorderColor="Black"
+                BorderWidth="1"
+                Command="{Binding ActualizarContrasena}"/>
 
         <Label Padding="0,8,0,11" HorizontalOptions="Center">
             <Label.FormattedText>

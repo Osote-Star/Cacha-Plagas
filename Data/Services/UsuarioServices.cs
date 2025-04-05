@@ -29,5 +29,22 @@ namespace CachaPlagas.Data.Services
                 return false;
             }
         }
+
+        public async Task <bool> CambiarContrasena(CambiarContrasenaDto cambiarContrasenaDto)
+        {
+            try
+            {
+                var response = await _Connection.Put("/api/Usuarios/CambiarContrasena", cambiarContrasenaDto);
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

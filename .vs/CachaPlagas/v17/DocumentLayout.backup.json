@@ -1,46 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\ricardo\\cacha-plagas\\view\\cambiarcontrasena.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\cambiarcontrasena.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\dtos\\vinculartrampadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\vinculartrampadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\ricardo\\cacha-plagas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\ricardo\\cacha-plagas\\view_model\\cambiarcontrasenavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\cambiarcontrasenavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\ricardo\\cacha-plagas\\dtos\\cambiarcontrasenadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\cambiarcontrasenadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\model\\capturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\capturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\marti\\desktop\\asdsa\\cacha-plagas\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\rodri\\desktop\\ricardo\\cacha-plagas\\data\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,61 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AgregarTrampaVM.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\View_model\\AgregarTrampaVM.cs",
-              "RelativeDocumentMoniker": "View_model\\AgregarTrampaVM.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\View_model\\AgregarTrampaVM.cs",
-              "RelativeToolTip": "View_model\\AgregarTrampaVM.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAA8wAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:00:34.678Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrampaServices.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Data\\Services\\TrampaServices.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\TrampaServices.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Data\\Services\\TrampaServices.cs",
-              "RelativeToolTip": "Data\\Services\\TrampaServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:50:10.407Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VincularTrampaDto.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\DTOs\\VincularTrampaDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\VincularTrampaDto.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\DTOs\\VincularTrampaDto.cs",
-              "RelativeToolTip": "DTOs\\VincularTrampaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T07:36:04.082Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AgregarTrampa.xaml",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\View\\AgregarTrampa.xaml",
-              "RelativeDocumentMoniker": "View\\AgregarTrampa.xaml",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\View\\AgregarTrampa.xaml",
-              "RelativeToolTip": "View\\AgregarTrampa.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T18:55:33.364Z",
-              "IsPinned": true
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -116,10 +46,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
@@ -127,76 +53,73 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T23:41:09.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CambiarContrasena.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\View\\CambiarContrasena.xaml",
+              "RelativeDocumentMoniker": "View\\CambiarContrasena.xaml",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\View\\CambiarContrasena.xaml",
+              "RelativeToolTip": "View\\CambiarContrasena.xaml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T23:28:56.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CambiarContrasenaVM.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\View_model\\CambiarContrasenaVM.cs",
+              "RelativeDocumentMoniker": "View_model\\CambiarContrasenaVM.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\View_model\\CambiarContrasenaVM.cs",
+              "RelativeToolTip": "View_model\\CambiarContrasenaVM.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T23:28:32.865Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABaAAAAAAAAAA==",
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\Data\\Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\UsuarioServices.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\Data\\Services\\UsuarioServices.cs",
+              "RelativeToolTip": "Data\\Services\\UsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:41:50.132Z"
+              "WhenOpened": "2025-04-04T23:25:51.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "API_Connection.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Data\\API_Connection.cs",
-              "RelativeDocumentMoniker": "Data\\API_Connection.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Data\\API_Connection.cs",
-              "RelativeToolTip": "Data\\API_Connection.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CambiarContrasenaDto.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\DTOs\\CambiarContrasenaDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CambiarContrasenaDto.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\Ricardo\\Cacha-Plagas\\DTOs\\CambiarContrasenaDto.cs",
+              "RelativeToolTip": "DTOs\\CambiarContrasenaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:32:08.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TrampaModel.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Model\\TrampaModel.cs",
-              "RelativeDocumentMoniker": "Model\\TrampaModel.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Model\\TrampaModel.cs",
-              "RelativeToolTip": "Model\\TrampaModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:43:02.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Model\\UsuarioModel.cs",
-              "RelativeDocumentMoniker": "Model\\UsuarioModel.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Model\\UsuarioModel.cs",
-              "RelativeToolTip": "Model\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:45:05.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CapturaModel.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Model\\CapturaModel.cs",
-              "RelativeDocumentMoniker": "Model\\CapturaModel.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\Model\\CapturaModel.cs",
-              "RelativeToolTip": "Model\\CapturaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:45:30.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\asdsa\\Cacha-Plagas\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:31:47.135Z"
+              "WhenOpened": "2025-04-04T23:25:10.824Z",
+              "EditorCaption": ""
             }
           ]
         }
