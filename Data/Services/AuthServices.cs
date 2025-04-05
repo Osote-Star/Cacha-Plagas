@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json;
+using JWT.Serializers;
+using JWT;
 
 namespace CachaPlagas.Data.Services
 {

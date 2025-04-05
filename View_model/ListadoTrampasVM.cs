@@ -1,9 +1,13 @@
 ﻿using CachaPlagas.Data.Interfaces;
-using CachaPlagas.View;
+using CachaPlagas.Data.Services;
+using CachaPlagas.Model;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Collections.ObjectModel;
+using System.Globalization;
+using System.IdentityModel.Tokens.Jwt;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -12,33 +16,66 @@ namespace CachaPlagas.View_model
     public class ListadoTrampasVM : BaseViewModel
     {
         #region VARIABLES
-        string _Email;
-        string _Contrasena;
+        private readonly TrampaService _trampaService;
+        private ObservableCollection<TrampaModel> _trampas;
         private readonly INavigationService _navService;
 
         #endregion
 
         #region CONSTRUCTOR
-        public ListadoTrampasVM(INavigationService navService)
+        public ListadoTrampasVM(INavigationService navService, TrampaService trampaServices)
         {
             _navService = navService;
+            _trampaService = trampaServices;
+            Trampas = new ObservableCollection<TrampaModel>();
+
+            // Cargar datos automáticamente al iniciar
+            _ = CargarTrampas(); // Reemplaza con el ID del usuario
         }
         #endregion
 
         #region OBJETOS
-        public string algo
+        public ObservableCollection<TrampaModel> Trampas
         {
-            get { return _Email; }
-            set { SetValue(ref _Email, value); }
-        }
-        public string Contrasena
-        {
-            get { return _Contrasena; }
-            set { SetValue(ref _Contrasena, value); }
+            get => _trampas;
+            set => SetProperty(ref _trampas, value);
         }
         #endregion
 
         #region PROCESOS
+        private int ObtenerUsuarioID()
+        {
+            var jwtToken = SecureStorage.GetAsync("jwt_token").Result;
+            if (string.IsNullOrEmpty(jwtToken)) return 0;
+
+            var handler = new JwtSecurityTokenHandler();
+            var token = handler.ReadJwtToken(jwtToken);
+
+            var claimUsuarioID = token.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
+
+            return claimUsuarioID != null ? int.Parse(claimUsuarioID.Value) : 0;
+
+        }
+        private async Task CargarTrampas()
+        {
+            int usuarioID = ObtenerUsuarioID(); // Método para obtener el ID del usuario
+            var trampas = await _trampaService.GetTrampas(usuarioID); // Obtener todas las trampas
+
+            if (trampas != null && trampas.Any()) // Verifica que haya trampas
+            {
+                Trampas.Clear();
+                foreach (var trampa in trampas)
+                {
+                    // Solo asignamos los tres valores necesarios
+                    Trampas.Add(new TrampaModel
+                    {
+                        Modelo = trampa.Modelo,
+                        Imagen = trampa.Imagen,
+                        EstatusSensor = trampa.EstatusSensor
+                    });
+                }
+            }
+        }
         public async Task agregar()
         {
             await _navService.PushAsync<AgregarTrampaVM>();
