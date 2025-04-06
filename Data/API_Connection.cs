@@ -12,7 +12,7 @@ namespace CachaPlagas.Data
 {
     public class API_Connection
     {
-        public  readonly HttpClient _httpClient;
+        public readonly HttpClient _httpClient;
         private readonly JwtServices _JwtServices;
 
         public API_Connection(HttpClient httpClient, JwtServices JwtServices)
@@ -46,7 +46,7 @@ namespace CachaPlagas.Data
         {
             try
             {
-                if(RequiresAuthentication)
+                if (RequiresAuthentication)
                 {
                     await SetAuthorizationHeader();
                 }

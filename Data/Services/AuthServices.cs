@@ -1,11 +1,11 @@
-﻿using CachaPlagas.DTOs;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json;
+using CachaPlagas.DTOs;
 
 namespace CachaPlagas.Data.Services
 {
@@ -21,17 +21,27 @@ namespace CachaPlagas.Data.Services
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
-                    var token = JsonSerializer.Deserialize<string>(json);
-                    await SecureStorage.SetAsync("jwt_token", token);
-                    return true;
+
+                    var authResponse = JsonSerializer.Deserialize<AuthTokenResponse>(json, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+
+                    if (authResponse != null)
+                    {
+                        await SecureStorage.SetAsync("jwt_token", authResponse.AccessToken);
+                        await SecureStorage.SetAsync("refresh_token", authResponse.RefreshToken);
+                        return true;
+                    }
                 }
                 return false;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
         }
+
 
         public async Task<bool> Logout()
         {
@@ -41,7 +51,7 @@ namespace CachaPlagas.Data.Services
                 if (!response.IsSuccessStatusCode)
                     return false;
                 await SecureStorage.SetAsync("jwt_token", string.Empty);
-               // await SecureStorage.SetAsync("refresh_token", string.Empty);
+                await SecureStorage.SetAsync("refresh_token", string.Empty);
                 return true;
             }
             catch (Exception ex)

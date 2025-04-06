@@ -9,5 +9,10 @@ public partial class ListadoTrampas : ContentPage
 		InitializeComponent();
 
         BindingContext = viewModel;
+
+
+
     }
+
+
 }
