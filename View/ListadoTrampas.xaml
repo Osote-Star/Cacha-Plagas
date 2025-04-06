@@ -16,10 +16,10 @@
     <Grid RowDefinitions="Auto, Auto, *" Padding="10">
 
         <!-- Header -->
-        <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="15">
+        <Grid ColumnDefinitions="Auto, *, Auto, Auto, *" RowDefinitions="Auto" Padding="15">
             <ImageButton Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="45" Command="{Binding Logout}" />
 
-            <ImageButton Grid.Column="2" Source="https://i.ibb.co/wrBhkgYk/usuario.png" HeightRequest="45" Command="{Binding IrAHistorialCapturas}"/>
+            <ImageButton Grid.Column="5" Source="bell.png" HeightRequest="45" Command="{Binding IrAHistorialCapturas}"/>
 
 
         </Grid>
@@ -35,7 +35,7 @@
                     <Label Grid.Column="0" Text="Trampa 1" FontSize="16" HorizontalOptions="Center"/>
                     <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
                 </Grid>
-                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80">
+                <Image Source="ratTrap.png" HeightRequest="80">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding Trampa}" />
                     </Image.GestureRecognizers>
@@ -49,9 +49,9 @@
             <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
                 <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
                     <Label Grid.Column="0" Text="Trampa 2" FontSize="16" HorizontalOptions="Center"/>
-                    <Image Grid.Column="1" Source="https://i.ibb.co/YFJNpFDJ/eliminar.png" HeightRequest="15"/>
+                    <Image Grid.Column="1" Source="rattrap.png" HeightRequest="15"/>
                 </Grid>
-                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <Image Source="ratTrap.png" HeightRequest="80"/>
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
                 </HorizontalStackLayout>
@@ -60,9 +60,9 @@
             <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
                 <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
                     <Label Grid.Column="0" Text="Trampa 3" FontSize="16" HorizontalOptions="Center"/>
-                    <Image Grid.Column="1" Source="https://i.ibb.co/YFJNpFDJ/eliminar.png" HeightRequest="15"/>
+                    <Image Grid.Column="1" Source="rattrap.png" HeightRequest="15"/>
                 </Grid>
-                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <Image Source="rattrap.png" HeightRequest="80"/>
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
                 </HorizontalStackLayout>
@@ -74,7 +74,7 @@
                     <Label Grid.Column="0" Text="Trampa 4" FontSize="16" HorizontalOptions="Center"/>
                     <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
                 </Grid>
-                <Image Source="https://i.ibb.co/rXny5kt/Trampa-removebg-preview.png" HeightRequest="80"/>
+                <Image Source="rattrap.png" HeightRequest="80"/>
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
                 </HorizontalStackLayout>

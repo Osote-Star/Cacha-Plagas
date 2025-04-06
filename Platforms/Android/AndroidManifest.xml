@@ -1,6 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true"></application>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tudominio.cachaplagas">
+	<!-- Asegúrate de que coincida con tu ApplicationId -->
+
+	<application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="Cacha Plagas"
+        android:supportsRtl="true">
+
+		<!-- Actividad principal (requerida en MAUI) -->
+		<activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Maui.SplashTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+			<!-- Deep Linking: Captura URLs como miapp:// -->
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="miapp" android:host="auth" />
+			</intent-filter>
+		</activity>
+
+	</application>
+
 	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
