@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Prism.Events;
+using CachaPlagas.DTOs;
 
 
 namespace CachaPlagas.View_model
@@ -21,10 +23,14 @@ namespace CachaPlagas.View_model
         string _Contrasena;
         private AuthServices _services;
         private INavigationService _navService;
+        private readonly IEventAggregator _eventAggregator;
+        private readonly ListadoTrampasVM _listadoTrampasVM;
+
+        private bool _estatusSensor;
         #endregion
 
         #region CONSTRUCTOR
-        public VerTrampaVM(INavigationService navigationService)
+        public VerTrampaVM(INavigationService navigationService, IEventAggregator eventAggregator, ListadoTrampasVM listadoTrampasVM)
         {
             _services = null;
             _navService = navigationService;       
@@ -32,6 +38,11 @@ namespace CachaPlagas.View_model
             ButtonColorDoor = Color.FromArgb("#4CAF50");
             ButtonImageSensor = ImageSource.FromFile("onsensor.png");
             ButtonColorSensor = Color.FromArgb("#4CAF50");
+
+
+            _eventAggregator = eventAggregator;
+            _estatusSensor = true;
+            _listadoTrampasVM = listadoTrampasVM;
 
         }
         #endregion
@@ -97,6 +108,8 @@ namespace CachaPlagas.View_model
 
         public async Task AlterarSensor()
         {
+            _estatusSensor = !_estatusSensor;
+
             if (ButtonColorSensor.Equals(Color.FromArgb("#FF5252")))
             {
                 ButtonImageSensor = ImageSource.FromFile("onsensor.png");
@@ -107,6 +120,13 @@ namespace CachaPlagas.View_model
                 ButtonImageSensor = ImageSource.FromFile("offsensor.png");
                 ButtonColorSensor = Color.FromArgb("#FF5252");
             }
+
+            _eventAggregator.GetEvent<SensorStateChangedEvent>().Publish(new SensorStateChangedEvent
+            {
+                Modelo = "SuperTrampaX",  // Sustituye con el modelo real de la trampa
+                EstatusSensor = _estatusSensor
+            });
+
         }
         public void ProcesoSimple()
         {

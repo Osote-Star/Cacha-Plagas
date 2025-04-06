@@ -14,5 +14,7 @@ namespace CachaPlagas
             // Configura la MainPage con NavigationPage
             MainPage = new NavigationPage(loginPage);
         }
+
+
     }
 }

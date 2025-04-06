@@ -195,3 +195,4 @@ C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\CachaPlagas.csproj.AssemblyReference.cache

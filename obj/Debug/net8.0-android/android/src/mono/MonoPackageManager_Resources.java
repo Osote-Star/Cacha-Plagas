@@ -30,6 +30,9 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"Prism.Container.Abstractions.dll",
+		"Prism.dll",
+		"Prism.Events.dll",
 		"Syncfusion.Licensing.dll",
 		"Syncfusion.Maui.Charts.dll",
 		"Syncfusion.Maui.Core.dll",
@@ -171,9 +174,6 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
-		"Microsoft.Maui.Controls.HotReload.Forms.dll",
-		"Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll",
-		"Microsoft.VisualStudio.DesignTools.TapContract.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};
 	public static String[] Dependencies = new String[]{

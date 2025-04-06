@@ -29,6 +29,18 @@ namespace CachaPlagas.Data.Services
             return null;
         }
 
+        public async Task<List<TrampaModel>> GetTrampas(int usuarioID)
+        {
+            var response = await _connection.Get($"api/Trampa/Buscar-las-trampas-del-usuario/{usuarioID}");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var trampas = JsonSerializer.Deserialize<List<TrampaModel>>(content); // Deserialize como lista
+                return trampas ?? new List<TrampaModel>(); // Retorna una lista vacía si es nulo
+            }
+            return new List<TrampaModel>(); // Retorna una lista vacía en caso de error
+        }
+
         // Vincular una trampa a un usuario
         public async Task<TrampaModel?> VincularTrampa(int trampaId, int usuarioId)
         {
