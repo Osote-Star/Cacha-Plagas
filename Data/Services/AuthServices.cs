@@ -30,7 +30,7 @@ namespace CachaPlagas.Data.Services
                     if (authResponse != null)
                     {
                         await SecureStorage.SetAsync("jwt_token", authResponse.AccessToken);
-                        //await SecureStorage.SetAsync("refresh_token", authResponse.RefreshToken);
+                        await SecureStorage.SetAsync("refresh_token", authResponse.RefreshToken);
                         return true;
                     }
                 }
@@ -43,41 +43,6 @@ namespace CachaPlagas.Data.Services
         }
 
 
-        //public async Task<bool> RefreshTokenAsync()
-        //{
-        //    try
-        //    {
-        //        var refreshToken = await SecureStorage.GetAsync("refresh_token");
-
-        //        if (string.IsNullOrEmpty(refreshToken))
-        //            return false;
-
-        //        var content = new StringContent(JsonSerializer.Serialize(refreshToken), Encoding.UTF8, "application/json");
-
-        //        var response = await _connection.Post("api/Auth/Refresh", content, false);
-
-        //        if (response.IsSuccessStatusCode)
-        //        {
-        //            var json = await response.Content.ReadAsStringAsync();
-        //            var authResponse = JsonSerializer.Deserialize<AuthTokenResponse>(json);
-
-        //            if (authResponse is not null)
-        //            {
-        //                await SecureStorage.SetAsync("jwt_token", authResponse.AccessToken);
-        //                //await SecureStorage.SetAsync("refresh_token", authResponse.RefreshToken);
-        //                return true;
-        //            }
-        //        }
-
-        //        return false;
-        //    }
-        //    catch
-        //    {
-        //        return false;
-        //    }
-        //}
-
-
         public async Task<bool> Logout()
         {
             try
@@ -86,7 +51,7 @@ namespace CachaPlagas.Data.Services
                 if (!response.IsSuccessStatusCode)
                     return false;
                 await SecureStorage.SetAsync("jwt_token", string.Empty);
-               // await SecureStorage.SetAsync("refresh_token", string.Empty);
+                await SecureStorage.SetAsync("refresh_token", string.Empty);
                 return true;
             }
             catch (Exception ex)

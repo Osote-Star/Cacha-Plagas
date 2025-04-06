@@ -16,13 +16,6 @@
     <!-- Quitamos el Padding del Grid principal -->
     <Grid RowDefinitions="Auto, *, Auto">
 
-<<<<<<< HEAD
-        <!-- Header -->
-        <Grid ColumnDefinitions="Auto, *, Auto, Auto, *" RowDefinitions="Auto" Padding="15">
-            <ImageButton Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="45" Command="{Binding Logout}" />
-
-            <ImageButton Grid.Column="5" Source="bell.png" HeightRequest="45" Command="{Binding IrAHistorialCapturas}"/>
-=======
         <!-- Header sin padding -->
         <Grid Grid.Row="0" BackgroundColor="White" HeightRequest="60" Margin="0,0,0,30">
             <Grid.ColumnDefinitions>
@@ -33,7 +26,6 @@
 
             <ImageButton Grid.Column="0" Source="cerrar_sesion.png" HeightRequest="40" WidthRequest="40"
                  VerticalOptions="Center" Margin="10,0" Command="{Binding LogoutCommand}"/>
->>>>>>> 02f40f29ba75977049d2d7e5bb9096e282dc6cef
 
             <Label Grid.Column="1" Text="Listado de Trampas" FontSize="20" FontAttributes="Bold"
            HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
@@ -65,62 +57,6 @@
                                 </Image>
                             </HorizontalStackLayout>
 
-<<<<<<< HEAD
-            <!-- Trampa 1 -->
-            <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
-                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
-                    <Label Grid.Column="0" Text="Trampa 1" FontSize="16" HorizontalOptions="Center"/>
-                    <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
-                </Grid>
-                <Image Source="ratTrap.png" HeightRequest="80">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding Trampa}" />
-                    </Image.GestureRecognizers>
-                </Image>
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
-
-            <!-- Trampa 2 -->
-            <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
-                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
-                    <Label Grid.Column="0" Text="Trampa 2" FontSize="16" HorizontalOptions="Center"/>
-                    <Image Grid.Column="1" Source="rattrap.png" HeightRequest="15"/>
-                </Grid>
-                <Image Source="ratTrap.png" HeightRequest="80"/>
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
-            <!-- Trampa 3 -->
-            <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
-                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
-                    <Label Grid.Column="0" Text="Trampa 3" FontSize="16" HorizontalOptions="Center"/>
-                    <Image Grid.Column="1" Source="rattrap.png" HeightRequest="15"/>
-                </Grid>
-                <Image Source="rattrap.png" HeightRequest="80"/>
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
-
-            <!-- Trampa 4 -->
-            <VerticalStackLayout Grid.Row="1" Grid.Column="1" HorizontalOptions="Center">
-                <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
-                    <Label Grid.Column="0" Text="Trampa 4" FontSize="16" HorizontalOptions="Center"/>
-                    <Image Grid.Column="1" Source="https://i.ibb.co/S4TRvyMz/comprobado.png" HeightRequest="15"/>
-                </Grid>
-                <Image Source="rattrap.png" HeightRequest="80"/>
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Button HeightRequest="25" Text="RP-V3" FontSize="12" Padding="5" BackgroundColor="SteelBlue"/>
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
-
-        </Grid>
-
-        <Button Grid.Row="3" Text="Agregar" BackgroundColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="50" Command="{Binding Agregar}"/>
-=======
                             <Image Source="{Binding Imagen}" HeightRequest="80" WidthRequest="80" Margin="0,10,0,10">
                                 <Image.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding BindingContext.Trampa, Source={RelativeSource AncestorType={x:Type ContentPage}}}" 
@@ -132,7 +68,6 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
->>>>>>> 02f40f29ba75977049d2d7e5bb9096e282dc6cef
 
         <!-- Botón Agregar -->
         <Button Grid.Row="2" Text="Agregar" BackgroundColor="#569dc7" TextColor="White" FontAttributes="Bold" 

@@ -28,16 +28,16 @@ namespace CachaPlagas
 
             builder.Services.AddHttpClient<API_Connection>(client =>
             {      
-<<<<<<< HEAD
-                client.BaseAddress = new Uri("https://szd264mf-5086.usw3.devtunnels.ms/");
-=======
-                client.BaseAddress = new Uri("https://xcdrzvgc-5086.usw3.devtunnels.ms/");
->>>>>>> 02f40f29ba75977049d2d7e5bb9096e282dc6cef
+                client.BaseAddress = new Uri("https://jgqvrw0w-5086.usw3.devtunnels.ms/");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             });
+            builder.Services.AddHttpClient<JwtServices>(client =>
+            {
+                client.BaseAddress = new Uri("https://jgqvrw0w-5086.usw3.devtunnels.ms/");
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            }); 
             builder.Services.AddSingleton<IEventAggregator, EventAggregator>();
             builder.Services.AddSingleton<INavigationService, NavigationService>();
-            builder.Services.AddSingleton<JwtServices>(); 
             builder.Services.AddScoped<TrampaService>();
             builder.Services.AddScoped<AuthServices>();
             builder.Services.AddScoped<UsuarioServices>();
