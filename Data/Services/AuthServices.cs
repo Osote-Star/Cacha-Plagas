@@ -1,11 +1,11 @@
-﻿using CachaPlagas.DTOs;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json;
+using CachaPlagas.DTOs;
 
 namespace CachaPlagas.Data.Services
 {
@@ -21,17 +21,62 @@ namespace CachaPlagas.Data.Services
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
-                    var token = JsonSerializer.Deserialize<string>(json);
-                    await SecureStorage.SetAsync("jwt_token", token);
-                    return true;
+
+                    var authResponse = JsonSerializer.Deserialize<AuthTokenResponse>(json, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+
+                    if (authResponse != null)
+                    {
+                        await SecureStorage.SetAsync("jwt_token", authResponse.AccessToken);
+                        //await SecureStorage.SetAsync("refresh_token", authResponse.RefreshToken);
+                        return true;
+                    }
                 }
                 return false;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
         }
+
+
+        //public async Task<bool> RefreshTokenAsync()
+        //{
+        //    try
+        //    {
+        //        var refreshToken = await SecureStorage.GetAsync("refresh_token");
+
+        //        if (string.IsNullOrEmpty(refreshToken))
+        //            return false;
+
+        //        var content = new StringContent(JsonSerializer.Serialize(refreshToken), Encoding.UTF8, "application/json");
+
+        //        var response = await _connection.Post("api/Auth/Refresh", content, false);
+
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            var json = await response.Content.ReadAsStringAsync();
+        //            var authResponse = JsonSerializer.Deserialize<AuthTokenResponse>(json);
+
+        //            if (authResponse is not null)
+        //            {
+        //                await SecureStorage.SetAsync("jwt_token", authResponse.AccessToken);
+        //                //await SecureStorage.SetAsync("refresh_token", authResponse.RefreshToken);
+        //                return true;
+        //            }
+        //        }
+
+        //        return false;
+        //    }
+        //    catch
+        //    {
+        //        return false;
+        //    }
+        //}
+
 
         public async Task<bool> Logout()
         {

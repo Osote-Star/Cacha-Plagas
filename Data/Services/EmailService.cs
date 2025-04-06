@@ -1,5 +1,4 @@
 ﻿using CachaPlagas.DTOs;
-using Org.Apache.Http.Client;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;

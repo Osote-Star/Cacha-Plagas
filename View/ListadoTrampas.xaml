@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CachaPlagas.View.ListadoTrampas"
              xmlns:local="clr-namespace:CachaPlagas.View_model"
+             x:Class="CachaPlagas.View.ListadoTrampas"
              NavigationPage.HasNavigationBar="False"
              Title="ListadoTrampas">
 
@@ -13,22 +13,59 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
-    <Grid RowDefinitions="Auto, Auto, *" Padding="10">
+    <!-- Quitamos el Padding del Grid principal -->
+    <Grid RowDefinitions="Auto, *, Auto">
 
+<<<<<<< HEAD
         <!-- Header -->
         <Grid ColumnDefinitions="Auto, *, Auto, Auto, *" RowDefinitions="Auto" Padding="15">
             <ImageButton Grid.Column="0" Source="https://i.ibb.co/fVsb0HBm/cerrar-sesion.png" HeightRequest="45" Command="{Binding Logout}" />
 
             <ImageButton Grid.Column="5" Source="bell.png" HeightRequest="45" Command="{Binding IrAHistorialCapturas}"/>
+=======
+        <!-- Header sin padding -->
+        <Grid Grid.Row="0" BackgroundColor="White" HeightRequest="60" Margin="0,0,0,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
 
+            <ImageButton Grid.Column="0" Source="cerrar_sesion.png" HeightRequest="40" WidthRequest="40"
+                 VerticalOptions="Center" Margin="10,0" Command="{Binding LogoutCommand}"/>
+>>>>>>> 02f40f29ba75977049d2d7e5bb9096e282dc6cef
 
+            <Label Grid.Column="1" Text="Listado de Trampas" FontSize="20" FontAttributes="Bold"
+           HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+
+            <ImageButton Grid.Column="2" Source="historial.png" HeightRequest="40" WidthRequest="40"
+                 VerticalOptions="Center" Margin="10,0" Command="{Binding IrAHistorialCapturasCommand}"/>
         </Grid>
 
-
-
         <!-- Contenedor de trampas -->
-        <Grid Grid.Row="2" ColumnDefinitions="*, *" RowDefinitions="Auto, Auto" Padding="15">
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Trampas}" Margin="10,0,10,10">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Span="2" Orientation="Vertical" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="White" CornerRadius="10" Padding="15" Margin="5" HasShadow="True">
+                        <VerticalStackLayout HorizontalOptions="Center">
+                            <HorizontalStackLayout HorizontalOptions="Center">
+                                <Label Text="{Binding Modelo}" FontSize="16" FontAttributes="Bold" TextColor="#333333"/>
+                                <Image HeightRequest="20" WidthRequest="20" Margin="5,0,0,0">
+                                    <Image.Triggers>
+                                        <DataTrigger TargetType="Image" Binding="{Binding EstatusSensor}" Value="True">
+                                            <Setter Property="Source" Value="green_circle.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="Image" Binding="{Binding EstatusSensor}" Value="False">
+                                            <Setter Property="Source" Value="red_circle.png"/>
+                                        </DataTrigger>
+                                    </Image.Triggers>
+                                </Image>
+                            </HorizontalStackLayout>
 
+<<<<<<< HEAD
             <!-- Trampa 1 -->
             <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
                 <Grid ColumnDefinitions="Auto, *, Auto, Auto" RowDefinitions="Auto" Padding="5">
@@ -83,6 +120,23 @@
         </Grid>
 
         <Button Grid.Row="3" Text="Agregar" BackgroundColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="50" Command="{Binding Agregar}"/>
+=======
+                            <Image Source="{Binding Imagen}" HeightRequest="80" WidthRequest="80" Margin="0,10,0,10">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding BindingContext.Trampa, Source={RelativeSource AncestorType={x:Type ContentPage}}}" 
+                                                          CommandParameter="{Binding}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+>>>>>>> 02f40f29ba75977049d2d7e5bb9096e282dc6cef
 
+        <!-- Botón Agregar -->
+        <Button Grid.Row="2" Text="Agregar" BackgroundColor="#569dc7" TextColor="White" FontAttributes="Bold" 
+                CornerRadius="25" HorizontalOptions="Center" VerticalOptions="End" WidthRequest="150" HeightRequest="50" 
+                Margin="0,10,0,20" Command="{Binding Agregar}"/>
     </Grid>
 </ContentPage>

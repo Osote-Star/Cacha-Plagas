@@ -1,46 +1,60 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using CachaPlagas.DTOs;
 
 namespace CachaPlagas.Data.Services
 {
     public class JwtServices
     {
 
+        public JwtServices()
+        {
+           
+        }
+
         public async Task<string?> GetValidTokenAsync()
         {
             var token = await SecureStorage.GetAsync("jwt_token");
-            //var refreshToken = await SecureStorage.GetAsync("refresh_token");
-
             if (string.IsNullOrEmpty(token))
-                throw new UnauthorizedAccessException("No hay token disponible");
+                return null;
 
             if (!IsTokenExpired(token))
                 return token;
 
-            return null;
+            //// Token expirado, intenta renovarlo
+            //bool refreshed = await _authServices.RefreshTokenAsync();
+            //if (refreshed)
+            //{
+            //    token = await SecureStorage.GetAsync("jwt_token");
+            //    return token;
+            //}
 
-            // return await RefreshTokenAsync(refreshToken);
+            return null;
         }
 
         public bool IsTokenExpired(string token)
         {
-            if (string.IsNullOrWhiteSpace(token))
-                return true;
-
             try
             {
-                var jwt = new JwtSecurityToken(token);
-                var safetyMargin = TimeSpan.FromMinutes(1);
-                return jwt.ValidTo < (DateTime.UtcNow - safetyMargin);
+                var handler = new JwtSecurityTokenHandler();
+                var jwtToken = handler.ReadJwtToken(token);
+
+                var expiration = jwtToken.ValidTo;
+
+                // Margen de seguridad de 1 minuto
+                return expiration < DateTime.UtcNow.AddMinutes(-1);
             }
-            catch(Exception ex)
+            catch
             {
-                return true; // Token inválido o corrupto
+                return true; // Token inválido o malformado
             }
         }
+
     }
 }
