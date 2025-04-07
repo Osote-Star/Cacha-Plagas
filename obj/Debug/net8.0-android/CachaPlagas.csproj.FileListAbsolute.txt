@@ -7319,19 +7319,8 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\CachaPl
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\mauiimage.inputs
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\mauifont.inputs
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\mauisplash.inputs
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\splash.png
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\splash.png
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\splash.png
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\splash.png
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\splash.png
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\mauisplash.stamp
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\mauifont.stamp
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\f\MauiMaterialAssets.ttf
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
@@ -7373,7 +7362,6 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\case_map.txt
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\__Microsoft.Android.Resource.Designer.cs
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\res.flag
-C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\2E90E89EAD89A570-files.cache
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\113\jl\files.cache
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\114\jl\files.cache
@@ -7490,7 +7478,16 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\ja\Microsoft.Maui.Controls.resources.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Jsr305Binding.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\ko\Microsoft.Maui.Controls.resources.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Bcl.Memory.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Bcl.TimeProvider.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.CSharp.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.Binder.dll
@@ -7499,6 +7496,7 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Diagnostics.Abstractions.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Diagnostics.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Features.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Http.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.Debug.dll
@@ -7606,6 +7604,7 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.Watcher.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.IsolatedStorage.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.MemoryMappedFiles.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.Pipelines.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.Pipes.AccessControl.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.Pipes.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.IO.UnmanagedMemoryStream.dll
@@ -7626,6 +7625,7 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.Quic.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.Requests.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.Security.dll
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.ServerSentEvents.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.ServicePoint.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.Sockets.dll
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\System.Net.WebClient.dll
@@ -8527,3 +8527,4 @@ C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\resizetizer\r\drawable\trampa3.png

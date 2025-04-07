@@ -10,8 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Prism.Events;
 using CachaPlagas.DTOs;
+
 
 namespace CachaPlagas.View_model
 {
@@ -21,22 +21,25 @@ namespace CachaPlagas.View_model
         private readonly TrampaService _trampaService;
         private ObservableCollection<TrampaModel> _trampas;
         private readonly INavigationService _navService;
-        private readonly IEventAggregator _eventAggregator;
+        private readonly SignalRService _signalRService;
+
         #endregion
-        
+
         #region CONSTRUCTOR
-        public ListadoTrampasVM(INavigationService navService, TrampaService trampaServices, IEventAggregator eventAggregator)
+        public ListadoTrampasVM(INavigationService navService, TrampaService trampaServices, SignalRService signalRService)
         {
             _navService = navService;
             _trampaService = trampaServices;
-            _eventAggregator = eventAggregator;
+
+
             Trampas = new ObservableCollection<TrampaModel>();
 
-            // Suscripción al evento de cambio de estado del sensor
-            _eventAggregator.GetEvent<SensorStateChangedEvent>().Subscribe(OnSensorStateChanged);
-
             // Cargar datos cuando se inicializa
-            _ = CargarTrampas(); // Reemplaza con el ID del usuario
+            _ = CargarTrampas();
+            _signalRService = signalRService;
+
+            _ = InicializarAsync();
+
         }
         #endregion
 
@@ -49,49 +52,60 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region PROCESOS
-        private int ObtenerUsuarioID()
+
+        private async Task InicializarAsync()
         {
-            var jwtToken = SecureStorage.GetAsync("jwt_token").Result;
+            await CargarTrampas();
+            await ConectarSignalR();
+        }
+        private async Task<int> ObtenerUsuarioIDAsync()
+        {
+            var jwtToken = await SecureStorage.GetAsync("jwt_token");
             if (string.IsNullOrEmpty(jwtToken)) return 0;
 
             var handler = new JwtSecurityTokenHandler();
             var token = handler.ReadJwtToken(jwtToken);
 
-            var claimUsuarioID = token.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
+            var claimUsuarioID = token.Claims.FirstOrDefault(c =>
+                c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
 
             return claimUsuarioID != null ? int.Parse(claimUsuarioID.Value) : 0;
         }
 
+        private async Task ConectarSignalR()
+        {
+            await _signalRService.ConectarAsync();
+
+            int usuarioID = await ObtenerUsuarioIDAsync();
+
+            _signalRService.OnTrampasActualizadas += async (idUsuario) =>
+            {
+                if (idUsuario == usuarioID)
+                {
+                    await CargarTrampas();
+                }
+            };
+        }
+
         public async Task CargarTrampas()
         {
-            int usuarioID = ObtenerUsuarioID(); // Método para obtener el ID del usuario
-            var trampas = await _trampaService.GetTrampas(usuarioID); // Obtener todas las trampas
+            int usuarioID = await ObtenerUsuarioIDAsync();
+            var trampas = await _trampaService.GetTrampas(usuarioID);
 
-            if (trampas != null && trampas.Any()) // Verifica que haya trampas
+            Trampas.Clear();
+
+            if (trampas != null && trampas.Any())
             {
-                Trampas.Clear();
                 foreach (var trampa in trampas)
                 {
-                    // Solo asignamos los tres valores necesarios
                     Trampas.Add(new TrampaModel
                     {
                         Modelo = trampa.Modelo,
-                        Imagen = trampa.Imagen,
                         EstatusSensor = trampa.EstatusSensor
                     });
                 }
-                OnPropertyChanged(nameof(Trampas));
-            }
-        }
 
-        private void OnSensorStateChanged(SensorStateChangedEvent eventData)
-        {
-            // Lógica para actualizar la lista de trampas
-            var trampa = Trampas.FirstOrDefault(t => t.Modelo == eventData.Modelo);
-            if (trampa != null)
-            {
-                trampa.EstatusSensor = eventData.EstatusSensor;
-                OnPropertyChanged(nameof(Trampas));  // Notifica que la colección ha cambiado
+                OnPropertyChanged(nameof(Trampas));
             }
         }
 
@@ -107,10 +121,7 @@ namespace CachaPlagas.View_model
 
         public async Task trampa()
         {
-            await _navService.PushAsync<VerTrampaVM>(new Dictionary<string, object>
-            {
-                { "ListadoTrampasVM", this }  // Pasas la instancia de ListadoTrampasVM
-            });
+            await _navService.PushAsync<VerTrampaVM>();
         }
 
         public async Task Ir_A_HistorialCapturas()

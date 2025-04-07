@@ -12006,12 +12006,12 @@ public final class R {
     public static final int opendoor=0x7f08013b;
     public static final int rata_pro=0x7f08013c;
     public static final int red_circle=0x7f08013d;
-    public static final int splash=0x7f08013e;
-    public static final int test_level_drawable=0x7f08013f;
-    public static final int tooltip_frame_dark=0x7f080140;
-    public static final int tooltip_frame_light=0x7f080141;
-    public static final int trampa=0x7f080142;
-    public static final int trampa2=0x7f080143;
+    public static final int test_level_drawable=0x7f08013e;
+    public static final int tooltip_frame_dark=0x7f08013f;
+    public static final int tooltip_frame_light=0x7f080140;
+    public static final int trampa=0x7f080141;
+    public static final int trampa2=0x7f080142;
+    public static final int trampa3=0x7f080143;
   }
   public static final class font {
     public static final int roboto_medium_numbers=0x7f090000;

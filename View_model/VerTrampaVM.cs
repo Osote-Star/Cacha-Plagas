@@ -30,7 +30,7 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region CONSTRUCTOR
-        public VerTrampaVM(INavigationService navigationService, IEventAggregator eventAggregator, ListadoTrampasVM listadoTrampasVM)
+        public VerTrampaVM(INavigationService navigationService)
         {
             _services = null;
             _navService = navigationService;       
@@ -38,11 +38,7 @@ namespace CachaPlagas.View_model
             ButtonColorDoor = Color.FromArgb("#4CAF50");
             ButtonImageSensor = ImageSource.FromFile("onsensor.png");
             ButtonColorSensor = Color.FromArgb("#4CAF50");
-
-
-            _eventAggregator = eventAggregator;
-            _estatusSensor = true;
-            _listadoTrampasVM = listadoTrampasVM;
+            
 
         }
         #endregion
@@ -121,11 +117,7 @@ namespace CachaPlagas.View_model
                 ButtonColorSensor = Color.FromArgb("#FF5252");
             }
 
-            _eventAggregator.GetEvent<SensorStateChangedEvent>().Publish(new SensorStateChangedEvent
-            {
-                Modelo = "SuperTrampaX",  // Sustituye con el modelo real de la trampa
-                EstatusSensor = _estatusSensor
-            });
+            await _listadoTrampasVM.CargarTrampas();
 
         }
         public void ProcesoSimple()

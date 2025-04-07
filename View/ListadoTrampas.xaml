@@ -6,6 +6,7 @@
              NavigationPage.HasNavigationBar="False"
              Title="ListadoTrampas">
 
+
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#569dc7" Offset="0.0"/>
@@ -56,12 +57,23 @@
                                     </Image.Triggers>
                                 </Image>
                             </HorizontalStackLayout>
-
-                            <Image Source="{Binding Imagen}" HeightRequest="80" WidthRequest="80" Margin="0,10,0,10">
-                                <Image.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding BindingContext.Trampa, Source={RelativeSource AncestorType={x:Type ContentPage}}}" 
-                                                          CommandParameter="{Binding}"/>
-                                </Image.GestureRecognizers>
+                            
+                            <Image HeightRequest="80" WidthRequest="80" Margin="0,10,0,10">
+                                <Image.Triggers>
+                                    <DataTrigger TargetType="Image" Binding="{Binding Modelo}" Value="S-R">
+                                        <Setter Property="Source" Value="trampa.png" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Image" Binding="{Binding Modelo}" Value="M-P">
+                                        <Setter Property="Source" Value="trampa2.png" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Image" Binding="{Binding Modelo}" Value="L-P">
+                                        <Setter Property="Source" Value="trampa3.png" />
+                                    </DataTrigger>
+                                    <!-- Default fallback -->
+                                    <DataTrigger TargetType="Image" Binding="{Binding Modelo}" Value="">
+                                        <Setter Property="Source" Value="default.jpg" />
+                                    </DataTrigger>
+                                </Image.Triggers>
                             </Image>
                         </VerticalStackLayout>
                     </Frame>

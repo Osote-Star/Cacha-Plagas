@@ -20,8 +20,6 @@ attr;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp
 attr;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\values\attr.xml
 background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 Button;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_styled_player_control_ffwd_button.xml
 Button;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_styled_player_control_rewind_button.xml
 Button;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout-v23\exo_styled_player_control_ffwd_button.xml
@@ -30,7 +28,6 @@ cache-path;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-andr
 color;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\values\values.xml
 color;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\values\colors.xml
 color;obj\Debug\net8.0-android\res\values\colors.xml
-color;obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 com.google.android.exoplayer2.ui.AspectRatioFrameLayout;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_player_view.xml
 com.google.android.exoplayer2.ui.AspectRatioFrameLayout;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_styled_player_view.xml
 com.google.android.exoplayer2.ui.SubtitleView;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_player_view.xml
@@ -155,12 +152,8 @@ item;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp
 item;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\200\jl\res\values\styles.xml
 item;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\drawable\maui_splash.xml
 item;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\values\styles.xml
-item;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-item;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 layer-list;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\drawable\maui_splash.xml
 layer-list;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\drawable\maui_splash_image.xml
-layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 LinearLayout;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_player_control_view.xml
 LinearLayout;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_styled_player_control_view.xml
 LinearLayout;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_styled_settings_list_item.xml
@@ -546,7 +539,6 @@ resources;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-andro
 resources;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\values\colors.xml
 resources;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\203\jl\res\values\styles.xml
 resources;obj\Debug\net8.0-android\res\values\colors.xml
-resources;obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 ScrollView;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\196\jl\res\layout\exo_track_selection_dialog.xml
 set;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\201\jl\res\anim\enterfromleft.xml
 set;C:\Users\dsono\OneDrive\Escritorio\Cacha-Plagas\obj\Debug\net8.0-android\lp\201\jl\res\anim\enterfromright.xml

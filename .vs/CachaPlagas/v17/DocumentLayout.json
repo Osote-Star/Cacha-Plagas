@@ -3,110 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\listadotrampasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\listadotrampasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\listadotrampas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\listadotrampas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\historialcapturavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\historialcapturavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\vinculartrampadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\vinculartrampadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\sensorstatechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\sensorstatechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\capturaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\capturaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Windows.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\historialcaptura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\historialcaptura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\listadotrampas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\listadotrampas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\agregartrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\cachaplagas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:cachaplagas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\api_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\authtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\authtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\agregartrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\listadotrampasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\listadotrampasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\signalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\signalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\trampaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\authtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\authtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,6 +69,75 @@
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\validarcodigodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\validarcodigodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\vinculartrampadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\vinculartrampadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\vertrampavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\recuperarcontrase\u00F1avm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\recuperarcontrase\u00F1avm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\data\\services\\capturaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:data\\services\\capturaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\trampamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\historialcapturavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\historialcapturavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view_model\\esquemavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view_model\\esquemavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Windows.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\view\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:view\\vertrampa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|solutionrelative:model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFCFBA0-0CBB-4207-AAA8-D410C68B5BB6}|CachaPlagas.csproj|c:\\users\\dsono\\onedrive\\escritorio\\cacha-plagas\\dtos\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -136,30 +159,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "AgregarTrampaVM.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\AgregarTrampaVM.cs",
               "RelativeDocumentMoniker": "View_model\\AgregarTrampaVM.cs",
               "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\AgregarTrampaVM.cs",
               "RelativeToolTip": "View_model\\AgregarTrampaVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T19:00:34.678Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "TrampaServices.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\TrampaServices.cs",
               "RelativeDocumentMoniker": "Data\\Services\\TrampaServices.cs",
               "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\TrampaServices.cs",
               "RelativeToolTip": "Data\\Services\\TrampaServices.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAD4vykAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T03:50:10.407Z",
               "IsPinned": true,
@@ -167,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "VincularTrampaDto.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\VincularTrampaDto.cs",
               "RelativeDocumentMoniker": "DTOs\\VincularTrampaDto.cs",
@@ -176,11 +200,12 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T07:36:04.082Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "AgregarTrampa.xaml",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\AgregarTrampa.xaml",
               "RelativeDocumentMoniker": "View\\AgregarTrampa.xaml",
@@ -189,7 +214,8 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-03T18:55:33.364Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -213,59 +239,318 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistorialCaptura.xaml",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\HistorialCaptura.xaml",
+              "RelativeDocumentMoniker": "View\\HistorialCaptura.xaml",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\HistorialCaptura.xaml",
+              "RelativeToolTip": "View\\HistorialCaptura.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T09:29:24.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ListadoTrampas.xaml",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml",
+              "RelativeDocumentMoniker": "View\\ListadoTrampas.xaml",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml",
+              "RelativeToolTip": "View\\ListadoTrampas.xaml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwDoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T19:49:15.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CachaPlagas.csproj",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\CachaPlagas.csproj",
+              "RelativeDocumentMoniker": "CachaPlagas.csproj",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\CachaPlagas.csproj",
+              "RelativeToolTip": "CachaPlagas.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T03:28:49.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "View_model\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\BaseViewModel.cs",
+              "RelativeToolTip": "View_model\\BaseViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAlwCMAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:02:42.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListadoTrampas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml.cs",
+              "RelativeDocumentMoniker": "View\\ListadoTrampas.xaml.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml.cs",
+              "RelativeToolTip": "View\\ListadoTrampas.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T17:31:22.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\NavigationService.cs",
+              "RelativeToolTip": "Data\\Services\\NavigationService.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAlwHoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T21:22:02.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignalRService.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\SignalRService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\SignalRService.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\SignalRService.cs",
+              "RelativeToolTip": "Data\\Services\\SignalRService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAApwBIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:17:03.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ListadoTrampasVM.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\ListadoTrampasVM.cs",
               "RelativeDocumentMoniker": "View_model\\ListadoTrampasVM.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\ListadoTrampasVM.cs*",
-              "RelativeToolTip": "View_model\\ListadoTrampasVM.cs*",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAtwF4AAAANAAAA",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\ListadoTrampasVM.cs",
+              "RelativeToolTip": "View_model\\ListadoTrampasVM.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T19:46:22.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VerTrampaVM.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\VerTrampaVM.cs",
-              "RelativeDocumentMoniker": "View_model\\VerTrampaVM.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\VerTrampaVM.cs*",
-              "RelativeToolTip": "View_model\\VerTrampaVM.cs*",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAYwH8AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:22:30.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "API_Connection.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\API_Connection.cs",
               "RelativeDocumentMoniker": "Data\\API_Connection.cs",
               "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\API_Connection.cs",
               "RelativeToolTip": "Data\\API_Connection.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBgAAAAMAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAhwCIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T03:32:08.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\UsuarioServices.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\UsuarioServices.cs",
+              "RelativeToolTip": "Data\\Services\\UsuarioServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:01:08.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\LoginVM.cs",
+              "RelativeDocumentMoniker": "View_model\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\LoginVM.cs",
+              "RelativeToolTip": "View_model\\LoginVM.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAtwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T20:57:39.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthTokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\AuthTokenResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthTokenResponse.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\AuthTokenResponse.cs",
+              "RelativeToolTip": "DTOs\\AuthTokenResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:45:38.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CrearUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\CrearUsuarioDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CrearUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\CrearUsuarioDto.cs",
+              "RelativeToolTip": "DTOs\\CrearUsuarioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:12:29.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidarCodigoDto.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\ValidarCodigoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ValidarCodigoDto.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\ValidarCodigoDto.cs",
+              "RelativeToolTip": "DTOs\\ValidarCodigoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:12:30.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "JwtServices.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\JwtServices.cs",
               "RelativeDocumentMoniker": "Data\\Services\\JwtServices.cs",
               "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\JwtServices.cs",
               "RelativeToolTip": "Data\\Services\\JwtServices.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwC0AAAAQAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAD4vyYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T20:08:27.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T14:41:50.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RecuperarContrase\u00F1aVM.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\RecuperarContrase\u00F1aVM.cs",
+              "RelativeDocumentMoniker": "View_model\\RecuperarContrase\u00F1aVM.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\RecuperarContrase\u00F1aVM.cs",
+              "RelativeToolTip": "View_model\\RecuperarContrase\u00F1aVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T02:53:13.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:31:47.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VerTrampaVM.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\VerTrampaVM.cs",
+              "RelativeDocumentMoniker": "View_model\\VerTrampaVM.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\VerTrampaVM.cs",
+              "RelativeToolTip": "View_model\\VerTrampaVM.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAkwGgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T21:22:30.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\EmailService.cs",
+              "RelativeToolTip": "Data\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:08:44.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\AuthServices.cs",
+              "RelativeToolTip": "Data\\Services\\AuthServices.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:05:39.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CapturaServices.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\CapturaServices.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\CapturaServices.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\CapturaServices.cs",
+              "RelativeToolTip": "Data\\Services\\CapturaServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:05:39.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AQIAAMwAAAAAAAAAAAApwOwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-07T03:48:51.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TrampaModel.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Model\\TrampaModel.cs",
+              "RelativeDocumentMoniker": "Model\\TrampaModel.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Model\\TrampaModel.cs",
+              "RelativeToolTip": "Model\\TrampaModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T14:43:02.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "HistorialCapturaVM.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\HistorialCapturaVM.cs",
               "RelativeDocumentMoniker": "View_model\\HistorialCapturaVM.cs",
@@ -277,57 +562,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListadoTrampas.xaml",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml",
-              "RelativeDocumentMoniker": "View\\ListadoTrampas.xaml",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml",
-              "RelativeToolTip": "View\\ListadoTrampas.xaml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAewDMAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T19:49:15.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "View_model\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\BaseViewModel.cs",
-              "RelativeToolTip": "View_model\\BaseViewModel.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAuwF8AAAAIAAAA",
+              "DocumentIndex": 29,
+              "Title": "EsquemaVM.cs",
+              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\EsquemaVM.cs",
+              "RelativeDocumentMoniker": "View_model\\EsquemaVM.cs",
+              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View_model\\EsquemaVM.cs",
+              "RelativeToolTip": "View_model\\EsquemaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:02:42.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T22:55:07.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SensorStateChangedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\SensorStateChangedEvent.cs",
-              "RelativeDocumentMoniker": "DTOs\\SensorStateChangedEvent.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\SensorStateChangedEvent.cs",
-              "RelativeToolTip": "DTOs\\SensorStateChangedEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:18:11.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAASwCIAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:41:50.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
               "Title": "Xamarin.Android.Common.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Common.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Common.targets",
@@ -339,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "CachaPlagas.GlobalUsings.g.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\obj\\Debug\\net8.0-android\\CachaPlagas.GlobalUsings.g.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0-android\\CachaPlagas.GlobalUsings.g.cs",
@@ -351,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -363,67 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "DTOs\\LoginDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:31:47.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UsuarioServices.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\UsuarioServices.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\UsuarioServices.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\UsuarioServices.cs",
-              "RelativeToolTip": "Data\\Services\\UsuarioServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:01:08.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\EmailService.cs",
-              "RelativeToolTip": "Data\\Services\\EmailService.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAewCUAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:08:44.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CapturaServices.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\CapturaServices.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\CapturaServices.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\CapturaServices.cs",
-              "RelativeToolTip": "Data\\Services\\CapturaServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:05:39.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ListadoTrampas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml.cs",
-              "RelativeDocumentMoniker": "View\\ListadoTrampas.xaml.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\ListadoTrampas.xaml.cs",
-              "RelativeToolTip": "View\\ListadoTrampas.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAcwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T17:31:22.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "Microsoft.NET.Windows.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Windows.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.205\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Windows.targets",
@@ -435,55 +622,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "VerTrampa.xaml",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\VerTrampa.xaml",
               "RelativeDocumentMoniker": "View\\VerTrampa.xaml",
               "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\View\\VerTrampa.xaml",
               "RelativeToolTip": "View\\VerTrampa.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAACBjwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-05T18:03:54.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AuthServices.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\AuthServices.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\AuthServices.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\AuthServices.cs",
-              "RelativeToolTip": "Data\\Services\\AuthServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:05:39.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TrampaModel.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Model\\TrampaModel.cs",
-              "RelativeDocumentMoniker": "Model\\TrampaModel.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Model\\TrampaModel.cs",
-              "RelativeToolTip": "Model\\TrampaModel.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAhwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:43:02.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AuthTokenResponse.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\AuthTokenResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\AuthTokenResponse.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\AuthTokenResponse.cs",
-              "RelativeToolTip": "DTOs\\AuthTokenResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:45:38.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Model\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "Model\\UsuarioModel.cs",
@@ -495,31 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\NavigationService.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\NavigationService.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Data\\Services\\NavigationService.cs",
-              "RelativeToolTip": "Data\\Services\\NavigationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:22:02.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CrearUsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\CrearUsuarioDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CrearUsuarioDto.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\CrearUsuarioDto.cs",
-              "RelativeToolTip": "DTOs\\CrearUsuarioDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:12:29.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "EmailDto.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\EmailDto.cs",
               "RelativeDocumentMoniker": "DTOs\\EmailDto.cs",
@@ -531,19 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ValidarCodigoDto.cs",
-              "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\ValidarCodigoDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ValidarCodigoDto.cs",
-              "ToolTip": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\DTOs\\ValidarCodigoDto.cs",
-              "RelativeToolTip": "DTOs\\ValidarCodigoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:12:30.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "CapturaModel.cs",
               "DocumentMoniker": "C:\\Users\\dsono\\OneDrive\\Escritorio\\Cacha-Plagas\\Model\\CapturaModel.cs",
               "RelativeDocumentMoniker": "Model\\CapturaModel.cs",
