@@ -1,0 +1,72 @@
+# .NET build files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.mdb
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# JetBrains Rider files
+.idea/
+
+# VS for Mac specific
+.vscode/
+
+# ASP.NET specific
+project.lock.json
+project.fragment.lock.json
+
+# NUGET
+.nuget/
+*.nupkg
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+.idea/
+
+# Build results
+**/bin/
+**/obj/
+
+# Package files
+*.tgz
+*.tar.gz
+
+# Windows Installer files
+*.msi
+*.cab
+
+# Mac specific files
+# .DS_Store files should be ignored.
+.DS_Store
+
+# Node.js and npm files
+node_modules/
+
+# Android
+.idea/
+.gradle/
+build/
+*/bin/
+*/obj/
+*/debug/
+*/release/
+
+# iOS
+*.ipa
+*.app
+*/bin/
+*/obj/
