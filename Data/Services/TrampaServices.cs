@@ -1,4 +1,5 @@
 ﻿using CachaPlagas.Data;
+using CachaPlagas.DTOs;
 using CachaPlagas.Model;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -61,5 +62,50 @@ namespace CachaPlagas.Data.Services
             }
             return null;
         }
+
+        public async Task<TrampaModel?> CambiarStatusPuerta(EstatusPuertaDto estatusPuertaDto)
+        {
+
+            var response = await _connection.Put("api/Trampa/CambiarEstatusPuerta", estatusPuertaDto);
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<TrampaModel>(content);
+            }
+            return null;
+        }
+        public async Task<TrampaModel?> CambiarStatusSensor(EstatusSensorDto estatusSensorDto)
+        {
+
+            var response = await _connection.Put("api/Trampa/CambiarestatusSensor", estatusSensorDto);
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<TrampaModel>(content);
+            }
+            return null;
+        }
+
+        public async Task<TrampaModel> GetEstatusPuerta(int trampaId)
+        {
+            var response = await _connection.Get($"api/Trampa/ObtenerEstatusPuerta/{trampaId}");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<TrampaModel>(content);
+            }
+            return null; // Retorna una lista vacía en caso de error
+        }
+        public async Task<TrampaModel> GetEstatusSensor(int trampaId)
+        {
+            var response = await _connection.Get($"api/Trampa/ObtenerEstatusSensor/{trampaId}");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<TrampaModel>(content); 
+            }
+            return null; // Retorna una lista vacía en caso de error
+        }
+
     }
 }

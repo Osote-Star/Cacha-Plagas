@@ -36,7 +36,6 @@ namespace CachaPlagas.View_model
             _eventAggregator.GetEvent<SensorStateChangedEvent>().Subscribe(OnSensorStateChanged);
 
             // Cargar datos cuando se inicializa
-            _ = CargarTrampas(); // Reemplaza con el ID del usuario
         }
         #endregion
 
@@ -61,9 +60,13 @@ namespace CachaPlagas.View_model
 
             return claimUsuarioID != null ? int.Parse(claimUsuarioID.Value) : 0;
         }
+        public override async Task OnNavigatedTo()
+        {
+            await CargarTrampas(); // Llamar aquí y esperar
+        }
 
         public async Task CargarTrampas()
-        {
+          {
             int usuarioID = ObtenerUsuarioID(); // Método para obtener el ID del usuario
             var trampas = await _trampaService.GetTrampas(usuarioID); // Obtener todas las trampas
 
@@ -75,9 +78,10 @@ namespace CachaPlagas.View_model
                     // Solo asignamos los tres valores necesarios
                     Trampas.Add(new TrampaModel
                     {
+                        IdTrampa = trampa.IdTrampa,
                         Modelo = trampa.Modelo,
                         Imagen = trampa.Imagen,
-                        EstatusSensor = trampa.EstatusSensor
+                        EstatusSensor = trampa.EstatusSensor,
                     });
                 }
                 OnPropertyChanged(nameof(Trampas));
@@ -94,7 +98,7 @@ namespace CachaPlagas.View_model
                 OnPropertyChanged(nameof(Trampas));  // Notifica que la colección ha cambiado
             }
         }
-
+         
         public async Task agregar()
         {
             await _navService.PushAsync<AgregarTrampaVM>();
@@ -105,12 +109,11 @@ namespace CachaPlagas.View_model
             await _navService.PopAsync();
         }
 
-        public async Task trampa()
+        public async Task trampaViajar(TrampaModel trampa)
         {
-            await _navService.PushAsync<VerTrampaVM>(new Dictionary<string, object>
-            {
-                { "ListadoTrampasVM", this }  // Pasas la instancia de ListadoTrampasVM
-            });
+            int idTrampa = trampa.IdTrampa;
+            // Usa el método PushAsyncWithParameter para pasar la trampa
+            await _navService.PushAsyncWithParameter<VerTrampaVM>("TrampaSeleccionada", trampa);
         }
 
         public async Task Ir_A_HistorialCapturas()
@@ -124,9 +127,10 @@ namespace CachaPlagas.View_model
         #region COMANDOS
         public ICommand Agregar => new Command(async () => await agregar());
         public ICommand Logout => new Command(async () => await logout());
-        public ICommand Trampa => new Command(async () => await trampa());
+        public ICommand Trampa => new Command<TrampaModel>(async (trampa) => await trampaViajar(trampa));
         public ICommand IrAHistorialCapturas => new Command(async () => await Ir_A_HistorialCapturas());
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
+
         #endregion
     }
 }

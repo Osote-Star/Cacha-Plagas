@@ -56,7 +56,7 @@
                                     </Image.Triggers>
                                 </Image>
                             </HorizontalStackLayout>
-
+                            <Label Text="{Binding IdTrampa}" IsVisible="False" x:Name="IdTrampaLabel"/>
                             <Image Source="{Binding Imagen}" HeightRequest="80" WidthRequest="80" Margin="0,10,0,10">
                                 <Image.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding BindingContext.Trampa, Source={RelativeSource AncestorType={x:Type ContentPage}}}" 

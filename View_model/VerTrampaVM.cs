@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Prism.Events;
 using CachaPlagas.DTOs;
+using CachaPlagas.Model;
 
 
 namespace CachaPlagas.View_model
@@ -16,6 +17,7 @@ namespace CachaPlagas.View_model
     public class VerTrampaVM : BaseViewModel
     {
         #region VARIABLES
+        private TrampaModel _trampaSeleccionada; // Campo privado para backing store
         private ImageSource _buttonImageDoor;
         private Color _buttonColorDoor;
         private ImageSource _buttonImageSensor;
@@ -25,12 +27,13 @@ namespace CachaPlagas.View_model
         private INavigationService _navService;
         private readonly IEventAggregator _eventAggregator;
         private readonly ListadoTrampasVM _listadoTrampasVM;
+        private TrampaService _trampaService;
 
         private bool _estatusSensor;
         #endregion
 
         #region CONSTRUCTOR
-        public VerTrampaVM(INavigationService navigationService, IEventAggregator eventAggregator, ListadoTrampasVM listadoTrampasVM)
+        public VerTrampaVM(INavigationService navigationService, IEventAggregator eventAggregator, ListadoTrampasVM listadoTrampasVM, TrampaService trampaService)
         {
             _services = null;
             _navService = navigationService;       
@@ -38,7 +41,7 @@ namespace CachaPlagas.View_model
             ButtonColorDoor = Color.FromArgb("#4CAF50");
             ButtonImageSensor = ImageSource.FromFile("onsensor.png");
             ButtonColorSensor = Color.FromArgb("#4CAF50");
-
+            _trampaService = trampaService;
 
             _eventAggregator = eventAggregator;
             _estatusSensor = true;
@@ -48,53 +51,75 @@ namespace CachaPlagas.View_model
         #endregion
 
         #region OBJETOS
+        public TrampaModel TrampaSeleccionada
+        {
+            get => _trampaSeleccionada;
+            set => SetProperty(ref _trampaSeleccionada, value);
+        }
+
         public ImageSource ButtonImageDoor
         {
-            get { return _buttonImageDoor; }
-            set { SetValue(ref _buttonImageDoor, value); }
+            get => _buttonImageDoor;
+            set => SetProperty(ref _buttonImageDoor, value);
         }
+
         public Color ButtonColorDoor
         {
-            get { return _buttonColorDoor; }
-            set { SetValue(ref _buttonColorDoor, value); }
+            get => _buttonColorDoor;
+            set => SetProperty(ref _buttonColorDoor, value);
         }
+
         public ImageSource ButtonImageSensor
         {
-            get { return _buttonImageSensor; }
-            set { SetValue(ref _buttonImageSensor, value); }
+            get => _buttonImageSensor;
+            set => SetProperty(ref _buttonImageSensor, value);
         }
+
         public Color ButtonColorSensor
         {
-            get { return _buttonColorSensor; }
-            set { SetValue(ref _buttonColorSensor, value); }
+            get => _buttonColorSensor;
+            set => SetProperty(ref _buttonColorSensor, value);
         }
+
         public string Contrasena
         {
-            get { return _Contrasena; }
-            set { SetValue(ref _Contrasena, value); }
+            get => _Contrasena;
+            set => SetProperty(ref _Contrasena, value);
         }
         #endregion
 
         #region PROCESOS
-        public override async Task OnNavigatingTo(IDictionary<string, object> parameters)
+        public override Task OnNavigatingTo(IDictionary<string, object>? parameters)
         {
-            await base.OnNavigatingTo(parameters);
-
-            if (parameters != null && parameters.TryGetValue("Email", out var email))
+            if (parameters != null && parameters.TryGetValue("TrampaSeleccionada", out var trampa))
             {
-                //Email = email?.ToString() ?? string.Empty;
-
-                // Opcional: Mostrar en consola para debug
-              //  Console.WriteLine($"Email recibido: {Email}");
+                TrampaSeleccionada = trampa as TrampaModel;
             }
+            return Task.CompletedTask;
         }
+
         public async Task listado()
         {
             await _navService.PopAsync();
         }
         public async Task AlterarPuerta() 
         {
-            if (ButtonColorDoor.Equals(Color.FromArgb("#FF5252")))
+            var trampa = await _trampaService.GetEstatusPuerta(TrampaSeleccionada.IdTrampa);
+            if (trampa == null)
+            {
+                await DisplayAlert("Error", "No se pudo obtener el estado de la puerta.", "OK");
+                return;
+            }
+           
+            var parametros = new EstatusPuertaDto
+            {
+                IDtrampa = TrampaSeleccionada.IdTrampa,
+                estatusPuerta = !trampa.EstatusPuerta
+            };
+
+            await _trampaService.CambiarStatusPuerta(parametros);
+
+            if (trampa.EstatusPuerta)
             {
                 ButtonImageDoor = ImageSource.FromFile("opendoor.png");
                 ButtonColorDoor = Color.FromArgb("#4CAF50");
@@ -108,25 +133,31 @@ namespace CachaPlagas.View_model
 
         public async Task AlterarSensor()
         {
-            _estatusSensor = !_estatusSensor;
-
-            if (ButtonColorSensor.Equals(Color.FromArgb("#FF5252")))
+            var trampa = await _trampaService.GetEstatusSensor(TrampaSeleccionada.IdTrampa);
+            if (trampa == null)
             {
-                ButtonImageSensor = ImageSource.FromFile("onsensor.png");
-                ButtonColorSensor = Color.FromArgb("#4CAF50");
+                await DisplayAlert("Error", "No se pudo obtener el estado del sensor.", "OK");
+                return;
+            }
+
+            var parametros = new EstatusSensorDto
+            {
+                IDtrampa = TrampaSeleccionada.IdTrampa,
+                estatusSensor = !trampa.EstatusSensor
+            };
+
+            await _trampaService.CambiarStatusSensor(parametros);
+
+            if (trampa.EstatusSensor)
+            {
+                ButtonImageDoor = ImageSource.FromFile("onsensor.png");
+                ButtonColorDoor = Color.FromArgb("#4CAF50");
             }
             else
             {
-                ButtonImageSensor = ImageSource.FromFile("offsensor.png");
-                ButtonColorSensor = Color.FromArgb("#FF5252");
+                ButtonImageDoor = ImageSource.FromFile("offsensor.png");
+                ButtonColorDoor = Color.FromArgb("#FF5252");
             }
-
-            _eventAggregator.GetEvent<SensorStateChangedEvent>().Publish(new SensorStateChangedEvent
-            {
-                Modelo = "SuperTrampaX",  // Sustituye con el modelo real de la trampa
-                EstatusSensor = _estatusSensor
-            });
-
         }
         public void ProcesoSimple()
         {

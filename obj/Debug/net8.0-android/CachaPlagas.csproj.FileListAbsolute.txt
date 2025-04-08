@@ -7913,7 +7913,6 @@ C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -7923,7 +7922,6 @@ C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\static.flag
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\buildid.txt
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -8546,13 +8544,6 @@ C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\src\com\companyname\cachaplagas\R.java
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
-C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\bin\classes3.dex
@@ -8564,3 +8555,12 @@ C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
+C:\Users\Lenovo\OneDrive\Escritorio\5toCuatri\INTEGRADOR\Cacha-Plagas\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
