@@ -37,7 +37,10 @@ namespace CachaPlagas
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             }); 
             builder.Services.AddSingleton<IEventAggregator, EventAggregator>();
+            });
             builder.Services.AddSingleton<INavigationService, NavigationService>();
+            builder.Services.AddSingleton<SignalRService>();
+            builder.Services.AddSingleton<JwtServices>(); 
             builder.Services.AddScoped<TrampaService>();
             builder.Services.AddScoped<AuthServices>();
             builder.Services.AddScoped<UsuarioServices>();

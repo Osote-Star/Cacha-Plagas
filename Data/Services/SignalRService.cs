@@ -12,26 +12,28 @@ namespace CachaPlagas.Data.Services
     {
         private HubConnection _hubConnection;
 
-        public SignalRService()
+        public event Action<int> OnTrampasActualizadas;
+
+        public async Task ConectarAsync()
         {
             _hubConnection = new HubConnectionBuilder()
-                .WithUrl("https://xcdrzvgc-5086.usw3.devtunnels.ms/api/Trampa/CambiarestatusSensor") // URL de tu API donde está configurado SignalR
+                .WithUrl("https://xcdrzvgc-5086.usw3.devtunnels.ms/signalrHub") // reemplaza con tu URL real
+                .WithAutomaticReconnect()
                 .Build();
-        }
 
-        public async Task IniciarConexion()
-        {
+            _hubConnection.On<int>("ActualizarTrampas", (usuarioId) =>
+            {
+                Console.WriteLine($"Recibido usuarioId: {usuarioId}");
+                OnTrampasActualizadas?.Invoke(usuarioId);
+            });
+
             await _hubConnection.StartAsync();
         }
 
-        public void DetenerConexion()
+        public async Task DesconectarAsync()
         {
-            _hubConnection.StopAsync();
-        }
-
-        public void SuscribirEventos(Action<TrampaModel> onTrampaStatusActualizado)
-        {
-            _hubConnection.On<TrampaModel>("trampaStatusActualizado", onTrampaStatusActualizado);
+            if (_hubConnection != null)
+                await _hubConnection.StopAsync();
         }
     }
 }
